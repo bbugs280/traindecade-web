@@ -1,0 +1,11 @@
+/* Train Decade — home hero */
+.home-hero {
+    margin: 0 0 var(--gap) 0;
+}
+
+.home-hero img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    display: block;
+}

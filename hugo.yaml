@@ -6,16 +6,24 @@ theme: PaperMod
 enableRobotsTXT: true
 
 params:
-  # Top-funnel fitness/health blog → GainCut
   homeInfoParams:
     Title: Train Decade
-    Content: Fitness, health, and body recomposition — the top-funnel home of GainCut.
+    Content: Fitness, health, and body recomposition — the long game, one decade at a time.
 
   defaultTheme: dark
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+
+  # Home hero image (static/images/hero.jpg)
+  homeHeroImage: "/images/hero.jpg"
+
+  # Analytics — paste real IDs here once created (see skills/traindecade).
+  analytics:
+    ga4ID: ""                                  # e.g. G-XXXXXXXXXX
+    adsensePublisherID: ""                     # e.g. ca-pub-XXXXXXXXXXX
+    googleSiteVerification: ""                 # e.g. for Google Search Console
 
   # GA4 tag
   env: production
@@ -30,7 +38,3 @@ menus:
       name: Tags
       url: /tags/
       weight: 20
-    - identifier: gaincut
-      name: GainCut
-      url: https://gaincut.com/
-      weight: 30

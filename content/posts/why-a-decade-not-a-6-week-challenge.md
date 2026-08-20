@@ -4,6 +4,10 @@ date: 2026-08-20T00:00:00+08:00
 draft: false
 tags: ["fitness", "body recomposition", "mindset"]
 description: "The most valuable thing you can do for your body is show up for ten years, not crush six weeks. Here's why the long game beats every crash cut."
+cover:
+  image: "cover-decade.png"
+  alt: "Why a decade beats a six-week challenge"
+  caption: "Small numbers, repeated, become enormous."
 ---
 
 Every January the same story plays out. Someone signs up for a "6-week transformation challenge," cuts calories to 1,200 a day, lifts five times a week, and posts a dramatic before-and-after. Six weeks later, they're mentally drained, hungrier than ever, and by March they're back where they started — usually a little worse.
@@ -44,7 +48,7 @@ This is where most tools fail you. Fitness apps are built for the six-week sprin
 
 A decade-scale goal needs a decade-scale metric. Cut? Gain? Those aren't events, they're *phases*, and they last months at a time. The question that matters isn't "how did I do today" — it's "which phase am I in, and how is my trendline moving?"
 
-That's the whole point of [GainCut](https://gaincut.com/) — it tracks your cut and gain phases as phases, not as daily pass/fail tests, so the long trend stays visible when the daily numbers wobble.
+Track the trend, not the day.
 
 ---
 
@@ -58,4 +62,4 @@ A decade is coming either way. You might as well spend it building something.
 
 ---
 
-*Train Decade is a blog about the long game — fitness and body recomposition over years, not weeks. [GainCut](https://gaincut.com/) is the app for tracking your cut and gain phases.*
+*Train Decade is a blog about the long game — fitness and body recomposition over years, not weeks.*
