@@ -1,0 +1,36 @@
+baseURL: https://traindecade.com/
+locale: en-us
+title: Train Decade
+theme: PaperMod
+
+enableRobotsTXT: true
+
+params:
+  # Top-funnel fitness/health blog → GainCut
+  homeInfoParams:
+    Title: Train Decade
+    Content: Fitness, health, and body recomposition — the top-funnel home of GainCut.
+
+  defaultTheme: dark
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  # GA4 tag
+  env: production
+
+menus:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: gaincut
+      name: GainCut
+      url: https://gaincut.com/
+      weight: 30
