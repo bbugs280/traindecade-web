@@ -1,4 +1,8 @@
-/* Train Decade — home hero */
+/* Train Decade — light editorial theme
+   Navy text + single crimson accent + optional jade secondary.
+   Optimized for readable long-form (men 40+, contrast ≥7:1). */
+
+/* Hero */
 .home-hero {
     margin: 0 0 var(--gap) 0;
 }
@@ -10,7 +14,7 @@
     display: block;
 }
 
-/* Train Decade — compact card list (thumbnail left + body right) */
+/* Compact card list (thumbnail + body) */
 .post-entry.card-entry {
     display: flex;
     gap: var(--gap);
@@ -43,6 +47,27 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+/* Body — larger, comfortable reading for 40+ */
+.post-content,
+.entry-content {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* Navy headings + crimson accent */
+.entry-header h1,
+.entry-header h2 {
+    color: #1a2742; /* navy */
+}
+
+a {
+    color: #b1212d; /* crimson */
+}
+
+a:hover {
+    color: #8c1a24;
 }
 
 /* responsive: stack on small screens */

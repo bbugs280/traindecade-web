@@ -8,16 +8,23 @@ enableRobotsTXT: true
 params:
   homeInfoParams:
     Title: Train Decade
-    Content: Fitness, health, and body recomposition — the long game, one decade at a time.
+    Content: >-
+      Fitness, health, and body recomposition — the long game, one decade at a time.
 
-  defaultTheme: dark
+      I'm a 49-year-old who's been in the gym for over twenty years. Everything here
+      is earned through trial and error: the injuries, the plateaus, the slow wins.
+      Pain and gain, measured in years — not six-week sprints.
+
+  defaultTheme: light
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
 
-  # Home hero image (static/images/hero.jpg)
-  homeHeroImage: "/images/hero.jpg"
+  # Home hero image — REAL photo of Vincent / his gym recommended (drop into static/images/hero.jpg).
+  # Leave empty until you supply a real photo; keeps the home page clean text-first.
+  homeHeroImage: ""
+
 
   # Analytics — paste real IDs here once created (see skills/traindecade).
   analytics:
