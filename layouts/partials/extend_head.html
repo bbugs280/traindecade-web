@@ -15,7 +15,6 @@
 {{- end }}
 
 {{- if ne $ga4 "" }}
-{{- with site.GoogleAnalytics }}{{/* noop to keep intent clear */}}{{ end }}
 <!-- Global site tag (gtag.js) - Google Analytics (GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga4 }}"></script>
 <script>

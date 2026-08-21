@@ -49,7 +49,7 @@ params:
 
   # Analytics — paste real IDs here once created (see skills/traindecade).
   analytics:
-    ga4ID: ""                                  # e.g. G-XXXXXXXXXX
+    ga4ID: "G-B2S3J6P8P5"                       # Train Decade GA4 property
     adsensePublisherID: ""                     # e.g. ca-pub-XXXXXXXXXXX
     googleSiteVerification: ""                 # e.g. for Google Search Console
 
