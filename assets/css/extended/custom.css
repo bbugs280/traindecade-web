@@ -1,8 +1,83 @@
-/* Train Decade — light editorial theme
-   Navy text + single crimson accent + optional jade secondary.
-   Optimized for readable long-form (men 40+, contrast ≥7:1). */
+/* Train Decade — warm editorial theme
+   Cream paper background + warm charcoal text + jade accent.
+   Serif display headings (Fraunces) + humanist sans body (Source Sans 3).
+   "Considered, trustworthy, long-game" — not "gym app." */
 
-/* Hero */
+/* ===== Palette (CSS custom properties) ===== */
+:root {
+    --cream: #FAF7F2;        /* warm paper background */
+    --surface: #FFFFFF;      /* cards */
+    --ink: #292520;          /* warm charcoal text */
+    --muted: #6b635a;        /* secondary text */
+    --jade: #1B6B4E;         /* primary accent — health/longevity green */
+    --jade-dark: #145239;    /* hover */
+    --line: #E8E2D8;         /* hairline borders */
+    --theme: var(--ink);
+}
+
+/* ===== Theme background (PaperMod light theme) ===== */
+:root {
+    --content: var(--cream);
+    --primary: var(--ink);
+    --secondary: var(--muted);
+}
+
+/* ===== Typography ===== */
+body {
+    font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--ink);
+    background: var(--cream);
+}
+
+h1, h2, h3, h4, h5, h6,
+.entry-header h1,
+.entry-header h2,
+.post-title,
+.home-info .entry-header h1 {
+    font-family: "Fraunces", Georgia, "Times New Roman", serif;
+    color: var(--ink);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+/* Body — larger, comfortable reading for 40+ */
+.post-content,
+.entry-content {
+    font-size: 1.08rem;
+    line-height: 1.75;
+    color: var(--ink);
+}
+
+/* ===== Links ===== */
+a {
+    color: var(--jade);
+}
+
+a:hover {
+    color: var(--jade-dark);
+    text-decoration: underline;
+}
+
+/* ===== Nav / header ===== */
+.nav a,
+#menu a {
+    color: var(--ink);
+}
+
+.nav a:hover,
+#menu a:hover {
+    color: var(--jade);
+}
+
+.post-title a {
+    color: var(--ink);
+}
+
+.post-title a:hover {
+    color: var(--jade);
+}
+
+/* ===== Hero ===== */
 .home-hero {
     margin: 0 0 var(--gap) 0;
 }
@@ -14,12 +89,15 @@
     display: block;
 }
 
-/* Compact card list (thumbnail + body) */
+/* ===== Compact card list (thumbnail + body) ===== */
 .post-entry.card-entry {
     display: flex;
     gap: var(--gap);
     align-items: center;
     padding: var(--gap);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
 }
 
 .card-thumb {
@@ -43,34 +121,19 @@
 
 .card-body .entry-content p {
     margin: 0;
+    color: var(--muted);
     -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
-/* Body — larger, comfortable reading for 40+ */
-.post-content,
-.entry-content {
-    font-size: 1.05rem;
-    line-height: 1.7;
+/* ===== Post meta (date, reading time) ===== */
+.post-meta {
+    color: var(--muted);
 }
 
-/* Navy headings + crimson accent */
-.entry-header h1,
-.entry-header h2 {
-    color: #1a2742; /* navy */
-}
-
-a {
-    color: #b1212d; /* crimson */
-}
-
-a:hover {
-    color: #8c1a24;
-}
-
-/* responsive: stack on small screens */
+/* ===== responsive: stack on small screens ===== */
 @media (max-width: 720px) {
     .post-entry.card-entry {
         flex-direction: column;
