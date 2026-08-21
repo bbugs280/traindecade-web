@@ -1,29 +1,51 @@
 baseURL: https://traindecade.com/
-locale: en-us
-title: Train Decade
 theme: PaperMod
 
 enableRobotsTXT: true
 
+# Multilingual: EN is the default (lands at /), ZH at /zh/
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    label: English
+    weight: 1
+    title: Train Decade
+    params:
+      homeInfoParams:
+        Title: Train Decade
+        Content: >-
+          Fitness, health, and body recomposition — the long game, one decade at a time.
+
+          Evidence-based training and nutrition for men in their 30s, 40s, and 50s.
+          No crash cuts, no quick-fix noise. Just the methods that actually work,
+          explained clearly and tested against the evidence.
+  zh:
+    label: 中文
+    weight: 2
+    title: 訓練十年
+    contentDir: content/zh
+    params:
+      homeInfoParams:
+        Title: 訓練十年
+        Content: >-
+          健身、健康與身體重組——以十年為單位的長期遊戲。
+
+          為三十至五十多歲男性提供循證訓練與營養知識。
+          沒有速成減脂，沒有速效噱頭。只有真正有效的方法，
+          講解清晰，並經得起證據檢驗。
+
 params:
-  homeInfoParams:
-    Title: Train Decade
-    Content: >-
-      Fitness, health, and body recomposition — the long game, one decade at a time.
-
-      Evidence-based training and nutrition for men in their 30s, 40s, and 50s.
-      No crash cuts, no quick-fix noise. Just the methods that actually work,
-      explained clearly and tested against the evidence.
-
   defaultTheme: light
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  displayFullLangName: true
 
-  # Home hero image (elegant gradient banner, freeaitool.com style)
+  # Home hero image (stock photo)
   homeHeroImage: "/images/hero.jpg"
-
 
   # Analytics — paste real IDs here once created (see skills/traindecade).
   analytics:
@@ -31,7 +53,6 @@ params:
     adsensePublisherID: ""                     # e.g. ca-pub-XXXXXXXXXXX
     googleSiteVerification: ""                 # e.g. for Google Search Console
 
-  # GA4 tag
   env: production
 
 menus:
