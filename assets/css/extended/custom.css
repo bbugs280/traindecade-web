@@ -1,9 +1,9 @@
 /* Train Decade — warm editorial theme
-   Cream paper background + warm charcoal text + jade accent.
-   Serif display headings (Fraunces) + humanist sans body (Source Sans 3).
-   "Considered, trustworthy, long-game" — not "gym app." */
+   Cream paper background + warm charcoal text + jade accent (light mode).
+   Dark mode: warm dark charcoal surface + cream/off-white text + jade accent.
+   Serif display headings (Fraunces) + humanist sans body (Source Sans 3). */
 
-/* ===== Palette (CSS custom properties) ===== */
+/* ===== Palette (light mode — CSS custom properties) ===== */
 :root {
     --cream: #FAF7F2;        /* warm paper background */
     --surface: #FFFFFF;      /* cards */
@@ -12,14 +12,26 @@
     --jade: #1B6B4E;         /* primary accent — health/longevity green */
     --jade-dark: #145239;    /* hover */
     --line: #E8E2D8;         /* hairline borders */
-    --theme: var(--ink);
 }
 
-/* ===== Theme background (PaperMod light theme) ===== */
+/* ===== Dark mode palette — warm dark, not cold gray ===== */
+:root[data-theme="dark"] {
+    --cream: #1B1A17;        /* warm near-black surface */
+    --surface: #23211D;      /* cards */
+    --ink: #E9E4DA;          /* cream/off-white text */
+    --muted: #A8A196;        /* secondary text */
+    --jade: #4CAF85;         /* brighter jade for dark bg contrast */
+    --jade-dark: #6BC49A;    /* hover */
+    --line: #35322C;         /* hairline borders */
+}
+
+/* ===== Map to PaperMod theme vars (so nav/footer/text follow) ===== */
 :root {
     --content: var(--cream);
     --primary: var(--ink);
     --secondary: var(--muted);
+    --entry: var(--surface);
+    --border: var(--line);
 }
 
 /* ===== Typography ===== */
@@ -55,7 +67,6 @@ a {
 
 a:hover {
     color: var(--jade-dark);
-    text-decoration: underline;
 }
 
 /* ===== Nav / header ===== */
