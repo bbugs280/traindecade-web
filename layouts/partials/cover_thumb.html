@@ -1,0 +1,17 @@
+{{- /* Compact thumbnail cover for list cards (no caption, fixed aspect). */ -}}
+{{- with .cxt }}
+{{- if (and .Params.cover.image (not $.isHidden)) }}
+<div class="card-thumb">
+  {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+  {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+  {{- $cover := (or $pageBundleCover $globalResourcesCover) }}
+  {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+  {{- if $cover }}
+    {{- $thumb := $cover.Fill "360x202 center q85" }}
+    <img loading="lazy" src="{{ $thumb.RelPermalink }}" width="360" height="202" alt="{{ $alt }}">
+  {{- else }}
+    <img loading="lazy" src="{{ .Params.cover.image | absURL }}" alt="{{ $alt }}">
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}

@@ -9,3 +9,51 @@
     border-radius: var(--radius);
     display: block;
 }
+
+/* Train Decade — compact card list (thumbnail left + body right) */
+.post-entry.card-entry {
+    display: flex;
+    gap: var(--gap);
+    align-items: center;
+    padding: var(--gap);
+}
+
+.card-thumb {
+    flex: 0 0 180px;
+    max-width: 180px;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.card-thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius);
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.card-body .entry-content p {
+    margin: 0;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* responsive: stack on small screens */
+@media (max-width: 720px) {
+    .post-entry.card-entry {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .card-thumb {
+        flex: 0 0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+}
