@@ -50,7 +50,7 @@ params:
   # Analytics — paste real IDs here once created (see skills/traindecade).
   analytics:
     ga4ID: "G-B2S3J6P8P5"                       # Train Decade GA4 property
-    adsensePublisherID: ""                     # e.g. ca-pub-XXXXXXXXXXX
+    adsensePublisherID: "ca-pub-4696981239521155"  # Train Decade AdSense publisher
     googleSiteVerification: ""                 # e.g. for Google Search Console
 
   env: production
