@@ -6,7 +6,6 @@ tags: ["sleep", "recovery", "muscle building", "over 40"]
 description: "Muscle isn't built in the gym — it's built while you recover. Why sleep and rest days matter more after 40, and the evidence-backed recovery levers that actually move the needle."
 cover:
   image: "cover-sleep.png"
-  relative: true
   alt: "Sleep and Recovery"
 ---
 

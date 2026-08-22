@@ -6,7 +6,6 @@ tags: ["muscle building", "over 50", "aging", "strength training"]
 description: "The 'too old to build muscle' story is a sales pitch, not science. Here's what the research actually shows about gaining muscle in your 50s, 60s, and beyond — and what genuinely changes with age."
 cover:
   image: "cover-after50.png"
-  relative: true
   alt: "Can You Build Muscle After 50?"
 ---
 

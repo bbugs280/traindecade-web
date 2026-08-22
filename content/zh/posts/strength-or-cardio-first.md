@@ -6,7 +6,6 @@ tags: ["重訓", "有氧", "訓練編排", "40歲以上"]
 description: "先舉鐵還是先上跑步機？40 歲後這個問題更重要——而研究對幾乎每個人都指向同一個答案。先後順序、劑量，以及十年尺度的邏輯。"
 cover:
   image: "cover-strength-cardio.png"
-  relative: true
   alt: "先重訓還是先有氧？"
 ---
 

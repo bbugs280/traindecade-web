@@ -6,7 +6,6 @@ tags: ["睡眠", "恢復", "增肌", "40歲以上"]
 description: "肌肉不是在健身房長出來的——是在你恢復時。為什麼 40 歲後睡眠與休息日更重要，以及真正能產生效果的循證恢復槓桿。"
 cover:
   image: "cover-sleep.png"
-  relative: true
   alt: "睡眠與恢復"
 ---
 

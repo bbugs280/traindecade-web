@@ -6,7 +6,6 @@ tags: ["減脂", "增肌", "階段", "營養"]
 description: "先減脂還是先增肌？要持續多久？健身產業把它當成一種年度翻轉鬧劇。這才是真正編排階段的方式——證據、時間線，以及多數男性會掉進的陷阱。"
 cover:
   image: "cover-cut-gain.png"
-  relative: true
   alt: "減脂 vs 增肌：如何編排你的階段"
 ---
 

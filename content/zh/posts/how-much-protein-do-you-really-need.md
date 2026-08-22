@@ -6,7 +6,6 @@ tags: ["蛋白質", "營養", "40歲以上", "增肌"]
 description: "每磅一克？還是只吃建議量？真正的答案在中間——而且 40 歲後更重要。用白話數字講清楚，增肌到底該吃多少蛋白質。"
 cover:
   image: "cover-protein.png"
-  relative: true
   alt: "你到底需要多少蛋白質？"
 ---
 

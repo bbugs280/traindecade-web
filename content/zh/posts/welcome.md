@@ -6,7 +6,6 @@ tags: ["健身", "健康"]
 description: "訓練十年是一個循證的健身與身體重組資源，為三十至五十多歲男性而設——是長期遊戲，不是六週衝刺。"
 cover:
   image: "cover-welcome.png"
-  relative: true
   alt: "長期遊戲 — 訓練十年"
 ---
 

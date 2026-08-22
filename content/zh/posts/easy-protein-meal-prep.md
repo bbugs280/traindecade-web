@@ -6,7 +6,6 @@ tags: ["蛋白質", "備餐", "食譜", "營養", "40歲以上"]
 description: "你已經知道要吃多少蛋白質了——現在聊聊怎麼真正吃進去，而且不用天天下廚。一套極簡、可重複的備餐系統，用原型食物吃到 1.6 g/kg。"
 cover:
   image: "cover-mealprep.png"
-  relative: true
   alt: "輕鬆蛋白質備餐"
 ---
 

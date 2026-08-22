@@ -6,7 +6,6 @@ tags: ["protein", "nutrition", "over 40", "muscle building"]
 description: "1 gram per pound? Just the RDA? The real answer sits in the middle — and it matters more after 40. The evidence-based protein dose for building muscle, in plain numbers."
 cover:
   image: "cover-protein.png"
-  relative: true
   alt: "How Much Protein Do You Really Need?"
 ---
 

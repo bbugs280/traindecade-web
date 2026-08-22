@@ -6,7 +6,6 @@ tags: ["protein", "meal prep", "recipes", "nutrition", "over 40"]
 description: "You've learned how much protein you need — now how to actually eat it without cooking every day. A minimal-effort, repeatable meal-prep system for hitting 1.6 g/kg, built around whole foods."
 cover:
   image: "cover-mealprep.png"
-  relative: true
   alt: "Easy Protein Meal Prep"
 ---
 

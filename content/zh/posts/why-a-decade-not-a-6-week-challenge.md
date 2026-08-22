@@ -6,7 +6,6 @@ tags: ["健身", "身體重組", "心態"]
 description: "你能為身體做的最有價值的事，是堅持十年，而非拚命六週。以下說明為何長期遊戲勝過每一次急速減脂——以及證據怎麼說。"
 cover:
   image: "cover-decade.png"
-  relative: true
   alt: "為何是十年，而非六週挑戰"
 ---
 

@@ -6,7 +6,6 @@ tags: ["strength training", "over 40", "beginners", "training"]
 description: "Starting to lift at 40+ isn't about motivation — it's about not training like you're 25. The evidence-based, embarrassingly simple beginner plan for men who've never touched a barbell."
 cover:
   image: "cover-start40.png"
-  relative: true
   alt: "Strength Training After 40: How to Start"
 ---
 
