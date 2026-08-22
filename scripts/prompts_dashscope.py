@@ -2,16 +2,30 @@
 
 Style: dark, cinematic, moody, photorealistic-illustrative fitness imagery.
 Each prompt is self-contained (no text overlays — text is rendered by Hugo/CSS).
+
+⚠️ ETHNICITY RULE (Vincent, 2026-08): any subject who is a PERSON must be
+drawn as ethnically ambiguous — plausibly Asian, Western, or mixed heritage.
+The audience is men 30-55 across markets (EN + ZH), so no single-ethnicity
+read. Always include phrasing like "mixed East Asian and Western heritage,
+ambiguous ethnicity" on any human subject.
+
+⚠️ PALETTE (see traindecade skill): the site is warm editorial (cream/ink/jade),
+NOT navy/crimson. The "hero" prompt below predates that decision and is
+superseded — hero is now a stock photo (static/images/hero.jpg). Do not use
+the navy/crimson "hero" prompt for new art.
 """
 PROMPTS = {
     # Home hero — broad, motivational, "long game" theme
+    # (Superseded: hero is now a static/images/hero.jpg stock photo. Kept for
+    #  reference only — do NOT regenerate from this prompt without updating palette.)
     "hero": (
-        "Cinematic wide shot of a seasoned man in his late 40s, muscular and "
-        "weathered, chalk dust on his hands, standing in a dim industrial gym lit "
-        "by a single dramatic overhead beam of light. Deep navy and charcoal tones, "
-        "crimson rim lighting along his silhouette, volumetric light rays through "
-        "dust, moody chiaroscuro, film grain, epic and quiet determination, "
-        "photorealistic, shallow depth of field, 16:9 composition, no text, no watermark"
+        "Cinematic wide shot of a seasoned man in his late 40s of mixed East "
+        "Asian and Western heritage with ambiguous ethnicity, standing in a dim "
+        "industrial gym lit by a single dramatic overhead beam of light. Deep "
+        "shadow and warm editorial tones, jade green rim lighting along his "
+        "silhouette, volumetric light rays through dust, moody chiaroscuro, film "
+        "grain, epic and quiet determination, photorealistic, shallow depth of "
+        "field, 16:9 composition, no text, no watermark"
     ),
     # Welcome / brand anchor — the decade-long journey
     "welcome": (
