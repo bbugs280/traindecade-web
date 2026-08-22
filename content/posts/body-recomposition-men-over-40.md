@@ -39,7 +39,7 @@ Body recomposition works on one principle: **you can build muscle in a calorie d
 Four things separate the men who succeed after 40 from the men who don't:
 
 1. **A small deficit, not a crash.** 200–400 calories under maintenance, not 800. Enough to pull fat, shallow enough to keep building. The crash is how you lose the muscle you came to protect.
-2. **Protein as the anchor — about 1.6 g per kilogram.** In untrained older adults, 1.6 g/kg/day beat the standard 0.8 g/kg for lean-mass and strength gains over eight weeks (Bagheri et al.). That's ~130 g a day for an 80 kg man, spread across meals. Protein is the raw material; starve it and your body burns muscle to pay the deficit.
+2. **Protein as the anchor — about 1.6 g per kilogram.** In untrained older adults, 1.6 g/kg/day beat the standard 0.8 g/kg for lean-mass and strength gains over eight weeks (Bagheri et al.). That's ~130 g a day for an 80 kg man, spread across meals. Protein is the raw material; starve it and your body burns muscle to pay the deficit. (Get the full dose breakdown in [How Much Protein Do You Really Need?](/posts/how-much-protein-do-you-really-need/).)
 3. **Progressive resistance, 3–4 days a week.** This is the signal that tells your body "keep the muscle, burn the fat." It's non-negotiable. Cardio alone won't do it.
 4. **Patience measured in months, not the mirror.** The scale will barely move for weeks because muscle is replacing pound-for-pound the fat you're losing. The tape, your lifts, and the mirror are the honest judges.
 

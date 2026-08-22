@@ -48,7 +48,7 @@ If you're past fifty and starting (or restarting), the playbook is the same foun
 
 1. **Train 2–3× a week, whole body, progressive load.** Squat, hinge, push, pull, carry. Start embarrassingly light. Add 2.5 kg a session. The Frontera result came from exactly this: basic, consistent, progressive resistance — no secrets.
 
-2. **Prioritize protein at the higher end.** Because the anabolic response is blunted with age, protein matters *more* after fifty, not less. The evidence points to roughly 1.6 g per kg of body weight per day outperforming the 0.8 g most people default to. That's the single most impactful nutrition change for the over-50 lifter.
+2. **Prioritize protein at the higher end.** Because the anabolic response is blunted with age, protein matters *more* after fifty, not less. The evidence points to roughly 1.6 g per kg of body weight per day outperforming the 0.8 g most people default to. That's the single most impactful nutrition change for the over-50 lifter. (See [How Much Protein Do You Really Need?](/posts/how-much-protein-do-you-really-need/) for the full breakdown.)
 
 3. **Recover on purpose.** Sleep isn't optional. Give yourself full rest days between sessions. The recovery that's "longer" at 55 is just the same recovery with a real schedule attached.
 

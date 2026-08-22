@@ -62,7 +62,7 @@ Two moves that matter more than most beginners expect:
 
 **Walk every day.** Not as "cardio" — as the cheapest recovery and fat-control tool there is. Thirty minutes of brisk walking daily improves insulin sensitivity, aids recovery between lifting days, and quietly burns a few hundred calories you'll never notice cutting. It's the glue that makes everything else stick.
 
-**Don't start a restrictive diet in month one.** Trying to simultaneously learn five new movements *and* run a calorie deficit is how you derail both. Install the training habit first — ninety days of consistent lifting and walking — *then* tighten nutrition. Habit before deficit, always. (When you do eat, prioritize protein: for the over-40 lifter, the evidence points to roughly 1.6 g per kg of body weight per day being meaningfully better than the ~0.8 g most people default to.)
+**Don't start a restrictive diet in month one.** Trying to simultaneously learn five new movements *and* run a calorie deficit is how you derail both. Install the training habit first — ninety days of consistent lifting and walking — *then* tighten nutrition. Habit before deficit, always. (When you do eat, prioritize protein: for the over-40 lifter, the evidence points to roughly 1.6 g per kg of body weight per day being meaningfully better than the ~0.8 g most people default to. See [How Much Protein Do You Really Need?](/posts/how-much-protein-do-you-really-need/).)
 
 ## Where you'll actually be at 45, 50, 55
 

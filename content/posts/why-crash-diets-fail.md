@@ -57,7 +57,7 @@ The crash diet doesn't fail because you're weak. It fails because it's *designed
 The honest fix is almost boring, because it's the opposite of the pitch:
 
 - **Cut slow.** A deficit of 200–400 calories a day — enough to lose fat, shallow enough to stay out of famine mode. Think months, not weeks.
-- **Protect the muscle.** Progressive resistance training and adequate protein (around 1.6 g per kilogram) tell your body to burn fat instead of lean tissue.
+- **Protect the muscle.** Progressive resistance training and adequate protein (around 1.6 g per kilogram) tell your body to burn fat instead of lean tissue. [How much protein is "adequate"?](/posts/how-much-protein-do-you-really-need/)
 - **Plan the phase after the phase.** The loss is only half the job. Maintenance is a *continuation*, not a reward — and it starts while you're still losing.
 
 The people who keep weight off aren't more disciplined than you. They just never asked their body to survive a famine in the first place.
