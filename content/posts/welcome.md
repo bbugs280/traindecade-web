@@ -6,6 +6,7 @@ tags: ["fitness", "health"]
 description: "Train Decade is an evidence-based fitness and body recomposition resource for men in their 30s, 40s, and 50s — the long game, not a six-week sprint."
 cover:
   image: "cover-welcome.png"
+  relative: true
   alt: "The Long Game — Train Decade"
 ---
 

@@ -1,0 +1,29 @@
+User-agent: *
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+Disallow:
+{{- else }}
+Disallow: /
+{{- end }}
+
+# Explicitly allow AI/LLM retrieval crawlers so the site can be discovered,
+# summarised, and cited by AI assistants (Perplexity, ChatGPT, Claude, etc.).
+# Google-Extended is opt-IN: allowing it opts into Gemini/Vertex grounding.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: {{ "sitemap.xml" | absURL }}

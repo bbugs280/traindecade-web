@@ -6,6 +6,7 @@ tags: ["身體重組", "四十歲以上", "訓練"]
 description: "四十歲後，同時減脂與增肌確實更難——但依然完全做得到。這是一套循證的實戰藍圖，針對那些多數課表都忽略的歲數而調整。"
 cover:
   image: "cover-recomp.png"
+  relative: true
   alt: "四十歲以上男性的身體重組"
 ---
 

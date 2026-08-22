@@ -44,6 +44,17 @@ params:
   ShowCodeCopyButtons: true
   displayFullLangName: true
 
+  # Organization author — fixes JSON-LD "author: null" schema failure.
+  # (Neutral brand voice: the site is "Train Decade", a generic publisher.)
+  author: Train Decade
+
+  # Favicons (brand mark: jade barbell) — fixes favicon 404 + JSON-LD publisher.logo 404
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+
   # Home hero image (stock photo)
   homeHeroImage: "/images/hero.jpg"
 

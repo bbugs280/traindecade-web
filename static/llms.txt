@@ -1,0 +1,13 @@
+# Train Decade
+
+> Train Decade is a fitness and health resource for men in their 30s, 40s, and 50s. Evidence-based training, nutrition, and body recomposition — focused on the long game (years, not weeks), with clear sourcing and bilingual English/Chinese content.
+
+- [Strength Training After 40: How to Start (Even If You've Never Lifted)](https://traindecade.com/posts/strength-training-after-40-how-to-start/): A beginner onboarding guide — the five movements to learn, why to start embarrassingly light, and how to build the habit before the deficit.
+- [Body Recomposition for Men Over 40](https://traindecade.com/posts/body-recomposition-men-over-40/): Losing fat and building muscle simultaneously after 40 — the honest science and the adjusted playbook.
+- [Cut vs. Gain: How to Structure Your Phases](https://traindecade.com/posts/cut-vs-gain-structuring-phases/): How to sequence cutting and bulking phases, and why phases are events, not identities.
+- [Why a Decade, Not a 6-Week Challenge](https://traindecade.com/posts/why-a-decade-not-a-6-week-challenge/): The anchor argument for decade-scale consistency over crash programs.
+- [Why Crash Diets Fail: The Metabolic Science](https://traindecade.com/posts/why-crash-diets-fail/): The metabolic mechanisms (leptin/ghrelin, adaptation) behind why crash diets rebound.
+- [中文版 — 40 歲後重訓新手入門](https://traindecade.com/zh/posts/strength-training-after-40-how-to-start/): 從零開始的新手重訓指南（繁體中文）。
+
+## About
+Train Decade is published in English and Chinese (繁體中文 at /zh/). All claims are sourced to peer-reviewed or institutional studies, listed in each article's Sources section. No crash diets, no quick-fix noise.

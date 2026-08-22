@@ -6,6 +6,7 @@ tags: ["body recomposition", "over 40", "training"]
 description: "Losing fat and building muscle at the same time gets harder after 40 — but it's still very much possible. Here's the evidence-based playbook, adjusted for the decades most programs ignore."
 cover:
   image: "cover-recomp.png"
+  relative: true
   alt: "Body Recomposition for Men Over 40"
 ---
 
