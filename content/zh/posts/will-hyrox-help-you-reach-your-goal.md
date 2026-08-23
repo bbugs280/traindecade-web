@@ -61,6 +61,8 @@ Hyrox 不會替你練出體能。它真正給你的是*一個期限*。而一個
 
 當心你自己的目標，也當心這個比賽給了你什麼。因為這個十年不在乎你比賽日表現如何，它在乎的是明年你還在不在出現。
 
+還不確定自己的目標到底是什麼嗎？先從這裡開始——見 [如何設定一個真正持久的健身目標](/zh/posts/how-to-set-a-fitness-goal/)。
+
 另見：[為什麼是十年，不是六週挑戰](/zh/posts/why-a-decade-not-a-6-week-challenge/) 與 [四十歲後如何開始重量訓練](/zh/posts/strength-training-after-40-how-to-start/)。
 
 ---

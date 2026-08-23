@@ -61,6 +61,8 @@ Ask yourself before you sign up: *what am I actually chasing?* If the answer is 
 
 Beware your own goal, and what the event gives you. Because the decade doesn't care how you did on race day. It cares whether you're still showing up next year.
 
+Not sure what your goal actually is yet? Start there first — see [How to Set a Fitness Goal That Actually Lasts](/posts/how-to-set-a-fitness-goal/).
+
 See also: [Why a Decade, Not a 6-Week Challenge](/posts/why-a-decade-not-a-6-week-challenge/) and [Strength Training After 40: How to Start](/posts/strength-training-after-40-how-to-start/).
 
 ---
