@@ -3,11 +3,14 @@
 Style: dark, cinematic, moody, photorealistic-illustrative fitness imagery.
 Each prompt is self-contained (no text overlays — text is rendered by Hugo/CSS).
 
-⚠️ ETHNICITY RULE (Vincent, 2026-08): any subject who is a PERSON must be
-drawn as ethnically ambiguous — plausibly Asian, Western, or mixed heritage.
-The audience is men 30-55 across markets (EN + ZH), so no single-ethnicity
-read. Always include phrasing like "mixed East Asian and Western heritage,
-ambiguous ethnicity" on any human subject.
+⚠️ ETHNICITY RULE (Vincent, updated 2026-08-25): any subject who is a PERSON must
+be drawn as mixed/varied ethnicity — NOT Asian-first, NOT limited to "East Asian
++ Western." Draw from a genuinely varied spread (East Asian, South Asian,
+Latino/Hispanic, Black/African, Middle Eastern, Caucasian/European) and phrase
+it as "ambiguous mixed ethnicity" WITHOUT naming one group first. Naming "East
+Asian and Western" anchors Asian-first — that's exactly why past generations
+kept drifting Asian. The audience is men 30-55 across EN + ZH markets, so no
+single-ethnicity read.
 
 ⚠️ PALETTE (see traindecade skill): the site is warm editorial (cream/ink/jade),
 NOT navy/crimson. The "hero" prompt below predates that decision and is
@@ -19,8 +22,8 @@ PROMPTS = {
     # (Superseded: hero is now a static/images/hero.jpg stock photo. Kept for
     #  reference only — do NOT regenerate from this prompt without updating palette.)
     "hero": (
-        "Cinematic wide shot of a seasoned man in his late 40s of mixed East "
-        "Asian and Western heritage with ambiguous ethnicity, standing in a dim "
+        "Cinematic wide shot of a seasoned man in his late 40s of ambiguous mixed "
+        "ethnicity, standing in a dim "
         "industrial gym lit by a single dramatic overhead beam of light. Deep "
         "shadow and warm editorial tones, jade green rim lighting along his "
         "silhouette, volumetric light rays through dust, moody chiaroscuro, film "
