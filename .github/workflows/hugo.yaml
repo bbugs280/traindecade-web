@@ -48,6 +48,10 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Verify bilingual invariants
+        run: |
+          python3 tests/test_multilingual.py --public ./public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
