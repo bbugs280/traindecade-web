@@ -35,8 +35,8 @@ def find_public_root() -> Path:
 
 
 def grep_html_attr(html: str, attr: str) -> list[str]:
-    """Minified Hugo output has no quotes around attrs (hreflang=en)."""
-    return re.findall(rf"{attr}=([^\s>]+)", html)
+    """Minified Hugo output may quote attrs (hreflang=\"en\") or not — strip both."""
+    return re.findall(rf"{attr}=[\"']?([^\s>\"']+)[\"']?", html)
 
 
 def main() -> int:
@@ -57,7 +57,7 @@ def main() -> int:
             failures.append(f"MISSING {rel} (build incomplete?)")
             continue
         html = _read(f)
-        m = re.search(r"<html[^>]*lang=([^\s>]+)", html)
+        m = re.search(r"<html[^>]*lang=[\"']?([^\s>\"']+)[\"']?", html)
         got_lang = m.group(1) if m else None
         if got_lang != expect_lang:
             failures.append(f"{rel}: lang={got_lang!r}, expected {expect_lang!r}")
@@ -70,7 +70,7 @@ def main() -> int:
         if not f.exists():
             continue
         html = _read(f)
-        hrefs = re.findall(r'hreflang=(\w+)\s+href=([^\s>]+)', html)
+        hrefs = re.findall(r'hreflang=[\"\']?(\w+)[\"\']?\s+href=[\"\']?([^\s>\"\']+)[\"\']?', html)
         pairs = {lang: url for lang, url in hrefs}
         for lang, path in [("en", "/"), ("zh", "/zh/")]:
             if lang not in pairs:

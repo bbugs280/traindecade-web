@@ -1,12 +1,12 @@
 ---
-title: "Body Recomposition for Men Over 40"
+title: "Body Recomp for Men Over 40: Lose Fat and Build Muscle at the Same Time"
 date: 2026-08-21T00:00:00+08:00
 draft: false
-tags: ["body recomposition", "over 40", "training"]
-description: "Losing fat and building muscle at the same time gets harder after 40 — but it's still very much possible. Here's the evidence-based playbook, adjusted for the decades most programs ignore."
+tags: ["recomp", "body recomp", "body recomposition", "over 40", "training"]
+description: "Body recomp — losing fat and building muscle at the same time — gets harder after 40, but it's far from impossible. Here's the evidence-based recomp playbook, adjusted for the decades most programs ignore."
 cover:
   image: "cover-recomp.png"
-  alt: "Body Recomposition for Men Over 40"
+  alt: "Body Recomp for Men Over 40"
 ---
 
 Sometime around forty, the fitness industry changes its story about your body.
@@ -15,7 +15,7 @@ In your twenties, they sold you speed: *six weeks to a six-pack, train hard, rec
 
 It's a sales script, not science. And it collapses the moment you look at the actual numbers.
 
-Body recomposition — losing fat and building muscle *at the same time* — does get harder after forty. Nobody honest denies that. But "harder" is not "impossible," and the people telling you otherwise are usually the ones selling you a shortcut.
+Body recomp — losing fat and building muscle *at the same time* — does get harder after forty. Nobody honest denies that. But "harder" is not "impossible," and the people telling you otherwise are usually the ones selling you a shortcut.
 
 ## What actually changes after 40 (the honest version)
 
@@ -31,9 +31,9 @@ Strip away the fear-mongering and three things genuinely shift. None of them are
 
 Here's the point all of this leads to: **you're not fighting biology. You're fighting a story someone is trying to sell you.**
 
-## The recomposition equation
+## The recomp equation
 
-Body recomposition works on one principle: **you can build muscle in a calorie deficit, as long as you're not already shredded and you're training hard enough.**
+Body recomp works on one principle: **you can build muscle in a calorie deficit, as long as you're not already shredded and you're training hard enough.**
 
 Four things separate the men who succeed after 40 from the men who don't:
 
@@ -54,7 +54,7 @@ The forty-plus market is built on fear. Notice how much of it evaporates under e
 
 ## The decade framing
 
-Here's what the fear-marketers don't want you to realize: **recomposition at 45 isn't a race you're too old to run. It's a decade-scale project you're finally patient enough to finish.**
+Here's what the fear-marketers don't want you to realize: **recomposition at 45 isn't a race you're too old to run. It's a decade-scale recomp you're finally patient enough to finish.**
 
 Your twenty-year-old self had speed and recovery but no patience — which is why he started and quit a dozen programs. Your forty-something self has the one thing this game is actually won with: the willingness to train for years instead of weeks.
 
