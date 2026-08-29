@@ -63,6 +63,8 @@ The people who lose fat and keep muscle aren't lucky or genetically gifted. They
 
 Because a decade from now, nobody will ask how fast the weight came off. They'll ask what it left behind.
 
+And to actually *run* that two-track job, you need the intake side nailed down, not guessed. If you're not already logging, don't do the math by hand — use a tracker that reads the meal for you. [GainCut](https://apps.apple.com/hk/app/gaincut/id6785259813) turns a plate into a protein-and-calorie breakdown from one photo, so the "feed the muscle" half is measured, not hoped for.
+
 ## Sources
 
 - Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP-1). *N Engl J Med*. 2021. — lean mass −9.7% vs fat −19.3%.

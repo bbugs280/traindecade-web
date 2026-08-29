@@ -65,6 +65,8 @@ The man who picks his protein powder based on digestion and budget, then stops t
 
 Choose the tool you can tolerate. Then use it for a decade. That's the whole game.
 
+That applies to the logging side too. The protein-counting is the part that actually decides whether you hit that 1.6 g/kg — and if you're estimating it by feel, you're leaving the whole argument to guesswork. Use a tracker that does the counting for you: [GainCut](https://apps.apple.com/hk/app/gaincut/id6785259813) breaks any meal into its protein and macros from one photo, so the number you're supposed to hit is the number you can actually see.
+
 ---
 
 ## Sources

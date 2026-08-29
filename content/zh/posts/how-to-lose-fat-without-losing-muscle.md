@@ -63,6 +63,8 @@ cover:
 
 因為十年後的某天，沒人會問你體重掉得多快。他們會問：它留下了什麼。
 
+而要真正*跑起*這份雙軌任務，飲食攝取那一端得算得精準，不能用猜的。如果你還沒在記錄，就別自己用手算——用一個能替你讀出這餐內容的記錄工具。[GainCut](https://apps.apple.com/hk/app/gaincut/id6785259813) 用一張照片就把盤子變成蛋白質與熱量的分析，讓「餵肌肉」那一半是被量出來的，而不是盼出來的。
+
 ## 資料來源
 
 - Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP-1). *N Engl J Med*. 2021.——去脂體重 −9.7%、脂肪 −19.3%。
