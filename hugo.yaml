@@ -13,6 +13,7 @@ languages:
     weight: 1
     title: Train Decade
     params:
+      description: "Fitness, health, and body recomposition for men in their 30s, 40s, and 50s — evidence-based training and nutrition, the long game, one decade at a time. No crash cuts, no quick-fix noise. Bilingual English/中文."
       homeInfoParams:
         Title: Train Decade
         Content: >-
@@ -27,6 +28,7 @@ languages:
     title: 訓練十年
     contentDir: content/zh
     params:
+      description: "為三十至五十多歲男性提供循證健身、健康與身體重組知識——以十年為單位的長期遊戲。沒有速成減脂，沒有速效噱頭。中英雙語。"
       homeInfoParams:
         Title: 訓練十年
         Content: >-
@@ -37,6 +39,8 @@ languages:
           講解清晰，並經得起證據檢驗。
 
 params:
+  description: "Fitness, health, and body recomposition for men in their 30s, 40s, and 50s — evidence-based training and nutrition, the long game, one decade at a time. No crash cuts, no quick-fix noise. Bilingual English/中文."
+
   defaultTheme: light
   ShowReadingTime: true
   ShowPostNavLinks: true
@@ -54,6 +58,8 @@ params:
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+    theme_color: "#3A6B5C"
 
   # Home hero image (stock photo)
   homeHeroImage: "/images/hero.jpg"
