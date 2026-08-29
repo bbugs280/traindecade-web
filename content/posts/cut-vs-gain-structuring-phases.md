@@ -63,6 +63,8 @@ You don't need to nail your first cut. You need to keep running the cycle.
 
 A decade is coming either way. Spend it as a man who knows which phase he's in.
 
+And if the intake side of it still feels like guesswork, don't run a phase blind. Use a tracking tool that knows which phase you're in — [GainCut](https://apps.apple.com/hk/app/gaincut/id6785259813) adjusts your calorie and protein targets to your cut or gain phase automatically, so you're controlling the one variable your training can't move for you.
+
 ---
 
 ## Sources
