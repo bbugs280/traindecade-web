@@ -56,9 +56,15 @@ def _home_list_titles(html: str) -> list[str]:
 
     Hugo/PaperMod renders each card with an entry-link whose aria-label is
     'post link to <Title>' — the same string the visible <h2> shows, and the
-    most reliable thing to assert language on (it's plain text, no markup).
+    most reliable thing to assert language on (plain text, no markup).
+
+    NOTE: match the aria-label directly and tolerate any attribute ordering /
+    spacing, because the Hugo minifier emits attribute order differently on
+    Linux (Go map ordering) vs macOS. Do NOT anchor on a preceding 'entry-link'
+    token or exact whitespace — that was the brittle regex that false-failed
+    on Linux CI (2026-08-30).
     """
-    return re.findall(r'entry-link"\s+aria-label="post link to ([^"]*)"', html)
+    return re.findall(r'aria-label="post link to ([^"]*)"', html)
 
 
 def main() -> int:
