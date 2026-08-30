@@ -26,7 +26,7 @@ languages:
     label: 中文
     weight: 2
     title: 訓練十年
-    contentDir: content/zh
+    contentDir: content-zh
     params:
       description: "為三十至五十多歲男性提供循證健身、健康與身體重組知識——以十年為單位的長期遊戲。沒有速成減脂，沒有速效噱頭。中英雙語。"
       homeInfoParams:

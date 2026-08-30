@@ -5,10 +5,13 @@ between build and deploy). Guards the exact class of bug Vincent keeps hitting:
 the site "stuck in Chinese" / language toggle silently breaking.
 
 Invariants asserted:
-  1. `/`  serves lang=en + the English title (NOT zh).
-  2. `/zh/` serves lang=zh + the Chinese title (訓練十年).
+  1. `/`  serves lang=en + the English site title (NOT zh).
+  2. `/zh/` serves lang=zh + the Chinese site title (訓練十年).
   3. hreflang=en (-> /) and hreflang=zh (-> /zh/) are BOTH emitted on both pages.
   4. Every EN post has a matching ZH translation (no orphan posts) and vice-versa.
+  5. **The EN home LIST renders English titles, and the ZH home LIST renders
+     Chinese titles** — the "site chrome is English but every card is Chinese"
+     regression (2026-08-30). This is the mixing bug past versions missed.
 
 Usage:
     python3 tests/test_multilingual.py --public /path/to/public
@@ -23,6 +26,15 @@ from pathlib import Path
 
 EN_TITLE = "Train Decade"
 ZH_TITLE = "訓練十年"
+
+# ZH content lives in content-zh/ (NOT content/zh) — the overlapping-content-dir
+# bug (zh files double-imported into EN) is the root cause of the mixing.
+ZH_CONTENT_DIR = "content-zh"
+
+# A known EN post title fragment and its ZH counterpart, used to assert the
+# home LIST renders in the right language (not just the site <title>/chrome).
+EN_POST_TITLE_FRAGMENT = "Zone 2 and VO2max"
+ZH_POST_TITLE_FRAGMENT = "Zone 2 與 VO2max"
 
 
 def _read(path: Path) -> str:
@@ -39,6 +51,16 @@ def grep_html_attr(html: str, attr: str) -> list[str]:
     return re.findall(rf"{attr}=[\"']?([^\s>\"']+)[\"']?", html)
 
 
+def _home_list_titles(html: str) -> list[str]:
+    """Extract the actual post-card titles from the home list.
+
+    Hugo/PaperMod renders each card with an entry-link whose aria-label is
+    'post link to <Title>' — the same string the visible <h2> shows, and the
+    most reliable thing to assert language on (it's plain text, no markup).
+    """
+    return re.findall(r'entry-link"\s+aria-label="post link to ([^"]*)"', html)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--public", default=None, help="path to Hugo public/ dir")
@@ -47,7 +69,7 @@ def main() -> int:
 
     failures: list[str] = []
 
-    # --- 1 & 2: language + title per surface ---
+    # --- 1 & 2: language + site title per surface ---
     for rel, expect_lang, expect_title in [
         ("index.html", "en", EN_TITLE),
         ("zh/index.html", "zh", ZH_TITLE),
@@ -78,14 +100,32 @@ def main() -> int:
             elif not pairs[lang].rstrip("/").endswith(path.rstrip("/")):
                 failures.append(f"{rel}: hreflang={lang} -> {pairs[lang]} (expected {path})")
 
+    # --- 5 (NEW, the actual regression): home LIST language ---
+    # The EN home must render ENGLISH post titles, the ZH home CHINESE ones.
+    # This catches "English chrome + Chinese cards" (content/zh leaking into EN).
+    for rel, expect_fragment in [
+        ("index.html", EN_POST_TITLE_FRAGMENT),
+        ("zh/index.html", ZH_POST_TITLE_FRAGMENT),
+    ]:
+        f = public / rel
+        if not f.exists():
+            continue
+        html = _read(f)
+        titles = _home_list_titles(html)
+        if not titles:
+            failures.append(f"{rel}: no post-card titles found in home list (layout change?)")
+            continue
+        if not any(expect_fragment in t for t in titles):
+            got_sample = titles[:3]
+            failures.append(
+                f"{rel}: home list is in the WRONG language — expected a title containing "
+                f"{expect_fragment!r}, got {got_sample}"
+            )
+
     # --- 4: EN <-> ZH post parity (orphan translation guard) ---
-    en_posts = {p.stem for p in (public / "posts").glob("*.md")} if (public / "posts").exists() else set()
-    zh_posts = {p.stem for p in (public / "zh" / "posts").glob("*.md")} if (public / "zh" / "posts").exists() else set()
-    # Hugo renders posts to index.html dirs, not .md — but content/*.md is the source of truth.
-    # CI runs this from the repo where content/ is present, so fall back to content/.
     repo = Path(__file__).resolve().parent.parent
     en_src = {p.stem for p in (repo / "content" / "posts").glob("*.md")}
-    zh_src = {p.stem for p in (repo / "content" / "zh" / "posts").glob("*.md")}
+    zh_src = {p.stem for p in (repo / ZH_CONTENT_DIR / "posts").glob("*.md")}
     only_en = en_src - zh_src
     only_zh = zh_src - en_src
     if only_en:
@@ -100,7 +140,7 @@ def main() -> int:
             print(f"   • {f}")
         return 1
 
-    print(f"✅ multilingual invariants OK (EN+ZH, hreflang bidirectional, {len(en_src)} EN / {len(zh_src)} ZH paired)")
+    print(f"✅ multilingual invariants OK (EN+ZH, hreflang bidirectional, {len(en_src)} EN / {len(zh_src)} ZH paired, home lists in correct language)")
     return 0
 
 
