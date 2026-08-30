@@ -46,4 +46,17 @@ PROMPTS = {
         "crimson and jade neon glow, high contrast, cinematic lighting, "
         "photorealistic, moody, no text, no watermark"
     ),
+    # Zone 2 / VO2max — the aerobic engine most lifters never build
+    # No human figure (avoids the ethnicity rule + direction-flip problem) —
+    # a still-life of the heart-engine metaphor carrying the thesis in one second.
+    "zone2-vo2max": (
+        "Cinematic still life on a dark wooden workbench: a heavyweight barbell lying "
+        "horizontally, and beside it a glowing translucent anatomical heart with warm "
+        "pulsing emerald-green light from within, faint electrical energy filaments "
+        "veining its surface like an engine firing to life. The heart casts a soft jade "
+        "glow over the steel bar, highlighting the contrast between raw strength and "
+        "the untended engine. Deep charcoal background, moody chiaroscuro, volumetric "
+        "light rays, photorealistic-illustrative, film grain, 16:9 composition, "
+        "no text, no watermark, no people"
+    ),
 }
