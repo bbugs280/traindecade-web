@@ -128,6 +128,48 @@ def main() -> int:
                 f"{expect_fragment!r}, got {got_sample}"
             )
 
+    # --- 6 (lang switcher targets the CURRENT page, not home) ---
+    # Bug (2026-08-30): theme header.html used `site.Home.Translations`, so the
+    # header lang-toggle always linked to the home page's translation (/zh/ or /)
+    # instead of the CURRENT page's translation (/zh/posts/<slug>/ etc). Fix: the
+    # site-level header override uses `.Translations` (the current page's).
+    # Assert: on a deep post page, the lang-menu href points at the SAME slug in
+    # the other language, NOT the bare home. Extract from a representative post.
+    DEEP_SLUG = "zone2-vo2max-longevity-engine"
+    for rel, expect_path in [
+        # EN post → should link to /zh/posts/<slug>/ (same post in ZH)
+        (f"posts/{DEEP_SLUG}/index.html", f"/zh/posts/{DEEP_SLUG}/"),
+        # ZH post → should link to /posts/<slug>/ (same post in EN)
+        (f"zh/posts/{DEEP_SLUG}/index.html", f"/posts/{DEEP_SLUG}/"),
+    ]:
+        f = public / rel
+        if not f.exists():
+            continue  # post not built in this run — skip silently (parity check covers orphans)
+        html = _read(f)
+        # lang-menu block: <ul class=lang-menu> ... <a href=...> ... </ul>.
+        # The minifier may or may not quote attrs and may or may not collapse
+        # newlines, so anchor on the literal `lang-menu` token and span to the
+        # first `</ul>` with DOTALL (the lang switcher is the first </ul> after).
+        i = html.find("lang-menu")
+        if i < 0:
+            failures.append(f"{rel}: no lang-menu block found (header override missing?)")
+            continue
+        j = html.find("</ul>", i)
+        menu = html[i:j] if j > 0 else html[i:i+400]
+        # Anchor hrefs come quoted ("...") in the non-minified build and may be
+        # unquoted in --minify output. Match both forms explicitly (avoid a raw
+        # string's backslash-class footgun that silently mis-escapes \s → 's').
+        hrefs = re.findall(r'href="([^"]+)"|href=\'([^\']+)\'|href=([^\s>"\']+)', menu)
+        hrefs = [a or b or c for a, b, c in hrefs]
+        combined = " ".join(hrefs)
+        # The anchor href may be a root-relative path (minifier drops the scheme
+        # + host) or absolute; normalize by keeping only the path tail.
+        if expect_path not in combined:
+            failures.append(
+                f"{rel}: lang-menu links to {hrefs!r}, expected the current page's "
+                f"translation {expect_path!r} (got the home page instead?)"
+            )
+
     # --- 4: EN <-> ZH post parity (orphan translation guard) ---
     repo = Path(__file__).resolve().parent.parent
     en_src = {p.stem for p in (repo / "content" / "posts").glob("*.md")}
