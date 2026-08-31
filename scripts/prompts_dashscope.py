@@ -59,4 +59,16 @@ PROMPTS = {
         "light rays, photorealistic-illustrative, film grain, 16:9 composition, "
         "no text, no watermark, no people"
     ),
+    # Balance / fall prevention — single-leg stance, functional independence
+    # No face / no discernible ethnicity (backlit silhouette of the foot/leg only),
+    # same approach as grip-strength to sidestep the ethnicity + direction issues.
+    "balance-training": (
+        "Cinematic still life of a single bare foot and lower leg balanced on its toes "
+        "on a dark slate floor, heavily backlit so the figure is a near-silhouette "
+        "with a strong jade-green rim light outlining the form, the other foot lifted "
+        "slightly off the ground suggesting a delicate single-leg balance pose, warm "
+        "editorial mood, deep charcoal background, moody chiaroscuro, volumetric light, "
+        "photorealistic-illustrative, film grain, 16:9 composition, no text, no "
+        "watermark, no face"
+    ),
 }
