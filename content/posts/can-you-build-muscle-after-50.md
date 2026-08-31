@@ -3,7 +3,7 @@ title: "Can You Build Muscle After 50? The Evidence Says Yes — Here's the Hone
 date: 2026-08-22T09:00:00+08:00
 draft: false
 tags: ["muscle building", "over 50", "aging", "strength training"]
-description: "The 'too old to build muscle' story is a sales pitch, not science. Here's what the research actually shows about gaining muscle in your 50s, 60s, and beyond — and what genuinely changes with age."
+description: "Can a 50-year-old man build muscle? Yes — the research shows men over 50 (and 60, and 70) gain serious muscle with resistance training. Here's how to build muscle after 50, and what genuinely changes with age."
 cover:
   image: "cover-after50.png"
   alt: "Can You Build Muscle After 50?"
@@ -41,9 +41,9 @@ The truth — *train consistently and your body adapts at any age* — is worse 
 
 This is the same shape every traindecade post makes: **the villain is the quick-fix industry, the hero is your decade-scale self.** And nowhere is that truer than the question of whether fifty is too late. It isn't.
 
-## What the over-50 beginner should actually do
+## How to build muscle after 50 (the actual method)
 
-If you're past fifty and starting (or restarting), the playbook is the same foundation as any beginner — with two upgrades:
+If you're a 50-year-old man — or 60, or 70 — the method for building muscle is the same foundation as any beginner, with two upgrades for the older body. The research doesn't switch you to a different rulebook at fifty; it just tunes two dials.
 
 1. **Train 2–3× a week, whole body, progressive load.** Squat, hinge, push, pull, carry. Start embarrassingly light. Add 2.5 kg a session. The Frontera result came from exactly this: basic, consistent, progressive resistance — no secrets.
 
