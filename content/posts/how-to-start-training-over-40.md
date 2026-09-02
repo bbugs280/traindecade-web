@@ -1,6 +1,7 @@
 ---
 title: "How to Start Training at 40+ (The Beginner's Guide)"
 date: 2026-08-21T00:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["beginner", "over 40", "training"]
 description: "Your first thirty days of training, mapped week by week. No six-week transformations, no ego lifts — just the exact starting point for men over 40 who've never trained, or haven't touched a weight in decades."

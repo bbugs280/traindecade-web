@@ -1,6 +1,7 @@
 ---
 title: "Why Crash Diets Fail"
 date: 2026-08-22T00:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["nutrition", "weight loss", "metabolism", "fat loss"]
 description: "Cut to 1,200 calories and the weight comes off fast — then it comes back, usually with more. The metabolic science behind why crash diets rebound, and what actually works instead."

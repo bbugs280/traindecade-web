@@ -1,6 +1,7 @@
 ---
 title: "Cut vs Gain: How to Structure Your Phases"
 date: 2026-08-21T00:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["cut", "bulk", "phases", "nutrition"]
 description: "Cut or bulk first? For how long? The fitness industry treats these as a yearly flip-flop. Here's how to actually structure your phases — the evidence, the timelines, and the trap most men fall into."

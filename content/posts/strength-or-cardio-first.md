@@ -1,6 +1,7 @@
 ---
 title: "Strength or Cardio First? The Evidence Says Do This"
 date: 2026-08-22T11:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["strength training", "cardio", "programming", "over 40"]
 description: "Lift weights or hit the treadmill first? The answer matters more after 40 — and the research points the same way for almost everyone. The order, the dose, and the decade-scale logic."

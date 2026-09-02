@@ -1,6 +1,7 @@
 ---
 title: "Whey vs. Beef Protein: Which Powder Actually Builds Muscle After 40?"
 date: 2026-08-28T07:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["protein", "whey protein", "beef protein", "supplements", "nutrition", "over 40"]
 description: "Beef protein powder is everywhere now, and the marketing says it's the dairy-free answer to whey. Here's what the actual research shows — and which one you should be buying after 40."

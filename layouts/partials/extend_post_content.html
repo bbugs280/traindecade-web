@@ -1,0 +1,17 @@
+{{- /* Author bio block — rendered at the end of every post (single page only).
+      Adds the E-E-A-T "who wrote this & why trust them" signal Google's quality
+      reviewers look for. Links to /about for full credentials. Language-aware
+      via i18n. */ -}}
+{{- if .IsPage }}
+{{- if not (.Param "hideAuthor") }}
+<div class="author-bio" style="margin-top: 2rem; padding: 1rem 1.25rem; border: 1px solid var(--border); border-radius: 8px; font-size: 0.95rem;">
+  <div style="font-weight: 600; margin-bottom: 0.35rem;">
+    <a href="{{ "about" | absLangURL }}" rel="author">{{ i18n "about_the_author" | default "About the author" }}</a>
+  </div>
+  <p style="margin: 0; opacity: 0.85;">
+    {{ i18n "author_bio" | default "Train Decade is written by a lifter tracking his own decade of training — testing every method against peer-reviewed research and real-world results before it's published here." }}
+    <a href="{{ "about" | absLangURL }}" rel="author">{{ i18n "read_more" | default "Read more" }} →</a>
+  </p>
+</div>
+{{- end }}
+{{- end }}

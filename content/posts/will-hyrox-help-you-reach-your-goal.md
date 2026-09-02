@@ -1,6 +1,7 @@
 ---
 title: "Will Hyrox Help You Reach Your Goal?"
 date: 2026-08-23T00:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["hyrox", "training", "motivation", "goals", "over 40"]
 description: "Hyrox isn't a training program — it's a target, a deadline, and a measurable milestone. Here's how to use it as a tool for your real goal, and the trap to avoid when the race starts to feel like the destination."

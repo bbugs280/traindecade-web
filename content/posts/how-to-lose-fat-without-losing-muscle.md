@@ -1,6 +1,7 @@
 ---
 title: "How to Lose Fat Without Losing Muscle"
 date: 2026-08-25T09:30:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["fat loss", "muscle", "body composition", "weight loss", "men over 40", "GLP-1"]
 description: "Most weight loss burns muscle along with fat. Here's the research on why — and the two things that decide which one your body actually spends."

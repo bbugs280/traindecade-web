@@ -1,6 +1,7 @@
 ---
 title: "Grip Strength: The Mortality Number Most Lifters Ignore"
 date: 2026-08-30T07:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["grip strength", "longevity", "functional strength", "men over 40"]
 description: "Grip strength predicts all-cause and cardiovascular mortality better than blood pressure — and most men over 40 never train it. Here's what it measures, how it maps to a longer healthspan, and how to build it."

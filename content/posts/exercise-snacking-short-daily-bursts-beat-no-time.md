@@ -1,6 +1,7 @@
 ---
 title: "Exercise Snacking: Short Daily Bursts Beat the 'No Time' Excuse"
 date: 2026-09-01T07:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["exercise snacking", "strength training over 40", "busy men fitness", "men over 40"]
 description: "You don't need a 60-minute gym session to build fitness. Exercise snacking — short, sharp bursts of movement spread through the day — measurably improves VO2max and muscular endurance, and it's the single best answer to the 'no time' excuse."

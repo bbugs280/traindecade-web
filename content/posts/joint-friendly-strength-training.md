@@ -1,6 +1,7 @@
 ---
 title: "Your Knees Aren't the Problem: The Joint-Friendly Way to Lift After 40"
 date: 2026-08-26T09:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["joint pain", "strength training", "knee pain", "over 40", "osteoarthritis", "training"]
 description: "\"My knees can't lift anymore\" gets the story backwards. Load isn't what wrecks a joint — weak muscle is. Here's the evidence on how to lift through joint pain and come out stronger on the other side."

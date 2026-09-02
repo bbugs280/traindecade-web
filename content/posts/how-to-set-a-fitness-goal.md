@@ -1,6 +1,7 @@
 ---
 title: "How to Set a Fitness Goal That Actually Lasts"
 date: 2026-08-23T00:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["goals", "motivation", "mindset", "training"]
 description: "Most fitness goals fail before you ever hit the gym — because they're outcomes you can't control, borrowed from someone else, or too vague to steer by. Here's how to set a goal that survives a bad month and actually pulls you toward the decade."

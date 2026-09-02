@@ -1,6 +1,7 @@
 ---
 title: "你贏不了科學：量好你吃了什麼"
 date: 2026-08-23T10:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["nutrition", "calorie tracking", "fat loss", "habits", "weight loss"]
 description: "減脂受熱力學定律支配——你無法靠訓練贏過糟糕的飲食。你唯一能控制的變數，就是你真正吃進去的東西，而要知道那個數字，唯一的方法是量度它。為什麼記錄比猜測有效，以及它為何終有一天不再吃力。"

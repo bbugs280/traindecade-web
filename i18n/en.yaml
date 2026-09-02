@@ -1,0 +1,12 @@
+- id: about
+  translation: About
+- id: contact
+  translation: Contact
+- id: privacy
+  translation: Privacy
+- id: about_the_author
+  translation: About the author
+- id: author_bio
+  translation: Train Decade is written by a lifter tracking his own decade of training — testing every method against peer-reviewed research and real-world results before it's published here.
+- id: read_more
+  translation: Read more

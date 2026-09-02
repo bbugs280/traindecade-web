@@ -1,6 +1,7 @@
 ---
 title: "为什么激进节食注定失败"
 date: 2026-08-22T00:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["nutrition", "weight loss", "metabolism", "fat loss"]
 description: "把热量砍到 1,200 卡，体重掉得飞快——然后又涨回来，往往还更多。激进节食为何反弹的代谢科学，以及真正有效的方法。"

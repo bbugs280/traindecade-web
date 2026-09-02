@@ -1,6 +1,7 @@
 ---
 title: "Body Recomp for Men Over 40: Lose Fat and Build Muscle at the Same Time"
 date: 2026-08-21T00:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["recomp", "body recomp", "body recomposition", "over 40", "training"]
 description: "Body recomp — losing fat and building muscle at the same time — gets harder after 40, but it's far from impossible. Here's the evidence-based recomp playbook, adjusted for the decades most programs ignore."

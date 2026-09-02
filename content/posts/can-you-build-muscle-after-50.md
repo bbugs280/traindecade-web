@@ -1,6 +1,7 @@
 ---
 title: "Can You Build Muscle After 50? The Evidence Says Yes — Here's the Honest Version"
 date: 2026-08-22T09:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["muscle building", "over 50", "aging", "strength training"]
 description: "Can a 50-year-old man build muscle? Yes — the research shows men over 50 (and 60, and 70) gain serious muscle with resistance training. Here's how to build muscle after 50, and what genuinely changes with age."

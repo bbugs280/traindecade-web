@@ -1,6 +1,7 @@
 ---
 title: "Zone 2 and VO2max: The Longevity Engine Most Lifters Never Build"
 date: 2026-08-30T07:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["zone 2", "vo2max", "cardio", "longevity", "aerobic", "over 40"]
 description: "Every decade-scale lifter over-indexes strength and under-builds their aerobic engine. Here's what the evidence says about zone 2, VO2max, and longevity — and how to add it without giving up the barbell."

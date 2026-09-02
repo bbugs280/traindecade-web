@@ -1,6 +1,7 @@
 ---
 title: "Balance: The Skill You Regret Not Training"
 date: 2026-08-31T07:00:00+08:00
+lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["balance", "fall prevention", "functional fitness", "men over 40", "longevity"]
 description: "Balance peaks in your 20s, then quietly declines — and by the time you notice, the fall risk is already real. Here's how to test it, why it matters more than you think, and how to train it before you need to."
