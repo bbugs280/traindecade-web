@@ -20,7 +20,7 @@ Train Decade is the opposite. It's calm, evidence-based guidance for men who wan
 
 ## Who writes this
 
-The site is written by a lifter in his late 40s who has spent over a decade testing the methods he writes about against his own body — tracking training, nutrition, and body composition through cut and gain phases, and then checking the results against the published research. Nothing here is written as theory; it's written as practice that has survived contact with real joints, real plateaus, and real life.
+The site is written by Vincent, a lifter in his late 40s who has spent over a decade testing the methods he writes about against his own body — tracking training, nutrition, and body composition through cut and gain phases, and then checking the results against the published research. Nothing here is written as theory; it's written as practice that has survived contact with real joints, real plateaus, and real life.
 
 That experience is the point. A lot of fitness writing is done by people who have never had to fit a training program around a full-time job, a family, and twenty years of accumulated niggles. The guidance here is written from inside that exact situation.
 
