@@ -9,7 +9,7 @@ showToc: false
 
 Have a question, a correction, or a topic you'd like us to cover? We'd love to hear from you.
 
-Email us at **train.decade@gmail.com**.
+Email us at **contact@traindecade.com**.
 
 We read every message and reply as quickly as we can.
 

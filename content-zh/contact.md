@@ -9,7 +9,7 @@ showToc: false
 
 有問題、想更正，或想請我們寫某個主題？我們很樂意收到你的訊息。
 
-電郵至 **train.decade@gmail.com**。
+電郵至 **contact@traindecade.com**。
 
 我們會閱讀每一封訊息，並盡快回覆。
 
