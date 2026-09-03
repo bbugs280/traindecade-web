@@ -71,4 +71,21 @@ PROMPTS = {
         "photorealistic-illustrative, film grain, 16:9 composition, no text, no "
         "watermark, no face"
     ),
+    # Core strength for desk workers — sitting deconditioning the spine
+    # Heavily backlit near-silhouette, face turned away / lost in shadow, jade rim
+    # light — ethnicity NOT discernible (per the 2026-09-02 mobility-cover lesson:
+    # skip "ambiguous mixed ethnicity", go straight to backlit on the FIRST pass).
+    "core-strength-for-desk-workers": (
+        "Cinematic scene in a dark modern office at night: a man sits tall and braced "
+        "at a desk, seen in near-total silhouette, photographed from behind so his face "
+        "is never visible and his ethnicity is impossible to discern. His whole form is "
+        "backlit by a window glowing behind him, reducing him to a dark outline except "
+        "for a strong jade-green rim light tracing the line of his straight spine, his "
+        "shoulders, and the edge of the office chair and desk in front of him. A laptop "
+        "and desk lamp sit on the desk, unlit, as dim props. The posture is upright and "
+        "neutral — back straight, shoulders back — the silhouette itself carrying the "
+        "message of a strong braced core. Deep charcoal and warm editorial tones, moody "
+        "chiaroscuro, volumetric light, photorealistic-illustrative, film grain, 16:9 "
+        "composition, no text, no watermark, face obscured by backlight"
+    ),
 }
