@@ -71,6 +71,21 @@ PROMPTS = {
         "photorealistic-illustrative, film grain, 16:9 composition, no text, no "
         "watermark, no face"
     ),
+    # Muscle as metabolic armor — strength framed as a protective organ, not vanity.
+    # From behind / near-total silhouette with jade rim light (ethnicity not
+    # discernible, per the desk-worker/mobility cover lesson). The metaphor = armor.
+    "metabolic-armor": (
+        "Cinematic shot of a fit man in his 40s seen entirely from behind in "
+        "near-total silhouette, photographed from the rear so his face is never "
+        "visible and his ethnicity is impossible to discern. He stands bare-chested "
+        "with his back and shoulders to the camera, heavily backlit by a warm "
+        "editorial glow so his form is reduced to a dark outline, except for a "
+        "strong jade-green rim light tracing the contours of his trapezius, delts, "
+        "and spinal groove — the muscle itself reading as protective armor, almost "
+        "plate-like under the light. Deep charcoal background, moody chiaroscuro, "
+        "volumetric light rays, photorealistic-illustrative, film grain, 16:9 "
+        "composition, no text, no watermark, face obscured by backlight"
+    ),
     # Core strength for desk workers — sitting deconditioning the spine
     # Heavily backlit near-silhouette, face turned away / lost in shadow, jade rim
     # light — ethnicity NOT discernible (per the 2026-09-02 mobility-cover lesson:
