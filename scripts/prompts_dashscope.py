@@ -103,4 +103,21 @@ PROMPTS = {
         "chiaroscuro, volumetric light, photorealistic-illustrative, film grain, 16:9 "
         "composition, no text, no watermark, face obscured by backlight"
     ),
+    # Somatic awareness — re-learning to FEEL the body from the inside. This is
+    # an INWARD/quiet concept, NOT activity (inverse of the action-scene rule):
+    # a still-life of a paused, introspective moment. No person (avoids ethnicity
+    # + the "activity" trap). Object at rest + soft draped textile + calm low-key
+    # light. The metaphor = stillness/turning inward, sensing rather than doing.
+    "somatic-awareness": (
+        "Cinematic still life of a quiet, inward moment in a soft, warmly lit room: "
+        "an unrolled dark yoga mat on a pale wooden floor, a single soft folded "
+        "cream-colored cotton towel resting neatly on it, and beside the mat a waxed "
+        "paper cup of cooling tea with a faint wisp of steam, a low soft window light "
+        "falling across the scene in a single calm beam. Everything is still, "
+        "undisturbed, restful — nothing recent, no motion, no activity, no weight, no "
+        "active objects. The mood is contemplative and inwardly focused, as if someone "
+        "is about to lie still and simply feel. Warm editorial cream and jade-green "
+        "accent palette, soft diffused light, gentle shadows, photorealistic, film "
+        "grain, 16:9 composition, no text, no watermark, no people, no hands"
+    ),
 }
