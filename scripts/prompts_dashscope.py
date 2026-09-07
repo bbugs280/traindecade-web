@@ -120,4 +120,24 @@ PROMPTS = {
         "accent palette, soft diffused light, gentle shadows, photorealistic, film "
         "grain, 16:9 composition, no text, no watermark, no people, no hands"
     ),
+    # Vitamin D after 40 — the deficiency-markers-not-supplement thesis: a blood
+    # test vial is the hero (the STATUS CHECK), a small amber capsule is the
+    # decoy (the pill you don't auto-need), a dumbbell fades in the background.
+    # Still-life, no person/hands (avoids ethnicity + directionality). The contrast
+    # = "check the number, not the bottle" reads through the vial vs capsule.
+    "vitamin-d-after-40": (
+        "Cinematic still life on a pale wooden surface in a warm, softly lit "
+        "clinic-like room: in the foreground, a single upright glass blood-test "
+        "vial with a small cork stopper, a small printed label band, and a thin "
+        "line of rich amber liquid at its base, lit by a warm pool of light — the "
+        "object radiating precision, measurement and truth; beside it, a single "
+        "small amber gel capsule lying flat, slightly out of focus and in softer "
+        "light, clearly the optional, secondary item; in the background fading "
+        "into gentle shadow, a single small dumbbell resting, dim and indistinct, "
+        "suggesting muscle/strength without dominating. Conveying that the blood "
+        "level is the thing to check, the capsule is merely optional, and training "
+        "sits behind it all. Warm editorial cream and jade-green accent palette, "
+        "soft diffused light, gentle chiaroscuro, photorealistic-illustrative, "
+        "film grain, 16:9 composition, no text, no watermark, no people, no hands"
+    ),
 }
