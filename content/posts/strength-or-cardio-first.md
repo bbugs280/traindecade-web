@@ -1,14 +1,16 @@
 ---
-title: "Strength or Cardio First? The Evidence Says Do This"
+title: "Cardio or Strength First? The Order That Actually Matters After 40"
 date: 2026-08-22T11:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-09-07T08:00:00+08:00
 draft: false
 tags: ["strength training", "cardio", "programming", "over 40"]
-description: "Lift weights or hit the treadmill first? The answer matters more after 40 — and the research points the same way for almost everyone. The order, the dose, and the decade-scale logic."
+description: "Cardio or strength first? The evidence points one way for almost every man over 40: lift weights first, walk daily, treat cardio as the supporting player. Here's the order, the dose, and the decade-scale logic."
 cover:
   image: "cover-strength-cardio.png"
   alt: "Strength or Cardio First?"
 ---
+
+## Cardio or strength first? The answer (and why)
 
 The question sounds like a chore nobody should have to solve: *do I lift weights or do cardio first?* But behind it sits a tension every man over 40 eventually feels — there's only so much time and recovery in a week, and you keep hearing that both are essential.
 
