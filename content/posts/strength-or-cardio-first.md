@@ -1,7 +1,7 @@
 ---
 title: "Cardio or Strength First? The Order That Actually Matters After 40"
 date: 2026-08-22T11:00:00+08:00
-lastmod: 2026-09-07T08:00:00+08:00
+lastmod: 2026-09-15T08:48:42+08:00
 draft: false
 tags: ["strength training", "cardio", "programming", "over 40"]
 description: "Cardio or strength first? The evidence points one way for almost every man over 40: lift weights first, walk daily, treat cardio as the supporting player. Here's the order, the dose, and the decade-scale logic."
@@ -24,7 +24,7 @@ Here's the mechanism the "just do more cardio" advice ignores: muscle is the eng
 
 Muscle is metabolically active tissue — it burns energy all day, not just during exercise. When a man over 40 loses muscle (which he does, ~3–8% per decade without intervention), his resting metabolism slips with it. That's why so many men "eat less and move more" yet still put on fat: they've been cutting calories on a shrinking engine instead of rebuilding the engine.
 
-Strength training reverses that. Adding muscle raises metabolism, improves insulin sensitivity, and reshapes body composition in a way steady-state cardio simply can't. Cardio is excellent at burning calories *during* the session; strength training changes how your body burns them *the other 23 hours* — and for the long game, that's the lever.
+Strength training reverses that. Adding muscle raises metabolism, improves insulin sensitivity, and reshapes body composition in a way steady-state cardio simply can't. Cardio is excellent at burning calories *during* the session; strength training changes how your body burns them *the other 23 hours* — and for the long game, that's the lever. This is the same reason [muscle is metabolic armor](/posts/muscle-is-metabolic-armor-not-vanity/), not vanity — and if you're starting from zero, [how much protein you actually need](/posts/how-much-protein-do-you-really-need/) matters as much as the training itself.
 
 ## The session-order question (same answer, smaller scale)
 
@@ -32,7 +32,7 @@ When they *are* in the same workout, lift first. The logic is the same: strength
 
 A loaded squat after 40 minutes of running is a different animal than a loaded squat done fresh — your stabilizers are tired, your form degrades, and your injury risk climbs. Cardio, by contrast, degrades gracefully with fatigue; it's the more forgiving activity to do second.
 
-The exception proves the rule: if you're training *specifically* for an endurance event, cardio gets priority on some days. But for the goal that matters to most over-40 men — body composition, strength, and healthspan — **lift first, then move.**
+The exception proves the rule: if you're training *specifically* for an endurance event, cardio gets priority on some days — that's the [zone 2 and VO2max work](/posts/zone2-vo2max-longevity-engine/) worth building deliberately. But for the goal that matters to most over-40 men — body composition, strength, and healthspan — **lift first, then move.** If you're not training at all yet, start with [how to start training over 40](/posts/how-to-start-training-over-40/).
 
 ## What "cardio as support" actually looks like
 
@@ -41,7 +41,7 @@ This isn't a license to sit on the couch. Cardio is non-negotiable for heart hea
 - **Daily walking** — the unsung hero. Thirty minutes of brisk walking daily improves insulin sensitivity, aids recovery between lifting sessions, and quietly burns a few hundred calories without the stress of "cardio". This is cardio most people forget to count.
 - **2–3 short, harder sessions a week** — if you want more, add a couple of 20–30 minute moderate sessions or a single interval session. But it's the garnish, not the meal.
 
-The over-40 trap isn't doing too much cardio — it's doing cardio *as the foundation* while neglecting the strength work that actually changes body composition.
+The over-40 trap isn't doing too much cardio — it's doing cardio *as the foundation* while neglecting the strength work that actually changes body composition. The practical version of "cardio as support" is [exercise snacking](/posts/exercise-snacking-short-daily-bursts-beat-no-time/) — short daily bursts that fit a real schedule.
 
 ## The decade framing
 
