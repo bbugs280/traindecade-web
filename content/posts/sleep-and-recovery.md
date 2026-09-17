@@ -1,7 +1,7 @@
 ---
 title: "Sleep and Recovery: The Part of Muscle-Building You're Probably Skipping"
 date: 2026-08-22T12:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-09-17T09:00:00+08:00
 draft: false
 tags: ["sleep", "recovery", "muscle building", "over 40"]
 description: "Muscle isn't built in the gym — it's built while you recover. Why sleep and rest days matter more after 40, and the evidence-backed recovery levers that actually move the needle."
@@ -20,7 +20,7 @@ It's also the single most underrated part of the whole enterprise. You can nail 
 
 Two things genuinely change as you get older, and they both point the same way:
 
-**Muscle protein synthesis is slightly blunted** — the same workout triggers a bit less growth in a 55-year-old than a 25-year-old. **Repair takes longer** — connective tissue, tendons, and the nervous system all recover on a slower clock than they did in your twenties.
+**Muscle protein synthesis is slightly blunted** — the same workout triggers a bit less growth in a 55-year-old than a 25-year-old. **Repair takes longer** — connective tissue, tendons, and the nervous system all recover on a slower clock than they did in your twenties. That slower tendon clock is its own problem worth understanding: tendons adapt at a fraction of the speed of muscle, which is exactly why they're the tissue that ends training decades early. [Collagen and tendon loading](/posts/collagen-for-tendons-after-40/) covers what the evidence actually supports there.
 
 Put those together and the conclusion isn't "train less" — it's "recover on purpose." The over-40 lifter who treats recovery as a real, scheduled part of the plan closes most of the age gap. The one who treats it as an afterthought never does.
 

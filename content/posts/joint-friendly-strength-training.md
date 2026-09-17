@@ -1,7 +1,7 @@
 ---
 title: "Your Knees Aren't the Problem: The Joint-Friendly Way to Lift After 40"
 date: 2026-08-26T09:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-09-17T09:00:00+08:00
 draft: false
 tags: ["joint pain", "strength training", "knee pain", "over 40", "osteoarthritis", "training"]
 description: "\"My knees can't lift anymore\" gets the story backwards. Load isn't what wrecks a joint — weak muscle is. Here's the evidence on how to lift through joint pain and come out stronger on the other side."
@@ -17,6 +17,8 @@ They feel a twinge in a knee on the way down a squat, a click in a shoulder pres
 That story is backwards. And it's expensive, because it costs them exactly the thing that would have fixed the problem.
 
 Here's the version the evidence actually supports: **load doesn't break joints. Weak muscle does.**
+
+That flips the whole picture: if load is protective rather than destructive, then the connective tissue you're worried about is something you should be *supporting*, not avoiding. Tendons are the clearest case — they adapt to loading on a much slower clock than muscle, which is why they're usually what ends a training decade early. [Collagen and tendon loading](/posts/collagen-for-tendons-after-40/) covers what the supplement evidence actually supports there (and what it doesn't).
 
 ## The myth: lifting is "wear and tear"
 

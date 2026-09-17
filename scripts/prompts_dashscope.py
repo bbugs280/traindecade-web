@@ -140,4 +140,23 @@ PROMPTS = {
         "soft diffused light, gentle chiaroscuro, photorealistic-illustrative, "
         "film grain, 16:9 composition, no text, no watermark, no people, no hands"
     ),
+    # Collagen for tendons after 40 — the "load is the active ingredient" thesis:
+    # the hero object is the LOADED tendon stand-in (a taut resistance band under
+    # tension) while the supplement is only the supply line (a plain unbranded scoop
+    # of powder beside it). Still-life, no person/hands (avoids ethnicity +
+    # directionality). The contrast = "the work is the drug, the powder is just stock."
+    "collagen-tendons": (
+        "Cinematic still life on a dark slate surface in a warm, moody low-key room: "
+        "in the foreground, a single taut grey resistance band stretched under visible "
+        "tension between two dark steel pegs, its fibres catching a warm rim light so "
+        "the tension itself is the subject — the loaded connective tissue; beside it, "
+        "a plain unbranded scoop of fine pale collagen powder resting in a small dark "
+        "dish, matte and understated, clearly the secondary supply item rather than the "
+        "hero; in the background, fading into soft shadow, a single thick coil of "
+        "natural hemp rope suggesting tendon structure, dim and indistinct. Conveying "
+        "that the tension and the load are the active ingredient, and the powder is "
+        "only the raw material feeding it. Warm editorial cream and jade-green accent "
+        "palette, soft diffused light, gentle chiaroscuro, photorealistic-illustrative, "
+        "film grain, 16:9 composition, no text, no watermark, no people, no hands"
+    ),
 }
