@@ -1,7 +1,7 @@
 ---
 title: "Easy Protein Meal Prep: The Lazy Way to Hit 1.6 g/kg"
 date: 2026-08-22T13:00:00+08:00
-lastmod: 2026-09-17T08:00:00+08:00
+lastmod: 2026-09-17T10:00:00+08:00
 draft: false
 tags: ["protein", "meal prep", "recipes", "nutrition", "over 40"]
 description: "You've learned how much protein you need — now how to actually eat it without cooking every day. A minimal-effort, repeatable meal-prep system for hitting 1.6 g/kg, built around whole foods."
@@ -32,7 +32,7 @@ You don't need a recipe app. You need three repeatable formulas you can run with
 
 **2. The 3-ingredient plate.** Every meal becomes: **protein + a carb + a vegetable.** Chicken + rice + broccoli. Beef + sweet potato + green beans. Greek yogurt + berries + oats. You're not following a recipe — you're assembling from a stocked fridge.
 
-**3. The no-cook fallbacks.** For the days you don't even want to microwave: tinned tuna, Greek yogurt, cottage cheese, whey in milk, boiled eggs. These are the *gap-fillers* that keep you on target when life happens — and the reason the system survives contact with a busy week. (Not sure whether whey or a beef/dairy-free powder is the better buy for you? [The head-to-head evidence is here](/posts/whey-vs-beef-protein/) — including the one label detail that tells you if you're paying muscle-builder prices for joint-support collagen.)
+**3. The no-cook fallbacks.** For the days you don't even want to microwave: tinned tuna, Greek yogurt, cottage cheese, whey in milk, boiled eggs. These are the *gap-fillers* that keep you on target when life happens — and the reason the system survives contact with a busy week. (Not sure which powder is worth buying — whey, soy, casein, pea? [The full comparison is here](/posts/best-protein-powder-comparison/), including why the "best protein" ranking keeps flipping depending on how long you measure.)
 
 ## An 80 kg man's sample day (~130 g)
 

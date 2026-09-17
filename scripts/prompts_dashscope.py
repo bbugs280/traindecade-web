@@ -159,4 +159,24 @@ PROMPTS = {
         "palette, soft diffused light, gentle chiaroscuro, photorealistic-illustrative, "
         "film grain, 16:9 composition, no text, no watermark, no people, no hands"
     ),
+    # Protein powder comparison — the PILLAR post's thesis: the "best protein"
+    # ranking flips depending on how long you measure, so the leaderboard is a
+    # stopwatch artefact. Hero = a row of identical unbranded powder mounds
+    # (the false ranking), with a single taller/brighter one called out.
+    # Still-life, no person/hands (avoids ethnicity + directionality).
+    "protein-comparison": (
+        "Cinematic still life on a dark slate surface in a warm, moody low-key room: "
+        "a row of six small identical dark ceramic dishes, each holding a neat mound "
+        "of fine protein powder, all in slightly different natural shades — pale cream, "
+        "soft ivory, light tan, warm beige, muted ochre and faint sage — lined up evenly "
+        "from foreground receding into soft shadow, as if ranked in order; the second "
+        "dish from the left catches a single warm rim light so it reads as the one being "
+        "singled out as 'the winner', the rows behind it falling progressively into "
+        "gentle shadow. A plain unbranded measuring scoop rests flat beside the first "
+        "dish, matte and understated. Conveying that the ranking between these near-"
+        "identical mounds is arbitrary and depends on how you measure. Warm editorial "
+        "cream and jade-green accent palette, soft diffused light, gentle chiaroscuro, "
+        "photorealistic-illustrative, film grain, 16:9 composition, no text, no "
+        "watermark, no people, no hands"
+    ),
 }
