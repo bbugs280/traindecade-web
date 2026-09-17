@@ -1,7 +1,7 @@
 ---
 title: "How Much Protein Do You Really Need? The Evidence, Not the Bro-Science"
 date: 2026-08-22T10:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-09-17T08:00:00+08:00
 draft: false
 tags: ["protein", "nutrition", "over 40", "muscle building"]
 description: "1 gram per pound? Just the RDA? The real answer sits in the middle — and it matters more after 40. The evidence-based protein dose for building muscle, in plain numbers."
@@ -39,7 +39,7 @@ Forget the supplement-store theatrics. The math is simpler than the industry wan
 - **80 kg man → ~128 g/day**, or ~40 g across three meals (plus a little extra).
 - That's a palm of chicken (~30 g), two eggs (~12 g), a scoop of whey or a Greek yogurt (~20–25 g), a tin of tuna (~25 g), a serving of beef (~35 g). You don't need a spreadsheet — you need roughly a palm-sized protein source per meal, three times a day.
 
-Whole foods beat powders — not because powders are bad, but because food carries the micronutrients, satiety, and habit you're actually building a decade on. A scoop of whey is a fine gap-filler, not a strategy. (Want a system for hitting the number without cooking every day? See [Easy Protein Meal Prep](/posts/easy-protein-meal-prep/).)
+Whole foods beat powders — not because powders are bad, but because food carries the micronutrients, satiety, and habit you're actually building a decade on. A scoop of whey is a fine gap-filler, not a strategy. (Want a system for hitting the number without cooking every day? See [Easy Protein Meal Prep](/posts/easy-protein-meal-prep/). If you're deciding *which* powder to buy, the evidence — including the label check that separates a real protein from overpriced collagen — is broken down in [Beef Protein Powder vs Whey](/posts/whey-vs-beef-protein/).)
 
 ## The decade framing
 

@@ -1,7 +1,7 @@
 ---
 title: "Body Recomp for Men Over 40: Lose Fat and Build Muscle at the Same Time"
 date: 2026-08-21T00:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-09-17T08:00:00+08:00
 draft: false
 tags: ["recomp", "body recomp", "body recomposition", "over 40", "training"]
 description: "Body recomp — losing fat and building muscle at the same time — gets harder after 40, but it's far from impossible. Here's the evidence-based recomp playbook, adjusted for the decades most programs ignore."
@@ -50,6 +50,8 @@ The forty-plus market is built on fear. Notice how much of it evaporates under e
 **"Spot-reduce your belly fat."** You can't meaningfully spot-reduce fat. A 2021 meta-analysis of over 1,000 people, plus a 12-week randomized trial before it (Kordi et al., 2015), found no meaningful local fat loss from training the muscle under a fat store. Crunches strengthen muscle; they don't burn the fat sitting on top of it. Fat leaves in a genetically-decided order, and the belly is usually last. Anyone selling a "belly blaster" is selling fiction.
 
 **"Boost your testosterone with this supplement."** With total testosterone falling ~0.4% per year, most men over 40 have normal levels — and the supplements do nothing but lighten your wallet. If you genuinely suspect low T, a blood test is cheaper and actually tells you something.
+
+**"This protein powder is the one that works."** Every supplement brand on the shelf is selling you a tub, and their "evidence" is written to close the sale. The actual head-to-head research is boringly undramatic — which is exactly why nobody markets with it. We walked through the real studies (and the one label detail that separates a genuine protein from repackaged collagen) in [Beef Protein Powder vs Whey](/posts/whey-vs-beef-protein/).
 
 **"It's all downhill after 40."** This is the master narrative — and it's a pitch disguised as biology. Muscle is built and fat is lost at *any* age. The men in their 60s and 70s gaining serious muscle in study after study are the proof that this line is a lie designed to make you feel too late to start.
 
