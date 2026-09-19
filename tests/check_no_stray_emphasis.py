@@ -91,10 +91,17 @@ def main() -> int:
             extra = f"  (__ x{u})" if u else ""
             print(f"   {rel:52s} * x{s}{extra}")
         print(f"\n   {len(offenders)} page(s), {total_stars} stray '*'")
-        print("\n   Cause: goldmark will not close a ** run when the closing")
-        print("   marker follows CJK punctuation (：。？！，、；), or when the")
-        print("   span nests a single-* run. Move the punctuation OUTSIDE the")
-        print("   marker:  **重點：**  ->  **重點**：")
+        print("\n   Two verified causes - check BOTH:")
+        print("")
+        print("   A) opener followed straight by a bracket/quote char")
+        print("      **\u300c...**  -> BROKEN    fix: space before opener, or move")
+        print("      the bracket outside:  \u300c**...**\u300d")
+        print("")
+        print("   B) closer preceded by CJK punctuation (" + TRAILING_CJK + ")")
+        print("      **\u2026\u6b78\u8ab0\u7ba1\uff1f**\u9019  -> BROKEN    fix: **\u2026\u6b78\u8ab0\u7ba1\uff1f** \u9019  or  **\u2026\u6b78\u8ab0\u7ba1**\uff1f\u9019")
+        print("")
+        print("   Diagnose with the rendered page, not the source: the same")
+        print("   source shape can render fine depending on surrounding chars.")
         return 1
 
     print(f"✅ no stray emphasis markers "
