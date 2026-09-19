@@ -26,13 +26,13 @@ cover:
 
 順帶一提，抓握力其實是預測中老年人整體健康的最佳單一指標之一——它是全身肌肉的代表，不只是「手有沒有力」。所以一個跟抓握力掛鉤的血液指標，也就跟你真正想保住的那件事掛了鉤。
 
-以上全是「關聯」，不是因果證明——觀察性、橫斷面、單一時間點。但方向在多個研究裡都一致，而且都指向同一個結論：**真正的問題是「缺乏」，不是「沒在補」。**
+以上全是「關聯」，不是因果證明——觀察性、橫斷面、單一時間點。但方向在多個研究裡都一致，而且都指向同一個結論：**真正的問題是「缺乏」，不是「沒在補」**。
 
 ## 補充品的陷阱（買那瓶之前先看這裡）
 
 誠實的關鍵就在這裡，而這正是行銷刻意略過的部分。
 
-隨機對照試驗——真正能回答「多吃維他命D會不會變強壯」的黃金標準——大致上都發現：**對那些沒有缺乏的人，沒有好處。** 多個關於「維他命D補充對肌肉力量、爆發力、身體機能」的統合分析，在一般族群上全都得到「無效」的結果。研究作者講得很直白：補充維他命D「並不能改善中老年人的肌肉爆發力、力量與身體機能」。
+隨機對照試驗——真正能回答「多吃維他命D會不會變強壯」的黃金標準——大致上都發現：**對那些沒有缺乏的人，沒有好處**。 多個關於「維他命D補充對肌肉力量、爆發力、身體機能」的統合分析，在一般族群上全都得到「無效」的結果。研究作者講得很直白：補充維他命D「並不能改善中老年人的肌肉爆發力、力量與身體機能」。
 
 所以那根槓桿不是「吃維他命D來長肌肉」，而是：
 
@@ -53,20 +53,20 @@ cover:
 - **很少吃深海魚**（三文魚、鯖魚、沙甸魚是主要食物來源）。
 - **體重較重**——維他命D是脂溶性，會被脂肪組織「扣押」。
 
-如果你中了其中好幾項，你就是那個該重新看一眼驗血報告的人——不是因為一顆膠囊能讓你變強，而是因為一個*沒被察覺的缺乏*，會在你還沒感覺到的時候，悄悄拖慢你，直到它已經付出代價。
+如果你中了其中好幾項，你就是那個該重新看一眼驗血報告的人——不是因為一顆膠囊能讓你變強，而是因為一個沒被察覺的缺乏，會在你還沒感覺到的時候，悄悄拖慢你，直到它已經付出代價。
 
 ## 三十秒版
 
-1. **去拿那個數字。** 下次抽血時，要求加驗 25-羥基維他命D。別猜——「我有吃綜合維他命，應該沒事」這種假設，正是缺乏狀態躲起來的方式。
-2. **只有缺乏的人才需要行動。** 低於 30 nmol/L → 去矯正（先用高劑量拉回來，再用維持劑量，通常每日 800–2000 IU 視建議而定）。高於 50 → 沒事，把錢省下來。
-3. **別期待力量暴增。** 矯正缺乏是「保住機能」，不是「長肌肉」。那要靠[訓練](/zh/posts/strength-training-after-40-how-to-start/)和[蛋白質](/zh/posts/how-much-protein-do-you-really-need/)。
-4. **先靠陽光和食物。** 每週幾次、每次 10–20 分鐘露出手臂和小腿曬太陽，加上深海魚，對一般人來說比一顆藥更有效——而且免費。
+1. **去拿那個數字**。 下次抽血時，要求加驗 25-羥基維他命D。別猜——「我有吃綜合維他命，應該沒事」這種假設，正是缺乏狀態躲起來的方式。
+2. **只有缺乏的人才需要行動**。 低於 30 nmol/L → 去矯正（先用高劑量拉回來，再用維持劑量，通常每日 800–2000 IU 視建議而定）。高於 50 → 沒事，把錢省下來。
+3. **別期待力量暴增**。 矯正缺乏是「保住機能」，不是「長肌肉」。那要靠[訓練](/zh/posts/strength-training-after-40-how-to-start/)和[蛋白質](/zh/posts/how-much-protein-do-you-really-need/)。
+4. **先靠陽光和食物**。 每週幾次、每次 10–20 分鐘露出手臂和小腿曬太陽，加上深海魚，對一般人來說比一顆藥更有效——而且免費。
 
 維他命D是驗血報告裡早就存在、卻沒人圈出來的那個數字。它不會讓你變壯。它會告訴你，你的身體是不是帶著半空的油箱在跑——而到了四十歲以上，這是值得知道的資訊。
 
 ## 來源
 
-- **Aspell N 等人，《Vitamin D deficiency is associated with impaired muscle strength and physical performance in community-dwelling older adults: the English Longitudinal Study of Ageing (ELSA)》，《Clinical Interventions in Aging》（2019）。** n=4,157 位 60 歲以上成年人；缺乏（<30 nmol/L）與低抓握力（OR 1.44）及身體機能表現不佳／SPPB（OR 1.65）相關。屬橫斷面觀察，非因果。
-- **Rosendahl-Riise H 等人，《Vitamin D supplementation and its influence on muscle strength and mobility in community-dwelling older persons: a systematic review and meta-analysis》。** 未併用鈣質的補充，對肌肉力量／活動力無一致改善；好處集中於矯正真正的缺乏。
-- **《American Journal of Clinical Nutrition》——維他命D補充試驗彙整。** 近期試驗顯示，補充維他命D無法改善非缺乏中老年人的肌肉爆發力／力量／身體機能；30 nmol/L 的缺乏切點正是矯正有意義之處。
-- **Sharifian G 等人（2025），《European Review of Aging and Physical Activity》——肌酸統合分析。** 對照案例：肌酸*確實*能改善中老年人 1RM 力量（P=0.001），而維他命D只是狀態指標；引用以闡明「兩者工作不同」。
+- **Aspell N 等人，《Vitamin D deficiency is associated with impaired muscle strength and physical performance in community-dwelling older adults: the English Longitudinal Study of Ageing (ELSA)》，《Clinical Interventions in Aging》（2019）**。 n=4,157 位 60 歲以上成年人；缺乏（<30 nmol/L）與低抓握力（OR 1.44）及身體機能表現不佳／SPPB（OR 1.65）相關。屬橫斷面觀察，非因果。
+- **Rosendahl-Riise H 等人，《Vitamin D supplementation and its influence on muscle strength and mobility in community-dwelling older persons: a systematic review and meta-analysis》**。 未併用鈣質的補充，對肌肉力量／活動力無一致改善；好處集中於矯正真正的缺乏。
+- **《American Journal of Clinical Nutrition》——維他命D補充試驗彙整**。 近期試驗顯示，補充維他命D無法改善非缺乏中老年人的肌肉爆發力／力量／身體機能；30 nmol/L 的缺乏切點正是矯正有意義之處。
+- **Sharifian G 等人（2025），《European Review of Aging and Physical Activity》——肌酸統合分析**。 對照案例：肌酸確實能改善中老年人 1RM 力量（P=0.001），而維他命D只是狀態指標；引用以闡明「兩者工作不同」。

@@ -65,5 +65,5 @@ Strength gets all the trophy photos. Awareness is what keeps you in the game lon
 ## Sources
 
 - **Lara, Hamel & Anderson (2025), *Journal of Bodywork and Movement Therapies*.** — a 10-week somatic movement pilot (n=15, mean age ~73) produced a significant improvement in spinal mobility (Back Performance Scale −0.86, p=.005), while body/posture-awareness scores stayed flat — evidence that somatic practice builds measurable mobility though no "feeling" benefits were detected.
-- ***Frontiers in Psychology* (2024) — interoceptive awareness in clinical contexts.** — somatic/interoceptive practice engages the parasympathetic "rest and recover" response, reducing the stress-load that keeps chronic activation and tension elevated.
+- ***Frontiers in Psychology (2024) — interoceptive awareness in clinical contexts.** — somatic/interoceptive practice engages the parasympathetic "rest and recover" response, reducing the stress-load that keeps chronic activation and tension elevated.
 - **Thomas Hanna, *Clinical Somatic Education*.** — the foundational method (also carried by Essential Somatics®): pandiculation and slow, internally-attended movement to repattern habituated tension and chronic contraction rather than stretch against it.
