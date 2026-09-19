@@ -42,7 +42,7 @@ So the logic of supplementation seems obvious. But there's a catch that the indu
 
 This is where collagen has its strongest case, and it's genuinely better than most people assume.
 
-The **Buchalski et al. (2026)** systematic review** in the *Journal of Functional Morphology and Kinesiology* pooled eight randomized controlled trials (n = 257). Every one of them combined supplementation with resistance or plyometric training, over 3–15 weeks. Here's what came back:
+The **Buchalski et al. (2026)** systematic review in the *Journal of Functional Morphology and Kinesiology* pooled eight randomized controlled trials (n = 257). Every one of them combined supplementation with resistance or plyometric training, over 3–15 weeks. Here's what came back:
 
 ```
 ✅ Tendon cross-sectional area (CSA)      GRADE A  for

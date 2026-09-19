@@ -27,7 +27,7 @@ The defining studies use bouts as short as **60 seconds of sit-to-stands**, or 2
 
 ## The Evidence: Small Doses, Real Returns
 
-The most recent and comprehensive look at this is a **2026 systematic review and meta-analysis in BMJ Open Sport & Exercise Medicine*** (11 randomized controlled trials). It found that in physically inactive adults and older adults, exercise snacks delivered:
+The most recent and comprehensive look at this is a **2026 systematic review and meta-analysis in BMJ Open Sport & Exercise Medicine** (11 randomized controlled trials). It found that in physically inactive adults and older adults, exercise snacks delivered:
 
 - **Improved cardiorespiratory fitness (VO2max)**, with a large effect in inactive adults (g = 1.37, moderate certainty of evidence).
 - **Improved muscular endurance in older adults**, with a small-to-moderate effect (g = 0.40), allowing people to do *more* repetitions before fatigue.
