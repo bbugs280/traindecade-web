@@ -1,0 +1,107 @@
+{{- /* Protein target calculator — self-contained, no CDN, no framework.
+      Bilingual (EN default, ZH under /zh/). Answers are UNGATED: no email field,
+      no form, no popup. See docs/changes/2026-09-19.md for the scoped decision
+      that dropped email capture — do not add a form back here.
+
+      Basis: 1.6 g/kg of TOTAL bodyweight (the site's published figure), with a
+      lean-mass adjustment for the "higher body fat" option, explained in the
+      output rather than silently applied. Must stay consistent with
+      /posts/how-much-protein-do-you-really-need/
+*/ -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $isZH := eq $lang "zh" -}}
+{{- $sourcePost := .Page.File.BaseFileName -}}
+
+<div class="protein-calc"
+     data-lang="{{ $lang }}"
+     data-source-post="{{ $sourcePost }}"
+     role="group"
+     aria-labelledby="pc-heading">
+
+  <h3 id="pc-heading" class="pc-title">
+    {{- if $isZH -}}蛋白質目標計算機{{- else -}}Protein Target Calculator{{- end -}}
+  </h3>
+  <p class="pc-sub">
+    {{- if $isZH -}}
+      根據你的體重、目標與體脂狀況，算出每日蛋白質目標。結果即時顯示，不需留下任何資料。
+    {{- else -}}
+      Work out your daily protein target from your bodyweight, goal, and body composition. The answer shows instantly, and we don't ask you for anything.
+    {{- end -}}
+  </p>
+
+  <div class="pc-field">
+    <label class="pc-label" for="pc-weight">
+      {{- if $isZH -}}體重{{- else -}}Bodyweight{{- end -}}
+    </label>
+    <div class="pc-row">
+      <input class="pc-input" id="pc-weight" type="number" inputmode="decimal"
+             min="30" max="300" step="0.5" value="80"
+             aria-describedby="pc-weight-hint">
+      <div class="pc-toggle" role="group" aria-label="{{ if $isZH }}單位{{ else }}Units{{ end }}">
+        <button type="button" class="pc-unit is-active" data-unit="kg">kg</button>
+        <button type="button" class="pc-unit" data-unit="lb">lb</button>
+      </div>
+    </div>
+    <p class="pc-hint" id="pc-weight-hint">
+      {{- if $isZH -}}輸入 30–300，可切換公斤或磅。{{- else -}}Between 30 and 300. Switch between kg and lb freely.{{- end -}}
+    </p>
+  </div>
+
+  <div class="pc-field">
+    <label class="pc-label" for="pc-goal">
+      {{- if $isZH -}}你的目標{{- else -}}Your goal{{- end -}}
+    </label>
+    <select class="pc-input" id="pc-goal">
+      <option value="cut">{{ if $isZH }}減脂（保留肌肉）{{ else }}Lose fat (holding muscle){{ end }}</option>
+      <option value="maintain" selected>{{ if $isZH }}維持現狀{{ else }}Maintain{{ end }}</option>
+      <option value="build">{{ if $isZH }}增肌{{ else }}Build muscle{{ end }}</option>
+    </select>
+  </div>
+
+  <div class="pc-field">
+    <label class="pc-label" for="pc-training">
+      {{- if $isZH -}}重訓情況{{- else -}}Resistance training{{- end -}}
+    </label>
+    <select class="pc-input" id="pc-training">
+      <option value="yes" selected>{{ if $isZH }}每週有做重訓{{ else }}Training most weeks{{ end }}</option>
+      <option value="no">{{ if $isZH }}目前沒有{{ else }}Not right now{{ end }}</option>
+    </select>
+  </div>
+
+  <div class="pc-field">
+    <label class="pc-label" for="pc-bf">
+      {{- if $isZH -}}體脂狀況{{- else -}}Body composition{{- end -}}
+    </label>
+    <select class="pc-input" id="pc-bf">
+      <option value="lean">{{ if $isZH }}偏精瘦（可見腹肌輪廓）{{ else }}Lean (abs outline visible){{ end }}</option>
+      <option value="average" selected>{{ if $isZH }}一般（腰腹有肉但整體勻稱）{{ else }}Average (soft middle, otherwise even){{ end }}</option>
+      <option value="higher">{{ if $isZH }}體脂偏高（明顯中央肥胖）{{ else }}Higher body fat (clear midsection){{ end }}</option>
+    </select>
+    <p class="pc-hint">
+      {{- if $isZH -}}這一項會計算你的淨體重，用於調整目標。{{- else -}}This sets your lean-mass basis, which adjusts the target.{{- end -}}
+    </p>
+  </div>
+
+  <div class="pc-result" id="pc-result" aria-live="polite">
+    <div class="pc-result-main">
+      <span class="pc-result-num" id="pc-grams">—</span>
+      <span class="pc-result-unit">{{ if $isZH }}克 / 每日{{ else }}g per day{{ end }}</span>
+    </div>
+    <p class="pc-result-range" id="pc-perkg"></p>
+    <p class="pc-result-split" id="pc-split"></p>
+    <p class="pc-result-note" id="pc-note"></p>
+  </div>
+
+  <p class="pc-foot">
+    {{- if $isZH -}}
+      依據 <a href="/zh/posts/how-much-protein-do-you-really-need/">每日蛋白質攝取量</a> 的 1.6 g/kg 標準。<br>
+      這是一般健康成年人的參考值，不是醫療建議。有腎臟或代謝疾病請諮詢醫生。
+    {{- else -}}
+      Based on the <a href="/posts/how-much-protein-do-you-really-need/">1.6 g/kg evidence threshold</a>.<br>
+      A general adult reference, not medical advice. If you have kidney or metabolic conditions, talk to your doctor.
+    {{- end -}}
+  </p>
+</div>
+
+{{- $js := resources.Get "js/protein-calculator.js" | minify | fingerprint -}}
+<script src="{{ $js.RelPermalink }}" defer integrity="{{ $js.Data.Integrity }}"></script>

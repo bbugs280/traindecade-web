@@ -1,7 +1,7 @@
 ---
 title: "How Much Protein Do You Really Need? The Evidence, Not the Bro-Science"
 date: 2026-08-22T10:00:00+08:00
-lastmod: 2026-09-17T10:00:00+08:00
+lastmod: 2026-09-19T07:00:00+08:00
 draft: false
 tags: ["protein", "nutrition", "over 40", "muscle building"]
 description: "1 gram per pound? Just the RDA? The real answer sits in the middle — and it matters more after 40. The evidence-based protein dose for building muscle, in plain numbers."
@@ -15,6 +15,8 @@ Ask ten people how much protein you need and you'll get ten numbers, each delive
 Both are wrong in a way that's actually convenient for you to hear, because the real answer is a single number that the research keeps landing on — and it's less than the bros insist and far more than the skeptics admit.
 
 **The evidence-backed dose for building muscle is about 1.6 grams of protein per kilogram of body weight per day.** For a man at 80 kg (176 lb), that's roughly 128 g a day. Past that point, extra protein stops meaningfully adding muscle and just becomes expensive calories. Below it — especially as you get older — you're leaving gains on the table.
+
+**One caveat before you take 1.6 as gospel:** the figure is calculated against *total* bodyweight, which is a simplification. Protein targets scale with **lean mass** — the muscle, bone, and organ tissue doing the work — not with fat. So if you carry a lot of body fat, the total-weight figure overshoots what you actually need, and a leaner man at the same weight needs more. For most readers inside a normal range the difference is small. If your midsection carries obvious weight, run the numbers against your lean mass instead. (The [protein target calculator](/posts/how-much-protein-do-you-really-need/#protein-target-calculator) below does that adjustment for you and shows its working.)
 
 ## Why the two competing numbers are both wrong
 
@@ -48,6 +50,10 @@ Nobody's muscle mass collapses because they aimed 10 g under their protein targe
 A man at 45 who eats 1.6 g/kg and trains two to three times a week isn't doing anything dramatic. He's just removing the single most fixable reason men his age lose muscle — and letting the training actually work.
 
 Protein isn't magic. It's the raw material. Get the dose right and the boring consistency actually compounds; get it wrong for years and no amount of effort in the gym fully lands.
+
+## Run your own numbers {#protein-target-calculator}
+
+{{< protein-calculator >}}
 
 ---
 
