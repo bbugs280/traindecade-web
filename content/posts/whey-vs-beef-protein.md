@@ -1,7 +1,7 @@
 ---
 title: "Beef Protein Powder vs Whey: Which One Actually Builds Muscle After 40?"
 date: 2026-08-28T07:00:00+08:00
-lastmod: 2026-09-17T10:00:00+08:00
+lastmod: 2026-09-21T15:00:00+08:00
 draft: false
 tags: ["protein", "whey protein", "beef protein", "beef protein powder", "hydrolyzed beef protein", "beef vs whey", "supplements", "nutrition", "over 40"]
 description: "Beef protein powder vs whey protein — which actually builds muscle after 40? The hydrolyzed-beef-vs-whey research shows a near tie, but one detail on the label decides which tub is right for you."
@@ -32,6 +32,13 @@ If you want the verdict before the detail, here it is: **beef protein vs whey pr
 
 This is the single most important label check in this whole conversation. **Beef protein is only a true whey competitor if it's fortified to complete its amino acid profile.** If the tub says "hydrolyzed collagen" without added tryptophan, you're buying joint support, not a muscle-builder.
 
+**How to tell which one you're actually holding.** Protein quality is scored by amino acid profile, and the two common scores both give collagen a flat zero:
+
+- **PDCAAS** — whey isolate and milk protein isolate score **1.00** (the maximum). Whole beef scores 0.92. **Gelatin and collagen score 0.00.**
+- **The essential-amino-acid count settles it.** Per 100 g, whey isolate carries about **35 g of essential amino acids and BCAAs**. Beef protein isolate carries about **19 g** — and its profile is nearly identical to gelatin, the cooked-collagen benchmark nobody claims builds muscle.
+
+So when a label says "beef protein" but the ingredients read *hydrolyzed collagen* or *hydrolyzed gelatin*, that zero is what you're buying. Entirely legal — collagen comes from cattle, so manufacturers are allowed to call it beef protein. But it puts the burden on you to check, not on them to tell you.
+
 ## The head-to-head evidence (it's closer than the marketing admits)
 
 The study everyone quotes is **Sharp et al. (2015)**, published in the *Journal of the International Society of Sports Nutrition*. Resistance-trained men took either beef protein isolate or whey for eight weeks while training. The result: **no significant difference** in lean mass, strength, or body composition between the two groups.
@@ -39,6 +46,8 @@ The study everyone quotes is **Sharp et al. (2015)**, published in the *Journal 
 Read that again. Eight weeks, head-to-head, and the "superior" whey edge was statistically indistinguishable from beef. Whey *trended* slightly higher — most analyses still give it the marginal nod for pure MPS, because more leucine is more leucine — but "marginal" is the operative word.
 
 The catch: beef protein's research stack is thin. Whey has *hundreds* of clinical trials; beef isolate has fewer than twenty. What that means in practice is not "beef doesn't work" — it's "beef is *less proven*, not *proven worse*." For a man after 40 deciding where to spend his money, that distinction is the whole ballgame.
+
+**And here's the part no vendor page will print about that study.** Sharp's trial was **funded by Essentia Metabolic Proteins** — the ingredient manufacturer whose **BeefISO™** product it tested. That disclosure is in the paper itself. It does not make the result wrong: the design was double-blind and placebo-controlled, and a null result *favours* the funder's rival, not their product — a company paying for a study that finds a tie is not the usual shape of industry bias. But you deserve to know the funding line before you weigh the number, because it's exactly the detail the sites selling you a tub leave out of their version. Now verify it yourself: [PMC4595383](https://pmc.ncbi.nlm.nih.gov/articles/PMC4595383/) — the funding statement is in there.
 
 ## Where beef actually wins (and it's not muscle)
 
@@ -83,5 +92,7 @@ That applies to the logging side too. The protein-counting is the part that actu
 - **Sharp et al. (2015)** — "The effects of beef, chicken, or whey protein after workout on body composition and muscle performance." *Journal of the International Society of Sports Nutrition.* Eight-week RCT in resistance-trained men found **no significant difference** in lean mass, strength, or body composition between beef protein isolate and whey.
 - **Leucine and muscle protein synthesis** — Whey is ~11% leucine by weight, the highest of common proteins; leucine is the primary amino-acid trigger of muscle protein synthesis (Phillips 2016, *Nutrients*, PMCID PMC4997435).
 - **Collagen's incomplete profile** — Collagen-derived protein is low in or missing tryptophan, an essential amino acid, so unfortified hydrolyzed collagen cannot support muscle building as a complete protein (FAO 2013 Protein Quality Evaluation).
+- **Protein-quality scores (PDCAAS)** — Whey protein isolate and milk protein isolate score 1.00 (the PDCAAS maximum); whole beef scores 0.92; gelatin and collagen score 0.00. Beef protein isolate's essential-amino-acid content (~19.4 g per 100 g) is nearly identical to gelatin's, versus ~35 g per 100 g for whey isolate.
+- **Study funding disclosure** — Sharp et al. (2015), *JISSN* 12 (Suppl 1) — **Essentia Metabolic Proteins provided funding for this trial**, and the BeefISO™ product tested is Essentia's own ingredient. Read the funding statement directly: [PMC4595383](https://pmc.ncbi.nlm.nih.gov/articles/PMC4595383/). Stated here so the reader can weigh it; the null design result *favours* whey, not the funder.
 - **Lactose malabsorption prevalence** — An estimated 65–70% of the global adult population has some degree of lactose malabsorption (NIH, NCBI Bookshelf NBK532285).
 - **Research volume contrast** — Whey is supported by hundreds of clinical trials; beef protein isolate by fewer than twenty, making whey the better-evidenced (not necessarily better-performing) choice.
