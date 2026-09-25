@@ -67,7 +67,7 @@ In plain language: **how fast you walk isn't the point. How much you walk is.** 
 **The Lancet Public Health 2025** (57 studies, 35 cohorts) makes this clearest. The inflection points land between **5,000 and 7,000 steps**:
 
 - Against 2,000 steps a day, **7,000 steps** is associated with **47% lower all-cause mortality** (HR 0.53), 25% lower cardiovascular disease incidence, plus improvements in dementia, falls and depression
-- Against 7,000 steps, **10,000 steps** adds only about **10%** more all-cause mortality reduction — and shows **no statistical difference** for cardiovascular disease, type 2 diabetes or falls
+- Against 7,000 steps, **10,000 steps** adds only about **10%** more all-cause mortality reduction — and shows **no statistical difference** for cardiovascular disease **mortality**, type 2 diabetes or falls
 
 And even very low counts matter: **4,000 steps versus 2,000** is already 36% lower all-cause mortality.
 
