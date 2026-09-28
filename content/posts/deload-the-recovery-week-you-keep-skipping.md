@@ -94,6 +94,8 @@ For a beginner (less than a year of serious training), you may not need schedule
 
 That's exactly why people skip it. And exactly why the ones who don't are the ones whose numbers, year after year, actually keep going up.
 
+A deload is a *scheduled* back-off. But sometimes your body asks for one on its own schedule — and if you can't see the signal, you'll grind straight through it. That signal is [CNS fatigue](/posts/your-nervous-system-is-fried/).
+
 ## Sources
 
 - Rogerson D, Nolan D, Korakakis PA, Immonen V, Wolf M, Bell L (2024). *Deloading Practices in Strength and Physique Sports: A Cross-sectional Survey.* Sports Medicine Open, 10:26. — First survey to document real-world deload practice in 246 competitive athletes: typical deload ~6.4 days, every ~5.6 weeks, with reduced volume and load but unchanged frequency and exercise selection. Failure attributed primarily to training too heavy or with too much volume.

@@ -58,6 +58,8 @@ Training harder is easy to sell and easy to feel. Recovering well is invisible a
 
 Train to signal. Sleep to build. Rest to grow. That's the whole secret, and it was never more valuable than it is after 40.
 
+Sleep isn't the only recovery input you can see. There's a second one — the one that explains why a stalled lift often isn't a muscle problem at all. See [CNS fatigue: why your strength stalls after 40](/posts/your-nervous-system-is-fried/).
+
 ---
 
 ## Sources

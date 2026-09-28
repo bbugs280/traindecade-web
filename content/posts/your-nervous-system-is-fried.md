@@ -1,9 +1,10 @@
 ---
-title: "Your Muscles Are Fine. Your Nervous System Is Fried."
+title: "CNS Fatigue: Why Your Strength Stalls After 40 (and How HRV Catches It)"
 date: 2026-09-05T07:00:00+08:00
+lastmod: 2026-09-28T10:00:00+08:00
 draft: false
-tags: ["recovery", "nervous system", "cns fatigue", "hrv", "over 40", "strength training"]
-description: "When the bar feels heavy for no reason and your coordination is off, it's usually not your muscles — it's your nervous system. Why CNS fatigue stalls your strength, how HRV reveals it, and how to train around it."
+tags: ["cns fatigue", "central nervous system fatigue", "cns fatigue symptoms", "nervous system", "recovery", "hrv", "over 40", "strength training", "central vs peripheral fatigue"]
+description: "CNS fatigue — central nervous system fatigue — explained: why the bar feels glued down while your muscles feel fine, the symptoms that separate it from ordinary soreness, and how HRV tells you when to back off. For lifters over 40."
 cover:
   image: "cover-nervous-system-fried.png"
   alt: "A lone barbell in dim light, at rest, nervous system recovery"
@@ -13,9 +14,9 @@ Here's a feeling every lifter over 40 knows, even if they've never named it.
 
 You show up. Your muscles don't even hurt. Your warm-up feels fine. Then you get under a bar that you moved easily last week — and it feels like it's bolted to the floor. Your coordination is slightly off. Your drive is gone. You grind through it anyway, because that's what men do, and the number still won't budge.
 
-Most people blame the muscles. **But the muscles aren't the problem. The nervous system is.** And the fix isn't more effort — it's reading the one signal you've been ignoring.
+Most people blame the muscles. **But the muscles aren't the problem. Your nervous system is.** And the fix isn't more effort — it's reading the one signal you've been ignoring.
 
-## The mechanism: your muscles are fine; the command center is tired
+## What CNS fatigue actually is (and what it feels like)
 
 Strength isn't a property of muscle. It's a property of the *system* that commands the muscle — your brain, your spinal cord, and the nerves that fire your motor units.
 
