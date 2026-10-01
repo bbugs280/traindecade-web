@@ -80,7 +80,7 @@ Your muscles were never the problem. The bar felt heavy because your nervous sys
 
 That's the decade-scale difference: not training more, but training *when you're actually recovered*. The command center runs everything. Stop frying it, and it will give you back every rep it's been withholding.
 
-Tracking your HRV, resting heart rate, and sleep by hand is a chore nobody keeps up. If you'd rather have a readiness score handed to you each morning — a single green/amber/red go/no-go — an app like [GainCut](/posts/you-cant-beat-the-science-track-what-you-eat/) collapses it into one number so you can stop guessing and start recovering on purpose.
+Tracking your HRV, resting heart rate, and sleep by hand is a chore nobody keeps up. If you'd rather have a readiness score handed to you each morning — a single green/amber/red go/no-go — [GainCut](https://apps.apple.com/hk/app/gaincut/id6785259813) collapses it into one number so you can stop guessing and start recovering on purpose.
 
 ## Sources
 
