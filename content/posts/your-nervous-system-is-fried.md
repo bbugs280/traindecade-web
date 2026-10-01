@@ -80,6 +80,8 @@ Your muscles were never the problem. The bar felt heavy because your nervous sys
 
 That's the decade-scale difference: not training more, but training *when you're actually recovered*. The command center runs everything. Stop frying it, and it will give you back every rep it's been withholding.
 
+Tracking your HRV, resting heart rate, and sleep by hand is a chore nobody keeps up. If you'd rather have a readiness score handed to you each morning — a single green/amber/red go/no-go — an app like [GainCut](/posts/you-cant-beat-the-science-track-what-you-eat/) collapses it into one number so you can stop guessing and start recovering on purpose.
+
 ## Sources
 
 - **Addleman JS, Lackey NS, DeBlauw JA, Hajduczok AG (2024).** "Heart Rate Variability Applications in Strength and Conditioning: A Narrative Review." *Journal of Functional Morphology and Kinesiology*, 9(2):93. PMID 38921629 — HRV as a surrogate of autonomic balance; RMSSD preferred; baseline-relative (no absolute norm); strength-trained athletes show prolonged HRV suppression after high volume/intensity; HRV-guided training matched gains with fewer high-intensity days.

@@ -79,6 +79,8 @@ HRV 是心跳之間時間間隔的變異程度。一顆多變的心跳——能�
 
 這就是十年尺度的差別：不是練更多，而是在你真正恢復好的時候練。指揮中心掌控一切。停止燒壞它，它就會把每一滴它一直在扣留的力量，都還給你。
 
+用手動記錄 HRV、靜息心率與睡眠，是沒人堅持得下去的苦差事。假如你想要每個早晨自動到手一個恢復度分數——一個綠／黃／紅的單一「練或不練」訊號——像 [GainCut](/zh/posts/you-cant-beat-the-science-track-what-you-eat/) 這類的 app 把它壓縮成一個數字，你就能停止瞎猜，開始有意識地恢復。
+
 ## 資料來源
 
 - Addleman JS、Lackey NS、DeBlauw JA、Hajduczok AG（2024）。〈Heart Rate Variability Applications in Strength and Conditioning: A Narrative Review〉，《Journal of Functional Morphology and Kinesiology》，9(2):93。PMID 38921629——HRV 作為自律神經平衡的替代指標；RMSSD 為首選；以個人基線為準（無絕對標準）；重訓運動員在高訓練量／高強度後呈現長時間 HRV 壓抑；HRV 引導訓練能以更少高強度日獲得相同進步。

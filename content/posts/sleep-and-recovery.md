@@ -58,6 +58,8 @@ Training harder is easy to sell and easy to feel. Recovering well is invisible a
 
 Train to signal. Sleep to build. Rest to grow. That's the whole secret, and it was never more valuable than it is after 40.
 
+The frustrating part is that none of this is hard to *see* — it's hard to *track*. Your readiness lives in three numbers (sleep, resting heart rate, HRV) that most people never write down twice. If you'd rather have the app do it — one readiness score each morning instead of three manual logs — [GainCut](/posts/you-cant-beat-the-science-track-what-you-eat/) turns it into a single go/no-go so the recovery window stops being invisible.
+
 Sleep isn't the only recovery input you can see. There's a second one — the one that explains why a stalled lift often isn't a muscle problem at all. See [CNS fatigue: why your strength stalls after 40](/posts/your-nervous-system-is-fried/).
 
 ---
