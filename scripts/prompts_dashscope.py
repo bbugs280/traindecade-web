@@ -179,4 +179,26 @@ PROMPTS = {
         "photorealistic-illustrative, film grain, 16:9 composition, no text, no "
         "watermark, no people, no hands"
     ),
+    # Pump vs real muscle — the sleeve that no longer fits. The thesis is the
+    # moment a dress shirt can't contain a trained arm (the proof it's real
+    # growth, not a transient pump). Still-life, no face/ethnicity: a single
+    # arm reaching into a tailored dress shirt, the sleeve drawn taut at the
+    # elbow/tricep. The arm is backlit near-silhouette (ethnicity not
+    # discernible). The FRICTION between office tailoring and a training body
+    # is the whole point — the seam under strain carries it in one glance.
+    "pump-or-real-muscle": (
+        "Cinematic close still life in a warm, moody changing-room light: a single "
+        "muscular forearm and upper arm, heavily backlit into a near-silhouette so the "
+        "skin tone and ethnicity are impossible to discern, reaching into the sleeve "
+        "of a crisp pale dress shirt. The fitted shirt sleeve is pulled noticeably taut "
+        "at the elbow and tricep, the fine cotton fabric straining, the seam line "
+        "stretched and visibly stressed as if about to give way, a few loose threads "
+        "just beginning to pull at the elbow seam. The contrast between the crisp "
+        "office tailoring and the dense trained arm under it is the subject — the "
+        "moment of proof that the arm has outgrown the cut. A soft warm rim light "
+        "(jade-green accent) traces the contours of the flexed arm through the thin "
+        "shirt fabric. Deep charcoal and warm editorial tones, moody chiaroscuro, "
+        "volumetric light, photorealistic-illustrative, film grain, 16:9 composition, "
+        "no text, no watermark, no face, ethnicity not discernible"
+    ),
 }
