@@ -187,18 +187,20 @@ PROMPTS = {
     # discernible). The FRICTION between office tailoring and a training body
     # is the whole point — the seam under strain carries it in one glance.
     "pump-or-real-muscle": (
-        "Cinematic dramatic mid-shot in a warm, moody gym changing-room light: a powerful "
-        "muscular man from the chest up, heavily backlit into a near-total silhouette so his "
-        "face and ethnicity are completely impossible to discern, both hands gripping the "
-        "open placket of his crisp pale dress shirt and actively tearing it open from the "
-        "inside like the Hulk — the fine cotton fabric stretched to bursting across his "
-        "chest and shoulders, the front seam exploding apart, buttons flying off through the "
-        "air, fabric shredding into torn strips and loose threads as his shoulders and traps "
-        "widen against the cloth. Raw kinetic energy, the shirt mid-rip, fragments of fabric "
-        "in motion. A strong warm rim light, jade-green accent, traces the dense contours of "
-        "his flexed chest, shoulders and arms through the tearing shirt. Deep charcoal and "
-        "warm editorial tones, moody chiaroscuro, dramatic volumetric light, photorealistic-"
-        "illustrative, film grain, 16:9 composition, no text, no watermark, face obscured by "
-        "backlight, ethnicity not discernible"
+        "Ultra-dramatic cinematic mid-shot in a moody gym changing room, the moment of a "
+        "Hulk-like eruption: an enormously muscular man from the chest up, photographed from "
+        "a low heroic angle and heavily backlit into a near-total silhouette so his face and "
+        "ethnicity are completely impossible to discern, both arms thrown wide as he tears "
+        "his crisp pale dress shirt to shreds from the inside — the entire front of the shirt "
+        "exploding outward in jagged strips, dozens of buttons spinning through the air, torn "
+        "fabric fragments and loose threads frozen mid-flight, seams bursting across the "
+        "chest and shoulders as his back, traps and biceps swell against the ripping cloth. "
+        "Crackling amber and jade-green energy veins glowing across his flexed torso, "
+        "dramatic motion blur on the tearing fabric, dust and fabric fibres backlit in the "
+        "air, veins and muscle striations lit by a strong warm rim light. Deep charcoal "
+        "background, high-contrast chiaroscuro, intense volumetric god-rays through the "
+        "locker-room haze, photorealistic-illustrative, film grain, 16:9 composition, no text, "
+        "no watermark, face completely obscured by backlight, ethnicity absolutely not "
+        "discernible"
     ),
 }
