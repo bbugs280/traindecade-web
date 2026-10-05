@@ -187,18 +187,18 @@ PROMPTS = {
     # discernible). The FRICTION between office tailoring and a training body
     # is the whole point — the seam under strain carries it in one glance.
     "pump-or-real-muscle": (
-        "Cinematic close still life in a warm, moody changing-room light: a single "
-        "muscular forearm and upper arm, heavily backlit into a near-silhouette so the "
-        "skin tone and ethnicity are impossible to discern, reaching into the sleeve "
-        "of a crisp pale dress shirt. The fitted shirt sleeve is pulled noticeably taut "
-        "at the elbow and tricep, the fine cotton fabric straining, the seam line "
-        "stretched and visibly stressed as if about to give way, a few loose threads "
-        "just beginning to pull at the elbow seam. The contrast between the crisp "
-        "office tailoring and the dense trained arm under it is the subject — the "
-        "moment of proof that the arm has outgrown the cut. A soft warm rim light "
-        "(jade-green accent) traces the contours of the flexed arm through the thin "
-        "shirt fabric. Deep charcoal and warm editorial tones, moody chiaroscuro, "
-        "volumetric light, photorealistic-illustrative, film grain, 16:9 composition, "
-        "no text, no watermark, no face, ethnicity not discernible"
+        "Cinematic dramatic mid-shot in a warm, moody gym changing-room light: a powerful "
+        "muscular man from the chest up, heavily backlit into a near-total silhouette so his "
+        "face and ethnicity are completely impossible to discern, both hands gripping the "
+        "open placket of his crisp pale dress shirt and actively tearing it open from the "
+        "inside like the Hulk — the fine cotton fabric stretched to bursting across his "
+        "chest and shoulders, the front seam exploding apart, buttons flying off through the "
+        "air, fabric shredding into torn strips and loose threads as his shoulders and traps "
+        "widen against the cloth. Raw kinetic energy, the shirt mid-rip, fragments of fabric "
+        "in motion. A strong warm rim light, jade-green accent, traces the dense contours of "
+        "his flexed chest, shoulders and arms through the tearing shirt. Deep charcoal and "
+        "warm editorial tones, moody chiaroscuro, dramatic volumetric light, photorealistic-"
+        "illustrative, film grain, 16:9 composition, no text, no watermark, face obscured by "
+        "backlight, ethnicity not discernible"
     ),
 }
