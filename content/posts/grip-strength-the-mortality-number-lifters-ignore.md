@@ -69,6 +69,8 @@ Grip strength is a *current reading* of your future function. It declines first,
 
 For a man planning his next decade rather than his next six weeks, the message is simple: **train the number that predicts your longevity, not the one that flatters your reflection.**
 
+Grip strength is the *amount* of force — but it's only half the longevity signal. The other half, which fades even faster, is the *speed* of force: [muscle power, the number your strength test misses](/posts/muscle-power-the-longevity-number-your-strength-test-misses/).
+
 Your hands are holding more than the bar. They're holding the first sign of whether the next ten years are yours.
 
 ## Sources

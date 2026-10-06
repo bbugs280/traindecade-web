@@ -203,4 +203,21 @@ PROMPTS = {
         "no watermark, face completely obscured by backlight, ethnicity absolutely not "
         "discernible"
     ),
+    # Muscle power — the SPEED half of force. The thesis is power (force ×
+    # velocity) as the longevity signal strength misses. Movement-scene cue,
+    # not a symbolic prop: an explosive weighted upper-row / dynamic pull,
+    # motion blur on the weight to read "fast", backlit near-silhouette so
+    # ethnicity/face are not discernible (per the ethnicity rule).
+    "muscle-power": (
+        "Cinematic mid-shot of a powerfully built man performing an explosive weighted "
+        "upper-row in a dim industrial gym, photographed from behind at a low heroic angle "
+        "and heavily backlit into a near-total silhouette so his face and ethnicity are "
+        "completely impossible to discern, a loaded barbell or heavy dumbbell snapped upward "
+        "with visible motion blur on the weight to convey explosive speed, chalk dust kicked "
+        "into the air, a stopwatch or marked timing line barely visible in the background to "
+        "carry the 'speed' thesis. Deep charcoal background, jade-green rim light tracing his "
+        "back and shoulders, high-contrast chiaroscuro, warm editorial tones, volumetric light "
+        "through gym haze, photorealistic-illustrative, film grain, 16:9 composition, no text, "
+        "no watermark, face completely obscured, ethnicity not discernible"
+    ),
 }
