@@ -46,3 +46,29 @@ sitemap + Search Console (already wired). Both channels run in parallel; neither
 
 ## Rollback
 - Tag `rollback-pre-bing-2026-10-07`.
+
+---
+
+## ⚠️ Post-deploy finding (2026-10-07, live CI run)
+
+```
+traindecade    IndexNow HTTP 202  (accepted — but see caveat below)
+builderdecade  IndexNow HTTP 403  UserForbiddedToAccessSite
+```
+
+Both key files are served correctly (HTTP 200, byte-identical 32-hex + newline).
+**The 403 is not a file problem — it is domain-verification state at Bing.**
+
+**Root cause (verified against Microsoft Q&A + IndexNow docs):** the IndexNow
+endpoint verifies the *domain* against Bing's records. Until the site is verified
+in **Bing Webmaster Tools**, submissions from that host are rejected (403) or
+silently discarded.
+
+⚠️ **`202` is NOT proof of success.** Per the IndexNow docs: *"Bing, Yandex and the
+global endpoint return 202 for any well-formed key and validate it later, discarding
+the submission silently if it fails."* So traindecade's 202 is a *soft* accept — it
+may still be discarded. **Bing Webmaster Tools verification is the real gate for
+both sites.**
+
+**Action (Vincent, 2 min):** verify BOTH sites in Bing Webmaster Tools (import from
+GSC = fastest). Until then the CI ping is wired correctly but will not take effect.
