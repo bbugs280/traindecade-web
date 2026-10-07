@@ -1,17 +1,15 @@
 ---
 title: "Exercise Snacking: Short Daily Bursts Beat the 'No Time' Excuse"
 date: 2026-09-01T07:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-10-07T09:00:00+08:00
 draft: false
 tags: ["exercise snacking", "strength training over 40", "busy men fitness", "men over 40"]
-description: "You don't need a 60-minute gym session to build fitness. Exercise snacking — short, sharp bursts of movement spread through the day — measurably improves VO2max and muscular endurance, and it's the single best answer to the 'no time' excuse."
+description: "You don't need a 60-minute gym session to build fitness. Short, sharp bursts spread through the day measurably improve VO2max. Here's how."
 cover:
     image: "cover-exercise-snacking.png"
     alt: "A kettle boiling on a stove with a stopwatch running, dark and editorial"
     relative: true
 ---
-
-# Exercise Snacking: Short Daily Bursts Beat the 'No Time' Excuse
 
 The most common excuse for not training isn't a lack of motivation. It's a lack of a clean hour. And a clean hour is what the entire fitness industry has sold you as the entry ticket: warm up, work your sets, cool down, shower, commute back. If you can't find sixty uninterrupted minutes, the story goes, you might as well not bother.
 

@@ -4,7 +4,7 @@ date: 2026-09-03T08:30:00+08:00
 lastmod: 2026-09-03T08:30:00+08:00
 draft: false
 tags: ["core strength", "desk workers", "lower back pain", "spinal health", "posture", "L4 L5", "sitting"]
-description: "Sitting doesn't just make you stiff — it quietly deconditions the deep muscles that hold your spine stable, then hands the load to the exact disc least able to take it. Here's the evidence for why desk workers need core strength, and what to do about it before your L4–L5 segment files the complaint."
+description: "Sitting quietly deconditions the deep muscles that hold your spine stable, then hands the load to the disc least able to take it. Here's what to do."
 cover:
   image: "cover-core-strength-for-desk-workers.png"
   alt: "Core strength for desk workers — a worker stabilized against the chair that deconditions the spine"

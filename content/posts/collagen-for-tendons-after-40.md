@@ -4,7 +4,7 @@ date: 2026-09-17T09:00:00+08:00
 lastmod: 2026-09-17T09:00:00+08:00
 draft: false
 tags: ["collagen", "collagen peptides", "tendon health", "tendinopathy", "joint health", "tendon stiffness", "supplements", "recovery", "over 40"]
-description: "Collagen supplements work for tendons — but only at 15–30g with vitamin C and heavy loading. A 2026 systematic review grades the evidence A for tendon, and A against muscle strength. Here's what the bottle won't tell you."
+description: "Collagen works for tendons — but only at 15-30g with vitamin C and heavy loading. A 2026 review grades the evidence A for tendon, A against muscle."
 cover:
   image: "cover-collagen-tendons.png"
   alt: "Collagen and tendon loading"

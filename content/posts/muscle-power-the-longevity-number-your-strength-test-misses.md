@@ -1,17 +1,15 @@
 ---
 title: "Muscle Power: The Longevity Number Your Strength Test Misses"
 date: 2026-10-06T07:00:00+08:00
-lastmod: 2026-10-06T07:00:00+08:00
+lastmod: 2026-10-07T09:00:00+08:00
 draft: false
 tags: ["muscle power", "longevity", "explosive training", "men over 40"]
-description: "Muscle power — force multiplied by speed — predicts your risk of early death far more strongly than raw strength, yet almost no one trains it. Here's what it measures, why it fades first, and how to build it."
+description: "Muscle power — force times speed — predicts early death far better than raw strength, yet almost nobody trains it. Here's why it fades and how to build it."
 cover:
     image: "cover-muscle-power.png"
     alt: "A weighted upper-body row moved explosively, dark and editorial"
     relative: true
 ---
-
-# Muscle Power: The Longevity Number Your Strength Test Misses
 
 Tell a doctor you want to know your risk of an early death, and the test you'll get almost never moves fast. It measures how *much* you can do — how hard you can squeeze, how heavy you can lift. It never asks the question that a decade of data now says matters more: how *quickly* can you do it?
 

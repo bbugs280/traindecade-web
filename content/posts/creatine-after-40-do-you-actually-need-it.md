@@ -4,7 +4,7 @@ date: 2026-08-27T07:00:00+08:00
 lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["creatine", "supplements", "over 40", "muscle building", "aging"]
-description: "Creatine is the most studied supplement on earth — and the most misunderstood. Here's what the evidence actually says about it for men over 40: the benefits, the dosing, and the two fears that keep getting repeated without a citation."
+description: "Creatine is the most studied supplement on earth — and the most misunderstood. What the evidence says for men over 40: benefits, dosing, and two fears."
 cover:
   image: "cover-creatine.png"
   alt: "Creatine After 40: Do You Actually Need It?"

@@ -4,7 +4,7 @@ date: 2026-09-17T10:00:00+08:00
 lastmod: 2026-09-17T10:00:00+08:00
 draft: false
 tags: ["protein powder", "whey protein", "casein protein", "soy protein", "pea protein", "egg white protein", "leucine", "protein comparison", "supplements", "nutrition", "over 40"]
-description: "Compare every protein powder and you get a different winner depending on how long you measure. Whey wins the sprint, casein catches up by hour six, pea ties on real digestibility. Here's the evidence, and the one number that actually decides it."
+description: "Compare every protein powder and you get a different winner depending on how long you measure. Here's the evidence, and the one number that decides it."
 cover:
   image: "cover-protein-comparison.png"
   alt: "Protein powder comparison"

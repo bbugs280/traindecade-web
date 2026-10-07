@@ -4,7 +4,7 @@ date: 2026-09-04T07:00:00+08:00
 lastmod: 2026-09-04T07:00:00+08:00
 draft: false
 tags: ["muscle", "sarcopenia", "metabolic health", "longevity", "men over 40"]
-description: "Muscle isn't a mirror asset — it's a metabolic organ that disposes of glucose, buffers disease, and predicts how long you'll stay independent. Here's the evidence, and what to do with it."
+description: "Muscle isn't a mirror asset — it's a metabolic organ that disposes of glucose and predicts how long you'll stay independent. Here's the evidence."
 cover:
   image: "cover-metabolic-armor.png"
   alt: "Muscle as metabolic armor — a strong back and shoulders in near-silhouette, jade rim light"

@@ -1,17 +1,15 @@
 ---
 title: "Deload: The Recovery Week You Keep Skipping"
 date: 2026-09-03T07:00:00+08:00
-lastmod: 2026-09-03T07:00:00+08:00
+lastmod: 2026-10-07T09:00:00+08:00
 draft: false
 tags: ["deload", "recovery", "strength training", "programming", "men over 40"]
-description: "Most men over 40 train every week at full intensity and wonder why they stall. A planned deload — cutting volume and load for one week — clears the fatigue masking your strength. Here's the evidence for how often, how much, and how to actually do it."
+description: "Most men over 40 train every week at full intensity and wonder why they stall. A planned deload clears the fatigue masking your strength. Here's how."
 cover:
     image: "cover-deload.png"
     alt: "A barbell resting on the floor in soft shadow, recovery week"
     relative: true
 ---
-
-# Deload: The Recovery Week You Keep Skipping
 
 There's a paradox every lifter eventually runs into, and men over 40 hit it sooner than most.
 

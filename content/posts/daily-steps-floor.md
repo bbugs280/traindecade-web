@@ -4,7 +4,7 @@ date: 2026-09-25T09:00:00+08:00
 lastmod: 2026-09-25T09:00:00+08:00
 draft: false
 tags: ["walking", "steps", "10000 steps", "daily steps", "NEAT", "daily movement", "longevity", "aging", "over 40", "cardio"]
-description: "The 10,000-step target came from a 1965 Japanese pedometer slogan, not from research. Large meta-analyses show the threshold that actually tracks lower mortality is considerably lower — and barely depends on how fast you walk."
+description: "The 10,000-step target came from a 1965 pedometer slogan, not research. Meta-analyses show the threshold that tracks lower mortality is far lower."
 cover:
   image: "cover-daily-steps-floor.png"
   alt: "Daily steps and mortality"

@@ -4,7 +4,7 @@ date: 2026-08-20T00:00:00+08:00
 lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["fitness", "body recomposition", "mindset"]
-description: "The most valuable thing you can do for your body is show up for ten years, not crush six weeks. Here's why the long game beats every crash cut — and what the evidence says."
+description: "The most valuable thing you can do for your body is show up for ten years, not crush six weeks. Here's why the long game beats every crash cut."
 cover:
   image: "cover-decade.png"
   alt: "Why a Decade, Not a 6-Week Challenge"

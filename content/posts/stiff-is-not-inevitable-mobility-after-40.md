@@ -4,7 +4,7 @@ date: 2026-09-02T08:00:00+08:00
 lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["mobility", "flexibility", "over 40", "joint health", "range of motion", "stiffness"]
-description: "\"I'm just stiff these days\" treats stiffness like weather — something that happens to you. It isn't. Mobility is strength through a range of motion, and it declines through disuse, not age. Here's the evidence, and how to build it back."
+description: "\"I'm just stiff these days\" treats stiffness like weather. It isn't. Mobility is strength through a range, and it declines through disuse, not age."
 cover:
   image: "cover-stiff-not-inevitable.png"
   alt: "Mobility after 40 — range of motion trained as a skill"

@@ -4,7 +4,7 @@ date: 2026-08-24T07:00:00+08:00
 lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["testosterone", "hormones", "men's health", "aging", "strength training"]
-description: "Low testosterone after 40 is one of the most profitable fears in men's health. Here's what the evidence actually says about the decline — and why most men's 'low T' is a number, not a disease."
+description: "Low testosterone after 40 is one of the most profitable fears in men's health. Here's what the evidence says — and why 'low T' is a number, not a disease."
 cover:
   image: "cover-testosterone.png"
   alt: "Testosterone After 40: The Myth-Buster"

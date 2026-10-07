@@ -2,15 +2,14 @@
 title: "Vitamin D After 40: The Muscle Number Your Blood Test Hides"
 translationKey: "vitamin-d-after-40-muscle-blood-test"
 date: 2026-09-07T07:00:00+08:00
+lastmod: 2026-10-07T09:00:00+08:00
 draft: false
 tags: ["vitamin D", "supplements", "muscle strength", "men over 40", "aging", "blood work"]
-description: "Vitamin D isn't a muscle-building supplement — it's a deficiency marker. Below 30 nmol/L it's linked to weaker grip and worse physical function; above that, taking more does almost nothing. Here's who actually benefits, and how to check."
+description: "Vitamin D isn't a muscle-building supplement — it's a deficiency marker. Below 30 nmol/L it's linked to weaker grip. Here's who actually benefits."
 cover:
   image: "cover-vitamin-d-after-40.png"
   alt: "A blood test tube and a small amber capsule under warm light, with a shadowed dumbbell behind"
 ---
-
-# Vitamin D After 40: The Muscle Number Your Blood Test Hides
 
 There's a number hiding on the blood panel most men over 40 skip reading. It's not cholesterol, not HbA1c, not testosterone. It's **vitamin D** — and if it's low, it's quietly doing more damage to your muscle than you think.
 

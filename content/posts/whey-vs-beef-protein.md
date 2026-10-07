@@ -4,7 +4,7 @@ date: 2026-08-28T07:00:00+08:00
 lastmod: 2026-09-21T15:00:00+08:00
 draft: false
 tags: ["protein", "whey protein", "beef protein", "beef protein powder", "hydrolyzed beef protein", "beef vs whey", "supplements", "nutrition", "over 40"]
-description: "Beef protein powder vs whey protein — which actually builds muscle after 40? The hydrolyzed-beef-vs-whey research shows a near tie, but one detail on the label decides which tub is right for you."
+description: "Beef protein vs whey — which actually builds muscle after 40? The research shows a near tie, but one detail on the label decides which tub is right."
 cover:
   image: "cover-whey-vs-beef.png"
   alt: "Whey vs. Beef Protein"

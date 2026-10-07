@@ -4,7 +4,7 @@ date: 2026-08-26T09:00:00+08:00
 lastmod: 2026-09-17T09:00:00+08:00
 draft: false
 tags: ["joint pain", "strength training", "knee pain", "over 40", "osteoarthritis", "training"]
-description: "\"My knees can't lift anymore\" gets the story backwards. Load isn't what wrecks a joint — weak muscle is. Here's the evidence on how to lift through joint pain and come out stronger on the other side."
+description: "\"My knees can't lift anymore\" gets the story backwards. Load isn't what wrecks a joint — weak muscle is. Here's how to lift through joint pain."
 cover:
   image: "cover-joint-friendly.png"
   alt: "Joint-friendly strength training after 40"

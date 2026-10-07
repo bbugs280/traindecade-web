@@ -1,15 +1,14 @@
 ---
 title: "You Lift, But You Don't Feel Your Body: Why Somatic Awareness Is the Missing Layer"
 date: 2026-09-06T09:00:00+08:00
+lastmod: 2026-10-07T09:00:00+08:00
 draft: false
 tags: ["somatics", "body awareness", "interoception", "recovery", "mobility", "over 40", "mind-body"]
-description: "Strength is output; awareness is input. Most lifters train the first and ignore the second — then wonder why they keep getting hurt or plateais. Somatic practice is re-learning to feel your body from the inside, and the evidence says it rebuilds mobility and quietens the nervous system. Here's the mechanism, the research, and a 10-minute starter."
+description: "Strength is output; awareness is input. Most lifters train the first and ignore the second — then wonder why they keep getting hurt. Here's the mechanism."
 cover:
   image: "cover-somatic-awareness.png"
   alt: "A quiet body-awareness practice — sensing movement from the inside, not forcing it"
 ---
-
-# You Lift, But You Don't Feel Your Body
 
 Here's a quiet confession most lifters over 40 would never say out loud: they've spent thousands of hours making their body *do* things, and almost no hours learning to *feel* what it's telling them.
 

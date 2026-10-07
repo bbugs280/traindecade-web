@@ -4,7 +4,7 @@ date: 2026-08-29T07:00:00+08:00
 lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["nutrition", "calorie tracking", "food logging", "habits", "fat loss", "apps"]
-description: "Two ways to log what you eat — weighing and typing every gram, or snapping a photo and letting AI do the math. One survives your busy weeks and one quietly dies. Here's the evidence on which actually sticks."
+description: "Weighing every gram, or snapping a photo and letting AI do the math? One survives your busy weeks and one quietly dies. Here's which actually sticks."
 cover:
   image: cover-photo-tracking-vs-manual-logging.png
   alt: "Photo Tracking vs. Manual Logging: Which Actually Sticks?"

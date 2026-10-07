@@ -4,7 +4,7 @@ date: 2026-08-22T11:00:00+08:00
 lastmod: 2026-09-15T08:48:42+08:00
 draft: false
 tags: ["strength training", "cardio", "programming", "over 40"]
-description: "Cardio or strength first? The evidence points one way for almost every man over 40: lift weights first, walk daily, treat cardio as the supporting player. Here's the order, the dose, and the decade-scale logic."
+description: "Cardio or strength first? The evidence points one way for almost every man over 40: lift first, walk daily, treat cardio as the supporting player."
 cover:
   image: "cover-strength-cardio.png"
   alt: "Strength or Cardio First?"

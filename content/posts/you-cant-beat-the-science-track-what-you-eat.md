@@ -4,7 +4,7 @@ date: 2026-08-23T10:00:00+08:00
 lastmod: 2026-09-02T08:00:00+08:00
 draft: false
 tags: ["nutrition", "calorie tracking", "fat loss", "habits", "weight loss"]
-description: "Fat loss runs on settled thermodynamics — you can't out-train a bad diet. The only variable you control is what you actually eat, and the only way to know that is to measure it. Why tracking beats guessing, and why it stops feeling like work."
+description: "Fat loss runs on settled thermodynamics — you can't out-train a bad diet. Why tracking what you actually eat beats guessing, and stops feeling like work."
 cover:
   image: "cover-track-what-you-eat.png"
   alt: "You Can't Beat the Science: Track What You Eat"

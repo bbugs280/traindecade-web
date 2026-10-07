@@ -4,7 +4,7 @@ date: 2026-09-05T07:00:00+08:00
 lastmod: 2026-09-28T10:00:00+08:00
 draft: false
 tags: ["cns fatigue", "central nervous system fatigue", "cns fatigue symptoms", "nervous system", "recovery", "hrv", "over 40", "strength training", "central vs peripheral fatigue"]
-description: "CNS fatigue — central nervous system fatigue — explained: why the bar feels glued down while your muscles feel fine, the symptoms that separate it from ordinary soreness, and how HRV tells you when to back off. For lifters over 40."
+description: "Why the bar feels glued down while your muscles feel fine, the symptoms that separate CNS fatigue from ordinary soreness, and when HRV says back off."
 cover:
   image: "cover-nervous-system-fried.png"
   alt: "A lone barbell in dim light, at rest, nervous system recovery"
