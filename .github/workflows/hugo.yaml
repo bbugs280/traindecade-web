@@ -71,3 +71,16 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Notify IndexNow (Bing / Yandex / Seznam / Naver)
+        # Crawl hint only — Google does not participate in IndexNow.
+        # Non-blocking: a ping failure must not fail the deploy.
+        continue-on-error: true
+        run: |
+          python3 scripts/indexnow_ping.py \
+            https://traindecade.com/ \
+            https://traindecade.com/zh/ \
+            https://traindecade.com/sitemap.xml

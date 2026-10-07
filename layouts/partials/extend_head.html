@@ -24,6 +24,12 @@
 <meta name="google-site-verification" content="{{ $siteVerification }}" />
 {{- end }}
 
+{{- /* Bing Webmaster Tools verification (msvalidate.01). */ -}}
+{{- $bingVerification := site.Params.analytics.bingSiteVerification | default "" -}}
+{{- if ne $bingVerification "" }}
+<meta name="msvalidate.01" content="{{ $bingVerification }}" />
+{{- end }}
+
 {{- if ne $ga4 "" }}
 <!-- Global site tag (gtag.js) - Google Analytics (GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga4 }}"></script>

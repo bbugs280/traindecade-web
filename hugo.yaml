@@ -69,6 +69,8 @@ params:
     ga4ID: "G-B2S3J6P8P5"                       # Train Decade GA4 property
     adsensePublisherID: "ca-pub-4696981239521155"  # Train Decade AdSense publisher
     googleSiteVerification: ""                 # e.g. for Google Search Console
+    bingSiteVerification: ""                   # Bing Webmaster Tools (msvalidate.01 content value)
+    indexNowKey: "0cd209af07b04d46976cb91bdbf715ba"  # IndexNow key (file at /<key>.txt)
 
   env: production
 
