@@ -1,7 +1,7 @@
 ---
 title: "CNS Fatigue: Why Your Strength Stalls After 40 (and How HRV Catches It)"
 date: 2026-09-05T07:00:00+08:00
-lastmod: 2026-09-28T10:00:00+08:00
+lastmod: 2026-10-08T07:00:00+08:00
 draft: false
 tags: ["cns fatigue", "central nervous system fatigue", "cns fatigue symptoms", "nervous system", "recovery", "hrv", "over 40", "strength training", "central vs peripheral fatigue"]
 description: "Why the bar feels glued down while your muscles feel fine, the symptoms that separate CNS fatigue from ordinary soreness, and when HRV says back off."
@@ -29,6 +29,8 @@ That's why the signature is so recognizable:
 - Coordination is subtly off (reaction slightly slow, form a little shaky)
 - Motivation evaporates — you *want* to train and feel flat simultaneously
 - Numbers stall despite consistent effort
+
+⚠️ **One important caveat before you take this further:** the gym's version of this story — *"heavy lifting fries your CNS"* — is mechanically overstated. Most of the fatigue you feel after a hard session is **peripheral (muscle)**, and it's driven by **volume and duration**, not a drained central battery. If you want the evidence on that specific claim, it's here: [does heavy lifting actually fry your CNS?](/posts/does-heavy-lifting-fry-your-cns/) This page is the framework; that one is the myth put on trial.
 
 That last one is the trap. When strength stalls, the reflex is to train *harder* — more sets, more intensity, less rest. But if the stall is central nervous system fatigue, harder training is the one move that makes it *worse*, not better.
 

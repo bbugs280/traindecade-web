@@ -208,6 +208,23 @@ PROMPTS = {
     # not a symbolic prop: an explosive weighted upper-row / dynamic pull,
     # motion blur on the weight to read "fast", backlit near-silhouette so
     # ethnicity/face are not discernible (per the ethnicity rule).
+    # CNS-fatigue myth — the debated "command centre" signal. Thesis: heavy
+    # lifting feels systemic but the fatigue lives in the muscle. Movement-scene
+    # cue: a heavy squat grinding up out of the hole, near-silhouette so
+    # ethnicity/face are not discernible (per the ethnicity rule). No brain/
+    # anatomy prop (avoids the "fried battery" cliché the post refutes).
+    "does-heavy-lifting-fry-your-cns": (
+        "Cinematic low-angle shot of a powerfully built man grinding out the bottom "
+        "of a heavy barbell back squat in a dim industrial gym, photographed from "
+        "the side and heavily backlit into a near-total silhouette so his face and "
+        "ethnicity are completely impossible to discern, knees braced wide, barbell "
+        "bowed across his upper back under load, chalk dust suspended in the air, "
+        "subtle strain tremor in the bar, jade-green rim light tracing the curve of "
+        "his back and the bar, deep charcoal background, high-contrast chiaroscuro, "
+        "warm editorial tones, volumetric light through gym haze, "
+        "photorealistic-illustrative, film grain, 16:9 composition, no text, no "
+        "watermark, face completely obscured, ethnicity not discernible"
+    ),
     "muscle-power": (
         "Cinematic mid-shot of a powerfully built man performing an explosive weighted "
         "upper-row in a dim industrial gym, photographed from behind at a low heroic angle "

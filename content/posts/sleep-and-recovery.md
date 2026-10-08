@@ -1,7 +1,7 @@
 ---
 title: "Sleep and Recovery: The Part of Muscle-Building You're Probably Skipping"
 date: 2026-08-22T12:00:00+08:00
-lastmod: 2026-09-17T09:00:00+08:00
+lastmod: 2026-10-08T07:00:00+08:00
 draft: false
 tags: ["sleep", "recovery", "muscle building", "over 40"]
 description: "Muscle isn't built in the gym — it's built while you recover. Why sleep and rest days matter more after 40, and the levers that actually work."
@@ -60,7 +60,7 @@ Train to signal. Sleep to build. Rest to grow. That's the whole secret, and it w
 
 The frustrating part is that none of this is hard to *see* — it's hard to *track*. Your readiness lives in three numbers (sleep, resting heart rate, HRV) that most people never write down twice. If you'd rather have the app do it — one readiness score each morning instead of three manual logs — [GainCut](https://apps.apple.com/hk/app/gaincut/id6785259813) turns it into a single go/no-go so the recovery window stops being invisible.
 
-Sleep isn't the only recovery input you can see. There's a second one — the one that explains why a stalled lift often isn't a muscle problem at all. See [CNS fatigue: why your strength stalls after 40](/posts/your-nervous-system-is-fried/).
+Sleep isn't the only recovery input you can see. There's a second one — the one that explains why a stalled lift often isn't a muscle problem at all. See [CNS fatigue: why your strength stalls after 40](/posts/your-nervous-system-is-fried/) — and for why the popular "heavy lifting fries your CNS" story mislabels what's actually fatigued, [the evidence on does lifting fry your CNS](/posts/does-heavy-lifting-fry-your-cns/).
 
 ---
 
