@@ -237,4 +237,21 @@ PROMPTS = {
         "through gym haze, photorealistic-illustrative, film grain, 16:9 composition, no text, "
         "no watermark, face completely obscured, ethnicity not discernible"
     ),
+    # After the deload — the re-entry/"coming back" post.
+    # ⚠️ DashScope will NOT render an unloaded bar or a chalk-free gym: 5 attempts
+    # (empty barbell, bare rack, wooden floor, workbench still life) ALL came back with
+    # plates and/or chalk injected. A workbench STILL LIFE is the only framing that
+    # suppresses the gym-scene prior — but residue still appears. Accepted because the
+    # residue ("a session just ended, next one pending") MATCHES the post's thesis:
+    # the quiet moment before/after training, not the exertion itself.
+    "after-deload": (
+        "Cinematic still life on a dark wooden workbench against a deep charcoal "
+        "background: a single neat coil of black lifting straps resting beside a small "
+        "folded grey cotton towel, and a simple brushed-steel water bottle standing "
+        "upright, all arranged with deliberate care as if set down at the end of a "
+        "session. Warm soft directional light rakes across the workbench from the left, "
+        "moody chiaroscuro, volumetric light rays, deep shadows pooling in the "
+        "background, photorealistic-illustrative, subtle film grain, 16:9 composition, "
+        "calm quiet and orderly, no people, no text, no watermark"
+    ),
 }
