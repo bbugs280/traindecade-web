@@ -96,4 +96,4 @@ That's not the finish line. It's the first step. And it's the only step that was
 
 ---
 
-*Starting something new rather than coming back to lifting? [The padel injury data](/posts/padel-for-men-over-40/) makes the same point about ramping: the risk isn't your age, it's how fast you add sessions.*
+*Starting something new rather than coming back to lifting? [The padel injury data](/posts/padel-for-men-over-40/) makes the same point: the risk isn't your age, it's how fast you add sessions.*

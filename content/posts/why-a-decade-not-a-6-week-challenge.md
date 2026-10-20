@@ -58,6 +58,6 @@ The best transformation photo isn't the six-week one. It's the one nobody takes:
 
 That's the picture worth chasing. Not the fastest one. The one that lasts.
 
-The same rule explains why padel wrecks new players: the injury research says the strongest predictor isn't age, it's [how fast you ramp the load](/posts/padel-for-men-over-40/). Same thesis, different jersey.
+The same rule explains why padel wrecks new players: the injury research says the strongest predictor isn't age, it's [how fast you add sessions](/posts/padel-for-men-over-40/). Same thesis, different jersey.
 
 A decade is coming either way. Spend it building something.

@@ -1,9 +1,10 @@
 ---
-title: "Took Up Padel at 42? The Injury Isn't the Sport — It's the Ramp"
+title: "Took Up Padel at 42? The Injury Isn't the Sport — It's How Fast You Add Sessions"
 date: 2026-10-20T07:00:00+08:00
+lastmod: 2026-10-20T16:30:00+08:00
 draft: false
 tags: ["padel", "injury prevention", "men over 40", "strength training", "racket sport", "training load"]
-description: "Padel injury research is blunt: the strongest predictor isn't age or sex, it's how fast you ramp the load. What the studies say, and the two sessions a week that cover the gap."
+description: "Padel injury research says the strongest predictor is not age or sex, but how fast you add sessions. What the studies show, and the two weekly sessions that cover the gap."
 cover:
     image: "cover-padel-court-entry.png"
     alt: "A padel paddle and ball resting on the court beside the glass wall at dusk"
@@ -28,11 +29,11 @@ Read those two numbers together and the shape of the problem appears: about one 
 
 ## The strongest predictor is not your age
 
-Here is the finding worth the whole article. In the padel literature, the factor most consistently associated with injury is **load** — how many hours, how many sessions, how fast the ramp — and the research is explicit that age and sex are not the primary drivers.
+Here is the finding worth the whole article. In the padel literature, the factor most consistently associated with injury is **load** — how many hours you play, how many sessions a week, and how quickly you added them — and the research is explicit that age and sex are not the primary drivers.
 
 That is not a comforting platitude. It is a statement about mechanism. A tendon does not fail because it has existed for 42 years. It fails because the demand placed on it rose faster than its capacity to adapt. Tendons adapt on a slower clock than muscle, and much slower than enthusiasm.
 
-And padel has a specific ramp problem built into its design. The sport is **genuinely easy to start** — beginners hold rallies in their first session, which is exactly why it spreads through group chats so fast. Compare that to tennis, where your first six months are mostly collecting balls. Padel skips the natural brake. The sport feels like it requires less from you than it does, so you scale the frequency before your connective tissue has scaled at all.
+And padel has a specific problem built into its design. The sport is **genuinely easy to start** — beginners hold rallies in their first session, which is exactly why it spreads through group chats so fast. Compare that to tennis, where your first six months are mostly collecting balls. Padel skips the natural brake. The sport feels like it requires less from you than it does, so you add sessions faster than your connective tissue can keep up.
 
 The evidence is blunt about the result: **injury rates rise with weekly hours and playing intensity**, and the pattern that produces them is going from nothing to three or four sessions a week within a month.
 
@@ -74,7 +75,7 @@ There is an obvious joke here about racket sports and middle age, and it's the w
 
 The players who will still be on court at 60 are not the ones who were most talented at 42. They are the ones who kept their weekly hours inside what their tendons could absorb, added strength work before it was necessary, and treated the first twinge as data rather than as an obstacle to push through.
 
-Padel is genuinely good for you. It is continuous movement, it forces change of direction, it is social in a way that gym training never is, and its short rallies make it real conditioning. All of that is why it spreads. The injury data is not an argument against playing. It is an argument for ramping.
+Padel is genuinely good for you. It is continuous movement, it forces change of direction, it is social in a way that gym training never is, and its short rallies make it real conditioning. All of that is why it spreads. The injury data is not an argument against playing. It is an argument for adding sessions slowly.
 
 ## Sources
 
