@@ -1,7 +1,7 @@
 ---
 title: "Why a Decade, Not a 6-Week Challenge"
 date: 2026-08-20T00:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-10-20T07:00:00+08:00
 draft: false
 tags: ["fitness", "body recomposition", "mindset"]
 description: "The most valuable thing you can do for your body is show up for ten years, not crush six weeks. Here's why the long game beats every crash cut."
@@ -57,5 +57,7 @@ Track the trend, not the day.
 The best transformation photo isn't the six-week one. It's the one nobody takes: two photos, ten years apart, where the second person simply looks *built* — not shredded-then-crashed, but genuinely, durably different.
 
 That's the picture worth chasing. Not the fastest one. The one that lasts.
+
+The same rule explains why padel wrecks new players: the injury research says the strongest predictor isn't age, it's [how fast you ramp the load](/posts/padel-for-men-over-40/). Same thesis, different jersey.
 
 A decade is coming either way. Spend it building something.

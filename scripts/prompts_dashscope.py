@@ -237,6 +237,20 @@ PROMPTS = {
         "through gym haze, photorealistic-illustrative, film grain, 16:9 composition, no text, "
         "no watermark, face completely obscured, ethnicity not discernible"
     ),
+    # Padel #41 — "the injury isn't the sport, it's the ramp".
+    # Object-led still life (the DashScope lesson from after-deload: props suppress
+    # the generic-gym prior better than scenes). A glass-box court edge + paddle
+    # + ball on the floor = the moment before a first session.
+    "padel-court-entry": (
+        "Cinematic still life at the corner of an empty padel court at dusk: a single "
+        "perforated black padel paddle resting flat on the blue court surface beside "
+        "one yellow ball, the low glass wall of the court catching a hard reflection, "
+        "faint white court lines receding into shallow focus. Deep charcoal and cool "
+        "blue palette, one warm amber light source raking across the glass from the "
+        "right, moody chiaroscuro, volumetric haze, long shadows, photorealistic-"
+        "illustrative, subtle film grain, 16:9 composition, quiet and expectant, "
+        "no people, no text, no watermark"
+    ),
     # After the deload — the re-entry/"coming back" post.
     # ⚠️ DashScope will NOT render an unloaded bar or a chalk-free gym: 5 attempts
     # (empty barbell, bare rack, wooden floor, workbench still life) ALL came back with

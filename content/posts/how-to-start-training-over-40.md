@@ -1,7 +1,7 @@
 ---
 title: "How to Start Training at 40+ (The Beginner's Guide)"
 date: 2026-08-21T00:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-10-20T07:00:00+08:00
 draft: false
 tags: ["beginner", "over 40", "training"]
 description: "Your first thirty days of training, mapped week by week. No six-week transformations — just the exact starting point for men over 40 who've never lifted."
@@ -93,3 +93,7 @@ That's not the finish line. It's the first step. And it's the only step that was
 - **Reilly & Deykin (1983), and related sleep-restriction studies.** Grip strength and submaximal lift performance decline after several consecutive nights of restricted sleep, confirming that short sleep measurably blunts strength output.
 - **Morán-Navarro et al.** Training short of muscular failure produced faster recovery (strength restored within ~24h) than training to failure, which depressed strength by ~7–11% for 24+ hours — the rationale for the "two reps in the tank" rule for beginners.
 - **Body recomposition for untrained/novice lifters** — multiple reviews (and a 2026 Vargas-Molina randomized trial) confirm that beginners and overweight individuals can gain muscle even in a calorie deficit, the population for whom starting at 40+ is most favorable.
+
+---
+
+*Starting something new rather than coming back to lifting? [The padel injury data](/posts/padel-for-men-over-40/) makes the same point about ramping: the risk isn't your age, it's how fast you add sessions.*
