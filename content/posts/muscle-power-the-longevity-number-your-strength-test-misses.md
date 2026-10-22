@@ -1,7 +1,7 @@
 ---
 title: "Muscle Power: The Longevity Number Your Strength Test Misses"
 date: 2026-10-06T07:00:00+08:00
-lastmod: 2026-10-07T09:00:00+08:00
+lastmod: 2026-10-22T19:00:00+08:00
 draft: false
 tags: ["muscle power", "longevity", "explosive training", "men over 40"]
 description: "Muscle power — force times speed — predicts early death far better than raw strength, yet almost nobody trains it. Here's why it fades and how to build it."
@@ -55,6 +55,8 @@ A strength-only plan is training half the signal. It builds the muscle that look
 For a man planning his next decade instead of his next six weeks, the message is simple: **train the number that predicts your longevity, and don't forget the speed half.** Strength is the engine; power is how fast you can use it — and the speed is what you'll miss when you need it most.
 
 If you've only been tracking the slow half, start with the other longevity number: [grip strength, the mortality signal most lifters ignore](/posts/grip-strength-the-mortality-number-lifters-ignore/). That post covers the *amount* of force; this one covers the *speed* of it — train both, and you've covered the full signal. If you're newer to the gym and need a foundation first, [start with how to strength-train after 40](/posts/strength-training-after-40-how-to-start/).
+
+And if the reason you don't have a power number yet is that you haven't started training at all, [Creatine Without the Gym](/posts/creatine-without-the-gym/) is the honest version of what a supplement can and cannot do for you before you do.
 
 ## Sources
 

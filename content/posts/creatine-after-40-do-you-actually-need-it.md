@@ -1,7 +1,7 @@
 ---
 title: "Creatine After 40: Do You Actually Need It? The Evidence, Not the Hype"
 date: 2026-08-27T07:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-10-22T19:00:00+08:00
 draft: false
 tags: ["creatine", "supplements", "over 40", "muscle building", "aging"]
 description: "Creatine is the most studied supplement on earth — and the most misunderstood. What the evidence says for men over 40: benefits, dosing, and two fears."
@@ -58,6 +58,8 @@ No supplement replaces training, and creatine is no exception. Its benefit comes
 That's the shape of every argument worth making on a decade scale: **the villain is the quick-fix industry, selling you a pile of mystery compounds with a six-week promise; the hero is the boring, evidence-backed lever that quietly compounds for years.** Creatine is the rare supplement that lands on the right side of that line. It's cheap, it's safe for healthy kidneys, and it's the single most-documented performance aid a man in midlife can put in his shaker.
 
 Not because it's magic. Because it's one of the few things in the supplement aisle that actually stands up to being read.
+
+One more thing worth knowing, because it changes who this advice is for: a 2026 trial found that adults aged 45 to 65 taking creatine gained lean tissue **without training at all** — though less than a third of what training adds. If you haven't started yet, or you're wondering what to tell someone who hasn't, [Creatine Without the Gym](/posts/creatine-without-the-gym/) walks through exactly what that study does and does not show.
 
 ---
 
