@@ -48,6 +48,8 @@ If you can complete every rep with perfect form while your breathing stays contr
 
 Add weight slowly — 2.5 kg per session (or 5 kg on a leg movement) is plenty. At that rate, even starting from an empty bar, you'll be lifting real weight within a few months. The point is never how fast you add load; it's that your tendons, joints, and nervous system all adapt *together*.
 
+That rule holds on snow too, and it is the reason [choosing the right snowboard](/posts/how-to-choose-a-snowboard/) matters more than the board's spec sheet — the same "too light" instinct that protects your first month of lifting protects your first season. For the framework behind all of this, start with [Why Your Nervous System Governs What Your Body Can Do](/posts/your-nervous-system-is-fried/).
+
 ## Frequency beats intensity: two to three times a week
 
 A fifteen-minute daily habit beats a brutal two-hour session you need four days to recover from. For a beginner over 40, **two or three full-body sessions a week is not a compromise — it's the optimal dose.**

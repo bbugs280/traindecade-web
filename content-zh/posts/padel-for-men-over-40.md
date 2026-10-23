@@ -77,6 +77,8 @@ cover:
 
 板網球對你確實有益。它是持續的移動，強迫你變向，它的社交性是健身房永遠給不了的，短回合也讓它成為真正的體能訓練。這些都是它會擴散的原因。傷害數據不是反對你打球，它是主張你要慢慢增加場次。
 
+器材的版本是同一個問題：冬天上雪之前，[四十歲後怎麼挑雪板](/zh/posts/how-to-choose-a-snowboard/)講的正是把工具配到身體上，而不是反過來。
+
 ## 資料來源
 
 - Incidence, prevalence and nature of injuries in padel: a systematic review. *BMJ Open Sport & Exercise Medicine* 2023;9:e001607. PMID 37337550 · PMCID PMC10277135

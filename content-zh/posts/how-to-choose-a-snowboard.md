@@ -227,6 +227,8 @@ cover:
 
 跟本站其他主題一樣：目標不是這個週末。是接下來十年都還能待在山上，而不是因為一次賽季終結級的受傷而停下來。
 
+這個目標是在健身房建立的，不是店裡。板子送你上纜車；[讓活動範圍保持誠實的活動度訓練](/zh/posts/stiff-is-not-inevitable-mobility-after-40/)，和[保護關節的力量基礎](/zh/posts/strength-training-after-40-how-to-start/)，才是讓你二月還繼續滑的東西。如果雪季只是你一年的一部分，同一套肌腱容量論證也適用於[四十歲後成長最快的球拍運動](/zh/posts/padel-for-men-over-40/)。
+
 ## Sources
 
 - **Camber 原理與板型行為** — 傳統 camber 在受壓時儲存能量、把接觸點壓入雪面，產生咬合力與彈跳感；rocker 反轉接觸幾何，讓頭尾浮於雪面之上，換得浮力但犧牲硬雪咬合。屬單板設計基本原理，見各廠技術文件（Burton、Jones、Lib Tech、CAPiTA）與獨立評測機構（Snowboarding Profiles、The Good Ride、Whitelines）。

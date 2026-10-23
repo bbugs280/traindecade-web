@@ -227,6 +227,8 @@ Buy a board matched to how you actually ride — the terrain you actually ride, 
 
 Same as everything else here: the goal isn't this weekend. It's staying on the mountain for the next decade without a season-ending injury.
 
+That goal is built in the gym, not the shop. The board gets you up the lift; [the mobility work that keeps your range honest](/posts/stiff-is-not-inevitable-mobility-after-40/) and [the strength base that protects your joints](/posts/strength-training-after-40-how-to-start/) are what keep you riding it in February. And if the winter season is only part of your year, the same tendon-capacity argument applies to [the fastest-growing racket sport for men over 40](/posts/padel-for-men-over-40/).
+
 ## Sources
 
 - **Camber mechanics and profile behaviour** — Traditional camber stores energy under flex and presses the contact points into snow, producing edge grip and pop; rocker inverts contact geometry so tip/tail ride above the surface, improving float at the cost of hardpack grip. Standard snowboard design principle, documented across manufacturer technical literature (Burton, Jones, Lib Tech, CAPiTA) and independent review bodies (Snowboarding Profiles, The Good Ride, Whitelines).

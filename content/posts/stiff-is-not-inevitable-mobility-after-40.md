@@ -57,6 +57,8 @@ Pick the one movement that feels stiffest and give it ten minutes, three times a
 
 The measure of progress isn't a stretch test. It's whether the movement that was stiff six weeks ago stops being something you think about.
 
+That same principle — own the position before you add load — is the whole argument in [How to Choose a Snowboard After 40](/posts/how-to-choose-a-snowboard/). A board you can control beats a board that flatters a spec sheet, and the reasoning is identical to the one above.
+
 ## The reframe worth keeping
 
 "Stiff is just aging" is a resignation note, not a fact. It's what the fear-marketing fitness industry sells you so you'll buy something softer instead of doing the one uncomfortable thing that works — moving to the edge and loading it.

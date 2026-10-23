@@ -59,6 +59,8 @@ The prevention prescription in the padel research is not exotic and it is not lo
 
 That is a general strength programme wearing a padel jersey. Which is the point: **the training that keeps you on court is the same training that keeps you independent at 70.** You are not doing padel-specific preparation. You are buying tendon capacity faster than the sport can spend it.
 
+The winter version of this question is equipment rather than conditioning: [how to choose a snowboard after 40](/posts/how-to-choose-a-snowboard/) makes the same argument about matching the tool to the body instead of the other way round.
+
 ## The practical version
 
 Three rules, in order of how much they matter:
