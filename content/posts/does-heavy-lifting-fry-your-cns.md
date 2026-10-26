@@ -100,6 +100,8 @@ Heavy lifting creates real fatigue that takes real time to clear. But the eviden
 
 That's good news, and it's actionable. You are not protecting a fragile battery. You are managing a workload — and workload is something you can actually count, plan, and progress. Train with the right target in mind, and you stop avoiding work you were never actually in danger of damaging anything with.
 
+**And if you want the numbers behind that — how long each type of session actually takes to clear, measured at 24, 48 and 72 hours — that's the next post: [how long CNS fatigue actually lasts](/posts/cns-fatigue-recovery-time/).**
+
 Tracking HRV, resting heart rate, and sleep by hand is a chore nobody keeps up. If you'd rather have a readiness score handed to you each morning — a single green/amber/red go/no-go — [GainCut](https://apps.apple.com/hk/app/gaincut/id6785259813) collapses it into one number so you can stop guessing and start recovering on purpose.
 
 ## Sources

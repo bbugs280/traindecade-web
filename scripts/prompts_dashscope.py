@@ -213,6 +213,18 @@ PROMPTS = {
     # cue: a heavy squat grinding up out of the hole, near-silhouette so
     # ethnicity/face are not discernible (per the ethnicity rule). No brain/
     # anatomy prop (avoids the "fried battery" cliché the post refutes).
+    "cns-fatigue-recovery-time": (
+        "Cinematic wide shot of a quiet, empty industrial gym at the end of the day, "
+        "a single loaded barbell resting on the platform in the foreground still bearing "
+        "the plates from the last session, a man in his forties of ambiguous mixed ethnicity "
+        "walking away toward the far exit with his back to camera and face completely "
+        "unseen, gym bag over one shoulder, the space empty and still behind him, "
+        "faint jade-green light falling through high dusty windows onto the abandoned bar, "
+        "deep charcoal shadows, high-contrast chiaroscuro, warm editorial tones, "
+        "volumetric haze, the feeling of deliberate rest rather than exhaustion, "
+        "photorealistic-illustrative, film grain, 16:9 composition, no text, no watermark, "
+        "face completely obscured, ethnicity not discernible"
+    ),
     "does-heavy-lifting-fry-your-cns": (
         "Cinematic low-angle shot of a powerfully built man grinding out the bottom "
         "of a heavy barbell back squat in a dim industrial gym, photographed from "

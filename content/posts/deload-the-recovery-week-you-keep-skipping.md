@@ -43,6 +43,8 @@ The first and best data on how trained lifters actually do this comes from a 202
 
 The takeaway: a deload is *less of the same*, not *none of the same*. You keep the habit, keep the movements, and turn the dial down on how hard you push.
 
+**Which raises the question of what a deload is actually clearing.** Not your nervous system, mostly. Measured recovery shows central fatigue clears in minutes while muscle function stays depressed for **48–72 hours** after a hard session — so a lighter week works because it stops *re-adding* peripheral damage, not because it "reboots the CNS." That distinction decides how light is light enough: [the full measured timeline is here](/posts/cns-fatigue-recovery-time/).
+
 ## How much to actually back off
 
 This is where most people get a deload wrong, and the failure tells you exactly what matters.

@@ -65,6 +65,9 @@ None of this means "train less." It means train *to the signal*.
 **1. Track your HRV against your own baseline, not the internet's number.**
 Pick one consistent time — immediately upon waking is the cleanest — and log it. Don't compare your number to anyone else's. Watch the *trend*, not the day.
 
+**1b. Separate the two clocks — because they are wildly different.**
+Central fatigue (the nervous-system part) is measured in **minutes**, not days: voluntary activation is largely restored within about half an hour even after long grinding work. What takes **48–72 hours** is the *muscle*. If you're holding a whole rest day for your "CNS," you're resting the wrong thing — and if you're training the same tissue again after 24, you're resting the right thing too little. The full measured timeline is in [how long CNS fatigue actually lasts](/posts/cns-fatigue-recovery-time/).
+
 **2. When your HRV drops below baseline, back off — don't grind.**
 A below-baseline morning is your body's way of saying the command center hasn't finished recovering. That's the day to cut one heavy set, swap the max-effort single for submaximal work, or do your mobility/zone-2 day instead of the heavy compound. You lose nothing — the research says you get the gains either way, with less fatigue banked.
 
