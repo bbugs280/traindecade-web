@@ -1,7 +1,7 @@
 ---
 title: "Grip Strength: The Mortality Number Most Lifters Ignore"
 date: 2026-08-30T07:00:00+08:00
-lastmod: 2026-10-07T09:00:00+08:00
+lastmod: 2026-10-28T22:45:00+08:00
 draft: false
 tags: ["grip strength", "longevity", "functional strength", "men over 40"]
 description: "Grip strength predicts cardiovascular mortality better than blood pressure — and most men over 40 never train it. Here's how to build it."
@@ -44,11 +44,27 @@ A separate UK Biobank analysis of **40,000+ people** found greater grip strength
 
 The pattern holds in both directions you'd care about for a decade-long horizon: grip tracks your heart *and* your head.
 
-## The Threshold Worth Knowing
+## The Threshold Worth Knowing — and Why One Number Isn't Enough
 
 There's a clinical line here, not just a vague "stronger is better." The **EWGSOP2** — the European consensus on sarcopenia — flags **grip below 27 kg in men** (16 kg in women) as "probable sarcopenia": the point where age-related muscle loss becomes a diagnosable problem, not a cosmetic one.
 
-You don't need to obsess over the number. But if a middle-aged man can't reliably close **30 kg** on a hand dynamometer, that's a quiet alarm the rest of his training plan isn't answering.
+But 27 kg is a **European** threshold, and the **Asian Working Group for Sarcopenia (AWGS)** publishes stricter, **age-specific** numbers — which matter if you're Asian, and matter more than most people realise if you're in your fifties:
+
+| Age | Men | Women |
+|---|---|---|
+| 50–64 | **< 34 kg** | < 20 kg |
+| ≥ 65 | **< 28 kg** | < 18 kg |
+
+Two things follow, and they pull in opposite directions.
+
+**The good news:** EWGSOP2's flat 27 kg is *not* the right line for a 50-something. A European man in his fifties is judged against a threshold built for older adults, and the AWGS 2025 update moved the other way — it lowered nothing for the 65+ group but raised the bar substantially for 50–64, because muscle strength declines well before 65.
+
+**The uncomfortable part:** read against the stricter age-specific cut-off, a man in his early fifties closing 31 kg is *below* the line — where the flat 27 kg reading would have reassured him. That gap is exactly why the site gives you the numbers rather than a slogan.
+
+You don't need to obsess over the figure. But if a man in his fifties can't reliably close **34 kg** on a hand dynamometer, that's not a training preference — it's a signal the rest of his plan isn't answering. Get one measurement before you decide you're fine.
+
+⚠️ **Which threshold applies to you is a clinical call, not a blog's.** The two consensuses disagree on cut-offs and on which populations they were derived from, and neither is a diagnosis. If a number here worries you, take it to a doctor rather than to a training programme.
+
 
 ## How to Build It (Hint: Not Wrist Curls)
 
@@ -75,6 +91,8 @@ Your hands are holding more than the bar. They're holding the first sign of whet
 
 - **Leong DP, et al. Prognostic value of grip strength: findings from the Prospective Urban Rural Epidemiology (PURE) study.** *The Lancet*. 2015;386(9990):266–273. — 139,691 adults, 17 countries; per 5 kg drop in grip, HR 1.16 all-cause and 1.17 cardiovascular mortality; strongest predictor vs. systolic BP.
 - **Cruz-Jentoft AJ, et al. Sarcopenia: revised European consensus on definition and diagnosis (EWGSOP2).** *Age and Ageing*. 2019. — probable sarcopenia threshold: grip <27 kg men / <16 kg women.
+- **Chen LK, et al. Asian Working Group for Sarcopenia: 2025 consensus update.** *Geriatrics & Gerontology International*. 2025 (doi:10.1111/ggi.70815 / agm2.70082). — age-stratified low-grip cut-offs: **50–64 yrs <34 kg men / <20 kg women; ≥65 yrs <28 kg men / <18 kg women.** Interpretation: Jianghan et al., *Aging Medicine* 2026 (doi:10.1002/agm2.70082).
+- **Transition between 2019 and 2025 sarcopenia definitions by the AWGS in community-dwelling older adults.** *BMC Geriatrics*. 2026 (doi:10.1186/s12877-026-07849-1), n=2,456. — age-specific cut-offs applied; sarcopenia prevalence 18.1% (2019 criteria) → 28.3% (2025 criteria), p<0.001.
 - **Walking pace, handgrip strength, age, APOE genotypes, and new-onset dementia: the UK Biobank prospective cohort study.** *Alzheimer's Research & Therapy*. 2022;14:158. — n=495,700; grip + walking pace independently predict dementia.
 - **Jiang R, et al. Associations between grip strength, brain structure, and mental health in >40,000 participants from the UK Biobank.** *BMC Medicine*. 2022;20:262. — greater grip linked to better cognition, well-being, lower depression/anxiety.
 - **Grip strength modifies the association between blood-based Alzheimer's biomarkers and cognitive function.** *GeroScience*. 2026. — strength moderates the cognitive impact of neuropathology.

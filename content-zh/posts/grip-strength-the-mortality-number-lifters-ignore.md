@@ -1,7 +1,7 @@
 ---
 title: "握力：多數舉鐵人忽略的死亡風險指標"
 date: 2026-08-30T07:00:00+08:00
-lastmod: 2026-10-07T09:00:00+08:00
+lastmod: 2026-10-28T22:45:00+08:00
 draft: false
 tags: ["握力", "長壽", "功能性肌力", "四十歲以上男性"]
 description: "握力預測全因死亡率與心血管死亡的能力，比血壓更強——而多數四十歲以上的男性從不訓練它。本文說明握力真正測量的是什麼、它如何對應更長的健康壽命，以及該怎麼練。"
@@ -44,11 +44,27 @@ cover:
 
 就十年尺度的規劃而言，這個模式在你關心的兩個方向都成立：握力同時追蹤你的心臟與你的大腦。
 
-## 值得知道的門檻
+## 值得知道的門檻——以及為什麼單一個數字不夠
 
 這裡有一條臨床界線，而不只是模糊的「越強越好」。EWGSOP2——歐洲肌少症共識——把男性握力低於 27 公斤（女性 16 公斤）標記為「可能肌少症」：即年齡相關肌肉流失從外觀問題演變成可診斷疾病的臨界點。
 
-你不需要對數字斤斤計較。但如果一個中年男性無法穩定在握力計上閉合 30 公斤，那是一個安靜的警報，而他其餘的訓練計劃並未回應它。
+但 27 公斤是**歐洲**的門檻。**亞洲肌少症工作小組（AWGS）** 公布的標準更嚴格，而且**依年齡分層**——如果你是亞洲人，這組數字明顯更貼身；如果你在五十幾歲，差距比多數人以為的更大：
+
+| 年齡 | 男性 | 女性 |
+|---|---|---|
+| 50–64 歲 | **< 34 公斤** | < 20 公斤 |
+| 65 歲以上 | **< 28 公斤** | < 18 公斤 |
+
+由此得出兩件事，而它們的方向相反。
+
+**好消息：** EWGSOP2 那個一體適用的 27 公斤，對五十幾歲的人來說**不是**正確的那條線。歐洲共識用的是為年長者建立的門檻；而 AWGS 2025 的更新走了另一個方向——它沒有為 65 歲以上族群調降，卻為 50–64 歲大幅提高了標準，因為肌力在 65 歲之前就已經明顯衰退。
+
+**讓人不舒服的部分：** 拿更嚴格的年齡分層門檻來對照，一個五十出頭、握力 31 公斤的男性其實**低於**標準——而單看 27 公斤那條線，他會覺得自己沒問題。這個落差，正是本站給你數字而不給你口號的原因。
+
+你不需要對數字斤斤計較。但如果一個五十幾歲的男性無法穩定在握力計上閉合 **34 公斤**，那不是訓練偏好問題——而是一個訊號，說明他其餘的訓練計劃並沒有回應它。在做決定之前，先量一次。
+
+⚠️ **哪一條門檻適用於你，是臨床判斷，不是部落格的判斷。** 兩套共識在切點與其推導族群上並不一致，而且兩者都不是診斷。如果這裡的任何數字讓你擔心，帶去給醫生看，而不是帶去給訓練計劃。
+
 
 ## 怎麼練（提示：不是手腕彎舉）
 
@@ -75,6 +91,8 @@ cover:
 
 - **Leong DP, et al. Prognostic value of grip strength: findings from the Prospective Urban Rural Epidemiology (PURE) study.** *The Lancet*. 2015;386(9990):266–273. — 139,691 名成人、17 國；每下降 5 公斤握力，全因死亡 HR 1.16、心血管死亡 HR 1.17；預測力勝過收縮壓。
 - **Cruz-Jentoft AJ, et al. Sarcopenia: revised European consensus on definition and diagnosis (EWGSOP2).** *Age and Ageing*. 2019. — 可能肌少症門檻：男性握力 <27 公斤 / 女性 <16 公斤。
+- **Chen LK, et al. Asian Working Group for Sarcopenia: 2025 consensus update.** *Geriatrics & Gerontology International*. 2025（doi:10.1111/ggi.70815 / agm2.70082）。— 依年齡分層的低握力切點：**50–64 歲男性 <34 公斤 / 女性 <20 公斤；65 歲以上男性 <28 公斤 / 女性 <18 公斤。** 解讀：Jianghan et al., *Aging Medicine* 2026（doi:10.1002/agm2.70082）。
+- **Transition between 2019 and 2025 sarcopenia definitions by the AWGS in community-dwelling older adults.** *BMC Geriatrics*. 2026（doi:10.1186/s12877-026-07849-1），n=2,456。— 套用年齡分層切點後，肌少症盛行率由 18.1%（2019 準則）升至 28.3%（2025 準則），p<0.001。
 - **Walking pace, handgrip strength, age, APOE genotypes, and new-onset dementia: the UK Biobank prospective cohort study.** *Alzheimer's Research & Therapy*. 2022;14:158. — n=495,700；握力與走路速度獨立預測失智。
 - **Jiang R, et al. Associations between grip strength, brain structure, and mental health in >40,000 participants from the UK Biobank.** *BMC Medicine*. 2022;20:262. — 較強握力與更好的認知、幸福感、較低的憂鬱／焦慮相關。
 - **Grip strength modifies the association between blood-based Alzheimer's biomarkers and cognitive function.** *GeroScience*. 2026. — 肌力調節神經病理對認知功能的影響。
