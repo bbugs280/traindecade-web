@@ -1,10 +1,10 @@
 ---
-title: "CNS Fatigue: Why Your Strength Stalls After 40 (and How HRV Catches It)"
+title: "CNS Fatigue: What It Is, the Symptoms, and How Long Recovery Takes"
 date: 2026-09-05T07:00:00+08:00
-lastmod: 2026-10-08T07:00:00+08:00
+lastmod: 2026-10-30T17:05:00+08:00
 draft: false
 tags: ["cns fatigue", "central nervous system fatigue", "cns fatigue symptoms", "nervous system", "recovery", "hrv", "over 40", "strength training", "central vs peripheral fatigue"]
-description: "Why the bar feels glued down while your muscles feel fine, the symptoms that separate CNS fatigue from ordinary soreness, and when HRV says back off."
+description: "What CNS fatigue actually is, the symptoms that separate it from ordinary soreness, how long recovery really takes, and when HRV says back off."
 cover:
   image: "cover-nervous-system-fried.png"
   alt: "A lone barbell in dim light, at rest, nervous system recovery"
@@ -15,6 +15,8 @@ Here's a feeling every lifter over 40 knows, even if they've never named it.
 You show up. Your muscles don't even hurt. Your warm-up feels fine. Then you get under a bar that you moved easily last week — and it feels like it's bolted to the floor. Your coordination is slightly off. Your drive is gone. You grind through it anyway, because that's what men do, and the number still won't budge.
 
 Most people blame the muscles. **But the muscles aren't the problem. Your nervous system is.** And the fix isn't more effort — it's reading the one signal you've been ignoring.
+
+**This page is the explainer**: what CNS fatigue is, what its symptoms look like, how long recovery actually takes, and how HRV reads it. If you came with the narrower gym question — *does heavy lifting actually fry the central nervous system?* — that gets its own evidence review, because the answer is more specific than the folklore: [does heavy lifting 'fry' your CNS?](/posts/does-heavy-lifting-fry-your-cns/)
 
 ## What CNS fatigue actually is (and what it feels like)
 

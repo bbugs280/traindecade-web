@@ -1,7 +1,7 @@
 ---
 title: "Does Heavy Lifting 'Fry' Your CNS? What the Evidence Actually Says"
 date: 2026-10-08T07:00:00+08:00
-lastmod: 2026-10-08T07:00:00+08:00
+lastmod: 2026-10-30T17:05:00+08:00
 draft: false
 tags: ["cns fatigue", "central nervous system fatigue", "does lifting fry your cns", "central vs peripheral fatigue", "heavy lifting recovery", "over 40", "strength training", "recovery"]
 description: "The gym says heavy lifting 'fries your CNS' and needs 48 hours to recover. The evidence says something more specific — and more useful — than that."
@@ -14,7 +14,7 @@ Type "does heavy lifting fry your CNS?" into Google and you'll get a wall of con
 
 It's one of the most repeated claims in the gym. It is also, as a *mechanistic* claim, substantially wrong — and the way it's wrong matters, because it leads men over 40 to train around a threat that isn't the real one.
 
-Here's what the actual evidence says. There's a [primer on what CNS fatigue is and how HRV catches it here](/posts/your-nervous-system-is-fried/); this post answers the narrower question that page raises but doesn't settle: **does heavy lifting actually fry the central nervous system?**
+Here's what the actual evidence says. There's a [primer on what CNS fatigue is and how HRV catches it here](/posts/your-nervous-system-is-fried/) — that page is the **explainer** (definition, symptoms, recovery timeline); this post is the **myth probe**, answering the narrower question that page raises but doesn't settle: **does heavy lifting actually fry the central nervous system?**
 
 ## What "frying your CNS" is supposed to mean
 
