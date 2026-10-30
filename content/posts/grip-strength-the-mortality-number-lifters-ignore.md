@@ -1,7 +1,7 @@
 ---
 title: "Grip Strength: The Mortality Number Most Lifters Ignore"
 date: 2026-08-30T07:00:00+08:00
-lastmod: 2026-10-28T22:45:00+08:00
+lastmod: 2026-10-30T16:20:00+08:00
 draft: false
 tags: ["grip strength", "longevity", "functional strength", "men over 40"]
 description: "Grip strength predicts cardiovascular mortality better than blood pressure — and most men over 40 never train it. Here's how to build it."
@@ -84,6 +84,8 @@ Grip strength is a *current reading* of your future function. It declines first,
 For a man planning his next decade rather than his next six weeks, the message is simple: **train the number that predicts your longevity, not the one that flatters your reflection.**
 
 Grip strength is the *amount* of force — but it's only half the longevity signal. The other half, which fades even faster, is the *speed* of force: [muscle power, the number your strength test misses](/posts/muscle-power-the-longevity-number-your-strength-test-misses/).
+
+**But force is no use to a man who's on the floor.** Grip and power both assume you stay upright — balance is the system that decides whether you do, and it's the sibling half of the same functional-independence picture: [balance, the skill you regret not training](/posts/balance-the-skill-you-regret-not-training/). And if the reason your grip number is low is that sitting has quietly switched off your trunk, that's the upstream cause, not a wrist problem: [core strength for desk workers](/posts/core-strength-for-desk-workers/).
 
 Your hands are holding more than the bar. They're holding the first sign of whether the next ten years are yours.
 

@@ -1,7 +1,7 @@
 ---
 title: "Core Strength for Desk Workers: Your Lower Back Pays for Every Hour You Sit"
 date: 2026-09-03T08:30:00+08:00
-lastmod: 2026-09-03T08:30:00+08:00
+lastmod: 2026-10-30T16:20:00+08:00
 draft: false
 tags: ["core strength", "desk workers", "lower back pain", "spinal health", "posture", "L4 L5", "sitting"]
 description: "Sitting quietly deconditions the deep muscles that hold your spine stable, then hands the load to the disc least able to take it. Here's what to do."
@@ -71,6 +71,8 @@ One thing that helps almost as much as the exercises: **interrupt the load durin
 ## The decade-scale point
 
 The reason this belongs in a long-game fitness philosophy is that the cost isn't paid this week. Disc degeneration and multifidus deconditioning are *decade* processes, not sprint injuries. You won't feel the switch-off happening — that's precisely the danger. By the time an L4–L5 segment announces itself, usually in your 40s or 50s, it has been quietly outnumbered for years.
+
+This is also the piece the other functional-independence tests quietly depend on. Your [grip strength](/posts/grip-strength-the-mortality-number-lifters-ignore/) is measured in your hands, but the force has to travel through a trunk that can hold position under load — decondition the trunk and the number stops moving no matter how much you carry. And a stable trunk is the platform your [balance](/posts/balance-the-skill-you-regret-not-training/) is built on: you can't hold a single-leg stance on a spine that's busy compensating.
 
 The reverse is also true, and it's the better news: the same slowness works in your favor. Core stability is the most trainable, least glamorous, highest-return investment a sedentary adult can make, and it requires no talent, no equipment, and no risk appetite — just fifteen patient minutes, several times a week, for years.
 

@@ -1,7 +1,7 @@
 ---
 title: "Balance: The Skill You Regret Not Training"
 date: 2026-08-31T07:00:00+08:00
-lastmod: 2026-10-07T09:00:00+08:00
+lastmod: 2026-10-30T16:20:00+08:00
 draft: false
 tags: ["balance", "fall prevention", "functional fitness", "men over 40", "longevity"]
 description: "Balance peaks in your 20s, then quietly declines — and by the time you notice, the fall risk is real. Here's how to test and train it before you need to."
@@ -16,6 +16,8 @@ Walk into any gym and you'll see men training what they can *see* — chest, arm
 Balance isn't a party trick for old people. It's a **use-it-or-lose-it system** that peaked in your twenties and has been declining ever since — silently, a few seconds a year — until one day you reach for your sock, lose your footing, and it's suddenly a medical event instead of a stumble.
 
 If you've already trained your [grip strength](/posts/grip-strength-the-mortality-number-lifters-ignore/), you've started on the *upper-limb* half of what we've been calling functional independence. Balance is the other half — the fall-risk and proprioception piece — and it's just as neglected, and just as predictive.
+
+And if neither number has moved in years, the place they both start is your trunk: [core strength for desk workers](/posts/core-strength-for-desk-workers/) is the upstream cause of a grip reading that won't budge, because the chair switches the trunk off before the hands ever get a chance to work.
 
 The uncomfortable truth: **by the time you notice your balance is gone, you've already spent a decade losing it.** The good news is that it's one of the most trainable systems in your body — if you start before you need to.
 
