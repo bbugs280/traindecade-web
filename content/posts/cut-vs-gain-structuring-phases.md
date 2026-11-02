@@ -1,7 +1,7 @@
 ---
 title: "Cut vs Gain: How to Structure Your Phases"
 date: 2026-08-21T00:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-11-02T16:00:00+08:00
 draft: false
 tags: ["cut", "bulk", "phases", "nutrition"]
 description: "Cut or bulk first? For how long? Here's how to actually structure your phases — the evidence, the timelines, and the trap most men fall into."
@@ -22,7 +22,7 @@ You don't pick "cut" or "bulk" in the abstract. You pick based on where you are 
 
 - **Carrying more fat than you want? Cut.** If you can pinch real fat at the waist, a calorie deficit is your phase. Adding muscle while visibly overweight is the slowest possible path to looking different.
 - **Lean enough, but small? Gain.** If you're relatively lean but under-muscled — the classic "skinny-fat" or just plain thin — a modest surplus is where the fastest visible change happens.
-- **Both? You're a beginner or early intermediate.** If you haven't trained more than a year or two, you don't need to pick at all. Recomposition — losing fat and gaining muscle simultaneously — is real, and it's *easiest* exactly here, when the gap between where you are and where you could be is widest.
+- **Both? You're a beginner or early intermediate.** If you haven't trained more than a year or two, you don't need to pick at all. Recomposition — losing fat and gaining muscle simultaneously — is real, and it's *easiest* exactly here, when the gap between where you are and where you could be is widest. (It's also not a beginner-only phenomenon: [recomposition works for men over 40 too](/posts/body-recomposition-men-over-40/), just more slowly.)
 
 The trap isn't picking wrong. The trap is never picking — drifting between "sort of cutting" and "sort of bulking" and getting neither.
 
@@ -42,7 +42,7 @@ Here's where most men over 40 go wrong, and the evidence is unforgiving about it
 
 When you diet, you don't just lose fat — you lose *some* muscle and lean mass with it. The question is how much. The research is consistent: **resistance training plus adequate protein is what decides whether a cut strips fat or strips you.**
 
-The clearest number: dieting alone turns about **24%** of lost weight into lean mass. Adding resistance training cuts that to **~11%**. And in a famous study (Longland et al.), men in a steep **40% calorie deficit** who ate high protein (~2.4 g/kg) and trained still managed to *gain* muscle while losing fat. The deficit didn't cost them their muscle — the lack of protein and training would have.
+The clearest number: dieting alone turns about **24%** of lost weight into lean mass. Adding resistance training cuts that to **~11%**. And in a famous study (Longland et al.), men in a steep **40% calorie deficit** who ate high protein (~2.4 g/kg) and trained still managed to *gain* muscle while losing fat. The deficit didn't cost them their muscle — the lack of protein and training would have. If you're unsure how much protein that actually is, [the per-kilogram number is worth getting right](/posts/how-much-protein-do-you-really-need/) before you start a deficit.
 
 The takeaway is blunt: **the crash cut is how you end up smaller *and* softer — the exact opposite of the goal.** A steeper deficit helps you reach "done" faster, but "done" includes muscle you spent months building if you skip the training and protein that protect it.
 
@@ -50,9 +50,9 @@ The takeaway is blunt: **the crash cut is how you end up smaller *and* softer �
 
 One of the quiet reasons people fail is they never define the endpoint. A phase without an exit condition isn't a phase — it's just a new normal you'll drift in forever.
 
-- **Cut is done when** you can see the definition you were after, *or* when the deficit is no longer sustainable without losing training performance and lean mass. That second signal matters more than the mirror: when your lifts are dropping and you're starving, you're past the point of productive cutting.
+- **Cut is done when** you can see the definition you were after, *or* when the deficit is no longer sustainable without losing training performance and lean mass. That second signal matters more than the mirror: when your lifts are dropping and you're starving, you're past the point of productive cutting. (If the drops come with dead legs and wrecked sleep rather than hunger, that's a different problem — [you may need a recovery week, not a phase change](/posts/deload-the-recovery-week-you-keep-skipping/).)
 - **Gain is done when** you've either hit a muscle goal you can measure (a lift, a measurement) or the fat you're accruing alongside the muscle has reached the point where more bulking isn't worth it anymore.
-- **Then switch.** Every phase ends in the next one. That's the whole game.
+- **Then switch.** Every phase ends in the next one. That's the whole game. And if you're unsure whether to open the next cycle with lifting or conditioning, [the order actually matters](/posts/strength-or-cardio-first/).
 
 ## The decade framing
 
