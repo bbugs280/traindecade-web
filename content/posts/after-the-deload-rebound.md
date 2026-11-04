@@ -1,6 +1,7 @@
 ---
 title: "After the Deload: Why the Rebound Isn't Automatic"
 date: 2026-10-16T07:00:00+08:00
+lastmod: 2026-11-04T10:00:00+08:00
 draft: false
 tags: ["deload", "recovery", "strength training", "programming", "men over 40"]
 description: "You took the deload week. Now what? The rebound most lifters expect isn't automatic — the research says it depends on how you come back. Here's the evidence."
@@ -100,7 +101,7 @@ The fix is unglamorous. Train lighter rather than stopping. Come back gradually 
 
 None of that produces a satisfying clang either — which is why, like the deload itself, most people skip it and then wonder why the week didn't deliver.
 
-The deload clears the fatigue. [What you do in the fortnight after it](/posts/deload-the-recovery-week-you-keep-skipping/) is what decides whether the strength underneath actually shows up.
+The deload clears the fatigue. [What you do in the fortnight after it](/posts/deload-the-recovery-week-you-keep-skipping/) is what decides whether the strength underneath actually shows up. And if you're wondering whether a week off *without* a deload — an actual holiday — can produce the same rebound, that's a different question with a different answer: [the PR that only shows up after a week off](/posts/the-pr-that-only-shows-up-after-a-week-off/).
 
 ## Sources
 

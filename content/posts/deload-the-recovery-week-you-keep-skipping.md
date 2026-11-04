@@ -1,7 +1,7 @@
 ---
 title: "Deload: The Recovery Week You Keep Skipping"
 date: 2026-09-03T07:00:00+08:00
-lastmod: 2026-10-16T07:00:00+08:00
+lastmod: 2026-11-04T10:00:00+08:00
 draft: false
 tags: ["deload", "recovery", "strength training", "programming", "men over 40"]
 description: "Most men over 40 train every week at full intensity and wonder why they stall. A planned deload clears the fatigue masking your strength. Here's how."
@@ -96,7 +96,7 @@ That's exactly why people skip it. And exactly why the ones who don't are the on
 
 A deload is a *scheduled* back-off. But sometimes your body asks for one on its own schedule — and if you can't see the signal, you'll grind straight through it. That signal is [CNS fatigue](/posts/your-nervous-system-is-fried/) — and before you treat heavy lifting as a threat to your nervous system, read [what the evidence actually says about whether lifting fries your CNS](/posts/does-heavy-lifting-fry-your-cns/): the fatigue you're backing off from is mostly muscle, and mostly volume-driven.
 
-And once the week is done, the harder half begins: [the rebound isn't automatic, and the re-entry is what decides whether any of it worked](/posts/after-the-deload-rebound/).
+And once the week is done, the harder half begins: [the rebound isn't automatic, and the re-entry is what decides whether any of it worked](/posts/after-the-deload-rebound/). Skip the deload entirely and just take a holiday instead? That's a genuinely different intervention with its own evidence — [why a week off can produce a PR](/posts/the-pr-that-only-shows-up-after-a-week-off/).
 
 ## Sources
 

@@ -280,4 +280,20 @@ PROMPTS = {
         "background, photorealistic-illustrative, subtle film grain, 16:9 composition, "
         "calm quiet and orderly, no people, no text, no watermark"
     ),
+    # The week-off PR post. Deliberately NOT an empty barbell or a resting gym scene —
+    # "after-deload" already owns the resting-bar visual, and DashScope injects plates
+    # and chalk into unloaded-bar prompts anyway (documented above). This post's subject
+    # is ARRIVAL and DISPLACEMENT: a bag dropped by a door, travel having just ended.
+    # Props suppress the gym prior; the suitcase carries the narrative on its own.
+    "week-off-pr": (
+        "Cinematic still life in the quiet entryway of a minimalist apartment against a "
+        "deep charcoal wall: a worn leather holdall bag and a rolled-up navy travel "
+        "jacket resting on a light wooden floor beside a pair of plain white walking "
+        "shoes set side by side, all placed down with casual care as if someone has just "
+        "walked in and left them there. Late afternoon window light rakes across the "
+        "floor from the right, warm amber against cool shadow, moody chiaroscuro, "
+        "volumetric dust motes in the beam, long soft shadows, photorealistic-"
+        "illustrative, subtle film grain, 16:9 composition, calm and still, no people, "
+        "no text, no watermark"
+    ),
 }
