@@ -1,7 +1,7 @@
 ---
 title: "Sleep and Recovery: The Part of Muscle-Building You're Probably Skipping"
 date: 2026-08-22T12:00:00+08:00
-lastmod: 2026-10-08T07:00:00+08:00
+lastmod: 2026-11-04T09:00:00+08:00
 draft: false
 tags: ["sleep", "recovery", "muscle building", "over 40"]
 description: "Muscle isn't built in the gym — it's built while you recover. Why sleep and rest days matter more after 40, and the levers that actually work."
@@ -28,7 +28,7 @@ Put those together and the conclusion isn't "train less" — it's "recover on pu
 
 Here's the number that should reframe sleep for you: **short or poor sleep measurably reduces muscle gain and increases fat gain — even when training and diet are identical.**
 
-The mechanism isn't mysterious. Growth hormone — the master anabolic signal — is released in its largest pulse during deep sleep. Testosterone, which drives muscle repair, is produced substantially at night. And the muscle-protein synthesis that rebuilds damaged fibers happens predominantly while you sleep. Cut sleep short, and you're literally capping the growth response you trained to trigger.
+The mechanism isn't mysterious. Growth hormone — the master anabolic signal — is released in its largest pulse during deep sleep. Testosterone, which drives muscle repair, is produced substantially at night — and the decline everyone gets sold a supplement for turns out to be [a slow leak, not a cliff](/posts/testosterone-after-40-the-myth-buster/). And the muscle-protein synthesis that rebuilds damaged fibers happens predominantly while you sleep. Cut sleep short, and you're literally capping the growth response you trained to trigger.
 
 For men over 40, the bar is **7–8 hours of quality sleep** — not a luxury threshold, but the floor at which recovery actually completes. Chronic short sleep is the single most common reason a training program underdelivers.
 

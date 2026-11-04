@@ -1,7 +1,7 @@
 ---
 title: "Testosterone After 40: The Myth-Buster"
 date: 2026-08-24T07:00:00+08:00
-lastmod: 2026-09-02T08:00:00+08:00
+lastmod: 2026-11-04T09:00:00+08:00
 draft: false
 tags: ["testosterone", "hormones", "men's health", "aging", "strength training"]
 description: "Low testosterone after 40 is one of the most profitable fears in men's health. Here's what the evidence says — and why 'low T' is a number, not a disease."
@@ -36,9 +36,9 @@ The large "30% low T" figures aren't wrong, exactly — they're answering a diff
 
 The useful insight from the aging research isn't "your hormones are doomed." It's that the decline is **partly modifiable** — and the levers are boring, free, and not for sale.
 
-**Sleep.** This is the most underrated one. A 2011 study in *JAMA* took healthy young men — average age 24 — and restricted them to five hours of sleep a night for one week. Their daytime testosterone dropped **10–15%**. Compare that to the ~1–2% *per year* of normal aging: one bad week of sleep did, in seven days, what aging does in roughly a decade. Testosterone is released mostly during sleep; chronically shortchange it and you're manufacturing the very decline you're afraid of.
+**Sleep.** This is the most underrated one. A 2011 study in *JAMA* took healthy young men — average age 24 — and restricted them to five hours of sleep a night for one week. Their daytime testosterone dropped **10–15%**. Compare that to the ~1–2% *per year* of normal aging: one bad week of sleep did, in seven days, what aging does in roughly a decade. Testosterone is released mostly during sleep; chronically shortchange it and you're manufacturing the very decline you're afraid of. The full recovery picture — why sleep is the input most training programs quietly under-count — is in [sleep and recovery](/posts/sleep-and-recovery/).
 
-**Body fat.** This is the other big one, and the reason the "reversible" framing matters. The relationship between body fat and testosterone is a two-way street: fat mass mildly suppresses testosterone (via aromatase converting it to estrogen and via raised SHBG), and low testosterone makes it easier to accumulate fat. A systematic review and meta-analysis (Corona et al.) found that weight loss — whether from diet or bariatric surgery — consistently raised total and free testosterone, and that the *degree* of weight lost was the best predictor of how much it rose. In other words, a chunk of what looks like "age-related decline" is actually an accumulation problem, and it's partially reversible.
+**Body fat.** This is the other big one, and the reason the "reversible" framing matters. The relationship between body fat and testosterone is a two-way street: fat mass mildly suppresses testosterone (via aromatase converting it to estrogen and via raised SHBG), and low testosterone makes it easier to accumulate fat. A systematic review and meta-analysis (Corona et al.) found that weight loss — whether from diet or bariatric surgery — consistently raised total and free testosterone, and that the *degree* of weight lost was the best predictor of how much it rose. In other words, a chunk of what looks like "age-related decline" is actually an accumulation problem, and it's partially reversible. The mechanics of losing fat without surrendering muscle in the process are here: [lose fat without losing muscle](/posts/how-to-lose-fat-without-losing-muscle/).
 
 **Training.** Resistance training gives the acute libido-and-vigor benefits that matter for how you *feel*, even if it moves your resting number less than weight loss does. This is the recurring theme of the honest literature: the subjective stuff men actually care about — energy, drive, recovery, mood — tracks lifestyle more reliably than it tracks a single blood number.
 
@@ -54,7 +54,7 @@ Testosterone is not a youth serum. It's a hormone that, when genuinely and sympt
 
 The "testosterone after 40" story is mostly a sales pitch built on a kernel of real biology. Yes, your levels decline — about 1% a year from thirty onward, and your free (bioavailable) testosterone a bit faster as SHBG rises. But for the overwhelming majority of men, this is normal, inconsequential, and not a disease.
 
-The honest levers — sleep, body fat, training — move the things you actually feel: energy, drive, recovery, mood. And they're free.
+The honest levers — sleep, body fat, training — move the things you actually feel: energy, drive, recovery, mood. And they're free. What the decade-scale picture looks like when you pull those levers instead of buying a bottle is [body recomposition after 40](/posts/body-recomposition-men-over-40/).
 
 If you think you have a problem, don't self-diagnose from an ad. Get a morning blood test, confirm it on repeat, and only then have the conversation. Chances are excellent your testosterone is doing exactly what it's supposed to do: aging quietly, like everything else that's going to last a decade.
 

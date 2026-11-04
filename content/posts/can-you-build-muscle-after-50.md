@@ -1,7 +1,7 @@
 ---
 title: "Can You Build Muscle After 50? Yes — and the Research Is Clear"
 date: 2026-08-22T09:00:00+08:00
-lastmod: 2026-09-07T08:00:00+08:00
+lastmod: 2026-11-04T09:00:00+08:00
 draft: false
 tags: ["muscle building", "over 50", "aging", "strength training"]
 description: "Can a man build muscle after 50 — or 60? Yes. Untrained men in their sixties reliably double their strength. Here's what genuinely changes with age."
@@ -36,7 +36,7 @@ None of this means fifty is twenty-five. Pretending the two are identical is jus
 
 ## Why the "too old" story sells (and who it serves)
 
-If you're wondering why a story this easily disproven survives, follow the money. The "past your prime" narrative is the foundation of the entire midlife supplement and anti-aging market. Convince a fifty-five-year-old man his body is in irreversible decline, and you've got a customer for life — for testosterone boosters, "T-boosters," peptides, expensive blood work, and seminars.
+If you're wondering why a story this easily disproven survives, follow the money. The "past your prime" narrative is the foundation of the entire midlife supplement and anti-aging market. Convince a fifty-five-year-old man his body is in irreversible decline, and you've got a customer for life — for testosterone boosters, "T-boosters," peptides, expensive blood work, and seminars. The hormone story is the best-sold version of it, and it doesn't survive a look at the [actual numbers behind the decline](/posts/testosterone-after-40-the-myth-buster/).
 
 The truth — *train consistently and your body adapts at any age* — is worse for business. It requires no product. It's free, it's boring, and it works. That's why you never hear it shouted.
 
