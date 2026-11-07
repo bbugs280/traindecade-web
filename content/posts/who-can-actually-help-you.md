@@ -9,13 +9,19 @@ cover:
   alt: "Who can actually help you — consulting room light on the wall of an empty clinic corridor"
 ---
 
-Ask a man in his forties with a nagging injury what he has done about it and you will usually get a list. The orthopaedic surgeon. The physio. The masseuse. The trainer. The chiropractor. The Chinese medicine practitioner. Two years, five professionals, still sore.
+Ask a man in his forties about a nagging injury. He will usually give you a list. The orthopaedic surgeon. The physio. The masseuse. The trainer. The chiropractor. The Chinese medicine practitioner.
 
-The instinct is to conclude that the problem is unfixable, or that the professionals were bad at their jobs. Usually neither is true. The more common explanation is structural: **each of those people solves a different slice of the problem, only one slice is yours right now, and nobody was ever assigned the whole case.**
+Two years. Five professionals. Still sore.
 
-That is not negligence. It is how the system is organised. A surgeon is trained and paid to answer a surgical question. A physiotherapist treats what is referred with a prescription. A sports massage therapist works on tissue tension. Each is competent inside their lane and blind outside it — and nobody's job is to stand back and ask which lane you belong in.
+There are two easy conclusions. Either the problem cannot be fixed. Or every professional was bad at their job. Neither is usually true.
 
-This article is that missing job, written down. If you already know your own answers to the four routing questions, you can [skip straight to the tool](#four-questions) and get a practitioner type in under a minute.
+The likelier answer is simpler. **Each of those people solves one slice of the problem. Only one slice is yours. And nobody was ever put in charge of the whole case.**
+
+That is not negligence. It is how the system is organised. A surgeon is trained and paid to answer a surgical question. A physiotherapist treats what gets referred with a prescription. A massage therapist works on tissue tension.
+
+Each is good inside their lane. Each is blind outside it. And nobody's job is to step back and ask which lane you belong in.
+
+This article does that missing job. If you already know your answers to the four routing questions, [skip to the tool](#four-questions). It takes under a minute.
 
 ## The map
 
@@ -24,96 +30,112 @@ Here is what each practitioner actually does, what they demonstrably cannot do, 
 | Practitioner | What they genuinely solve | What they don't | The tell you're in the wrong room |
 |---|---|---|---|
 | **Surgeon / orthopaedic specialist** | Structural problems that need a decision — a tear above a threshold, a nerve under real pressure, a joint that has failed | The 90%+ of musculoskeletal pain that is a loading problem, not a surgical one | They lead with the scan and the option table, without a diagnosis from examination |
-| **Musculoskeletal physiotherapist** | The loading prescription. Exercise-based rehab for tendon, muscle, and joint problems | Diagnosis of a condition outside their assessment scope; imaging; injections | The plan is passive — table time, ultrasound, taping — with no progressive home loading |
-| **Podiatrist / foot & ankle specialist** | The foot and ankle specifically: orthoses, gait, plantar and Achilles pathology, foot-specific diagnosis | Anything above the ankle | They don't assess your foot loaded, walking, or barefoot |
-| **Sports medicine physician** | Diagnosis across the whole chain; imaging referrals; injections; coordinating a plan | Long-term rehab delivery — they diagnose, someone else executes | There is no onward plan after the appointment ends |
-| **Massage / manual therapist** | Symptom relief. Reducing guarding, improving how a tissue feels for a while | Any structural change. Zero remodelling effect | The relief lasts a day or two and the plan is "come back weekly" |
-| **Strength coach / trainer** | Building capacity and general strength — once the diagnosis is settled | Diagnosis, and prescribing around an active injury | They train around pain instead of referring, or they "fix" it with mobility work |
+| **Musculoskeletal physiotherapist** | Hands-on loading plans. Exercise-based rehab for tendon, muscle and joint problems | Diagnoses outside their area; scans; injections | The plan is hands-on only — table time, ultrasound, taping — with no home loading that gets harder over time |
+| **Podiatrist / foot & ankle specialist** | The foot and ankle only: arch supports, walking pattern, heel and Achilles problems | Anything above the ankle | They don't assess your foot loaded, walking, or barefoot |
+| **Sports medicine physician** | Diagnosis across the whole chain; imaging referrals; injections; coordinating a plan | Carrying out long-term rehab — they diagnose, someone else does the work | There is no onward plan after the appointment ends |
+| **Massage / manual therapist** | Symptom relief. Reducing guarding, improving how a tissue feels for a while | Any change to the tissue itself. None at all | The relief lasts a day or two and the plan is "come back weekly" |
+| **Strength coach / trainer** | Building strength and capacity — once the diagnosis is settled | Diagnosis, and prescribing around an active injury | They train around pain instead of referring, or try to "fix" it with stretching |
 
 ## Why "see a professional" is useless advice
 
-The phrase assumes one professional exists for your problem. In practice, the failure mode is almost identical across all six: **you get the treatment that person delivers, not the treatment your condition needs.**
+That phrase assumes one professional exists for your problem. Usually none does.
 
-A hammer does not look for the wrong nail — but it also does not tell you when the nail is fine and the wall is the problem.
+Instead, the failure looks the same every time. **You get the treatment that person delivers. Not the treatment your condition needs.**
 
-The tell is in the table's last column, and it is more reliable than any credential. Two questions you can ask yourself after any appointment:
+A hammer does not look for the wrong nail. But it also will not tell you the nail is fine and the wall is the problem.
+
+The last column of that table is more reliable than any credential. After any appointment, ask yourself two questions:
 
 1. **Was the diagnosis made by examination, or by looking at a picture?**
-2. **Does the plan involve something I do repeatedly at home, or something that happens to me in the clinic?**
+2. **Does the plan involve something I do at home, or something done to me in the clinic?**
 
-If the answer is *picture* and *in the clinic*, you have had passive care. Passive care is not worthless — but it cannot rebuild tissue, and a case that has been running for months needs rebuilding, not soothing.
+If the answers are *picture* and *in the clinic*, you had hands-on care. That is not worthless. But hands-on care cannot rebuild tissue. A case that has run for months needs rebuilding, not soothing.
 
 ## The worked example: six professionals, one sore heel
 
-This is not hypothetical. A man in his late forties has a heel that screams on his first step out of bed, fades in ten minutes, and returns by evening. He also has an old scan of his lower back showing mild disc narrowing. Over a couple of years he sees:
+This is not hypothetical. Take a man in his late forties. His heel screams on his first step out of bed. It fades in ten minutes. By evening it is back.
 
-- **An orthopaedic specialist**, who reads the back scan, notes disc space narrowing, calls it mild sciatica, prescribes core work, and says to come back if it gets worse.
-- **A physiotherapist**, who delivers exactly that — core stability, posture, ergonomics, ultrasound.
-- **A massage therapist**, who works the calf and reports it is very tight, which is true and looks like a clue.
-- **A trainer**, who adds calf raises to the programme, on the reasonable logic that the calf needs strengthening.
-- **A shockwave course**, which makes the sole progressively sorer session by session.
+He also has an old scan of his lower back. It shows mild disc narrowing. Over a couple of years he sees:
 
-Every one of those decisions is defensible in isolation. Together they treat the spine and the calf and never once treat the plantar fascia — because **nobody examined the foot.**
+- **An orthopaedic specialist.** Reads the back scan. Notes the narrowed disc. Calls it mild sciatica. Prescribes core work. Says come back if it worsens.
+- **A physiotherapist.** Delivers exactly that. Core stability. Posture. Ergonomics. Ultrasound.
+- **A massage therapist.** Works the calf. Reports it is very tight. That is true, and it looks like a clue.
+- **A trainer.** Adds calf raises. The logic is reasonable: the calf needs strengthening.
+- **A shockwave course.** Makes the sole sorer after every session.
 
-And the puzzle pieces were visible the whole time. The pain was worst on the first step of the morning, which is the defining clinical feature of plantar fasciopathy — a timing signature a nerve root does not produce. The MRI, read properly, said there was **no significant nerve root impingement**. He had flat feet, the single largest mechanical risk factor. The calf tightness was real but was a downstream finding, not the driver.
+Each decision is defensible alone. Together, they treat the spine and the calf. They never treat the plantar fascia.
 
-**Six professionals, and the missing item was not skill. It was scope.** Each one stayed inside their lane, and the condition lived in a lane nobody was standing in.
+Why? **Nobody examined the foot.**
+
+And the clues were there all along. The pain was worst on the first step of the morning. That timing is the defining sign of plantar fascia pain. A nerve root does not produce it. The scan, read properly, said **no significant nerve impingement**. He had flat feet, the single biggest mechanical risk factor. The tight calf was real. But it was a downstream finding, not the cause.
+
+**Six professionals. What was missing was not skill. It was scope.** Each stayed in their lane. The condition lived in a lane nobody stood in.
 
 ## What the wrong lane actually costs
 
-The man above did not just waste money. He lost two years in which the tissue was being re-injured daily with no protection and no loading — while the shockwave course made it more irritable. That is not a neutral failure. Passive care applied to a loading problem can extend the problem.
+That man lost more than money. He lost two years. During those years the tissue was re-injured daily, with no protection and no loading. The shockwave made it more sensitive.
 
-And the mechanism of the original error is worth naming, because it is the most common one in musculoskeletal medicine: **a scan was treated as a diagnosis.** Guidelines are unambiguous about this. The BMJ's "Choosing Wisely" analysis notes that fewer than 5–10% of low back pain has a specific underlying spinal pathology and that imaging "may do more harm than good" when serious causes aren't suspected — and that MRI within 30 days of onset, when there is no clear indication, is associated with **higher rates of prolonged disability**. Several national bodies recommend against routine imaging for uncomplicated back pain regardless of duration.
+That is not a neutral failure. Hands-on care applied to a loading problem can make the problem last longer.
 
-The harm is not the radiation. The harm is exactly what happened above: the finding on the image becomes the thing being treated, even when a two-minute examination and a question about *when* the pain is worst would have pointed somewhere else entirely.
+The original mistake deserves a name. It is the commonest one in muscle and joint medicine: **a scan was treated as a diagnosis.**
 
-## The four questions that route you correctly {#four-questions}
+Guidelines are blunt here. The BMJ's "Choosing Wisely" analysis reports two things. Fewer than 5–10% of low back pain has a specific spinal cause. And imaging "may do more harm than good" when no serious cause is suspected. It also notes that an MRI within 30 days of onset, with no clear reason for it, is linked to **higher rates of long-term disability**. Several national bodies advise against routine imaging for uncomplicated back pain, whatever the duration.
 
-Before booking anyone, answer these. They will tell you which row of the table you need.
+The harm is not the radiation. The harm is what happened above. The finding on the image becomes the thing being treated. Meanwhile a two-minute examination, plus one question about *when* the pain is worst, would have pointed somewhere else entirely.
 
-**1. Is the pain worst at a specific time of day, or after a specific action?**
-Timing is a diagnostic signature. Worst on waking and after rest, easing with movement, returning later — that pattern points to a mechanical loading problem in a specific tissue. It does not point to a nerve.
+## Four questions that tell you who to see {#four-questions}
 
-**2. Is it sharp and localized, or burning and spreading?**
-Localized sharp pain at one reproducible spot suggests a tissue. Burning, electric, or band-shaped pain suggests a nerve. These need different practitioners.
+Answer these before you book anyone. They point you to the right row of the table.
 
-**3. Is there numbness, weakness, or a change in reflexes?**
-If yes, you need a diagnosis by a clinician, and you need it before you start loading anything. This is the one branch where imaging is genuinely appropriate.
+**1. When is the pain worst?**
+Timing tells you a lot. Worst on waking, better with movement, back later? That points to a mechanical problem in a specific tissue. It does not point to a nerve.
 
-**4. Has anything changed in the last 12 weeks of consistent, appropriate treatment?**
-If a plausible treatment has been done properly for three months with no change, the diagnosis is more likely wrong than the treatment. Change the diagnostician, not the dose.
+**2. Is it sharp and in one spot, or burning and spreading?**
+Sharp pain in one spot you can point to suggests a tissue. Burning, electric or band-shaped pain suggests a nerve. These need different people.
 
-If your answers say *localized, time-of-day-driven, no numbness, no change in months of passive care* — you need a **loading prescription**, and the right first appointment is a musculoskeletal physiotherapist or, for a foot problem, a podiatrist. Not a surgeon, and not another scan.
+**3. Any numbness, weakness, or change in bladder or bowel?**
+If yes, see a clinician for a diagnosis first. Do it before you load anything. This is the one branch where a scan is genuinely useful.
+
+**4. Have twelve weeks of proper treatment changed anything?**
+If a sensible treatment was done properly for three months and nothing changed, the diagnosis is likelier wrong than the treatment. Change the person diagnosing, not the dose.
+
+If your answers point to *one spot, worst at a set time, no numbness, months of hands-on care with no change* — you need a **loading plan**. Your first appointment should be a physiotherapist. For a foot problem, a podiatrist.
+
+Not a surgeon. And not another scan.
 
 ### Run your own answers through it
 
-Four questions, one routing answer. It runs entirely in your browser — nothing is sent anywhere, and we don't ask for your email.
+Four questions, one answer. It all runs in your browser. Nothing is sent anywhere, and we do not ask for your email.
 
 {{< practitioner-router >}}
 
-## Injury is part of training — but only if someone is managing the load
+## Injury is part of training — if someone is managing the load
 
-Here is the reframe worth keeping, and it is what separates people who train for decades from people who quit at forty-five.
+Here is the reframe worth keeping. It separates people who train for decades from people who quit at forty-five.
 
-**Injuries are not interruptions to training. They are the predictable cost of it, and managing them is a skill you either develop or don't.** Nobody who trains for thirty years has no injuries. They have a process for each one: identify what's actually failing, load it deliberately, and continue training around it instead of stopping.
+**Injuries are not interruptions to training. They are the predictable cost of it.** Managing them is a skill. You either develop it or you don't.
 
-That process fails at the first step far more often than the second. Not because the diagnosis was hard, but because nobody was standing in the right lane to make it.
+Nobody who trains for thirty years avoids injury. They have a process for each one. Work out what is actually failing. Load it deliberately. Keep training around it instead of stopping.
 
-The corollary is uncomfortable and useful: **if you have seen several practitioners and nothing has helped, the most likely explanation is that the diagnosis is wrong — not that your body is broken and not that everyone is a charlatan.** A correct diagnosis plus a mediocre practitioner beats a brilliant practitioner working on the wrong tissue, every time.
+That process fails at step one far more often than step two. Not because the diagnosis was hard. Because nobody stood in the right lane to make it.
+
+Here is the uncomfortable, useful part. **If several practitioners have not helped, the likely reason is that the diagnosis is wrong.** Your body is not broken. They are not all frauds.
+
+A correct diagnosis with an average practitioner beats a brilliant one working on the wrong tissue. Every time.
 
 ## The practical version
 
-When something has been nagging for more than a few weeks:
+When something has nagged for more than a few weeks:
 
-1. **Write down the four answers above** before you book anything. Time of day. Character of the pain. Numbness or weakness. What has been tried and for how long.
-2. **Ask each practitioner what they are ruling in and ruling out** — not what they will do to you. The answer tells you whether they are diagnosing or just delivering.
-3. **Do not accept a scan as a diagnosis.** Ask what examination finding supports it, and ask what the scan *cannot* explain.
-4. **If the plan is passive and repeated, ask what the active half is.** If there isn't one, that practitioner is your symptom manager, not your case manager. That's a legitimate role — just don't mistake it for treatment.
-5. **Give any correct plan twelve weeks.** Rebuilding tissue is slow. Switching practitioners every three weeks guarantees you never find out whether one of them was right.
+1. **Write down your four answers before booking.** Time of day. Type of pain. Numbness or weakness. What you have tried, for how long.
+2. **Ask what they are ruling in and ruling out.** Not what they will do to you. The answer shows whether they are diagnosing or just delivering.
+3. **Do not accept a scan as a diagnosis.** Ask which examination finding supports it. Ask what the scan cannot explain.
+4. **If the plan is hands-on and repeated, ask what the active half is.** If there isn't one, that person manages your symptoms, not your case. That is a fair role. Don't mistake it for treatment.
+5. **Give a correct plan twelve weeks.** Tissue takes time to rebuild. Switching every three weeks guarantees you never learn whether one of them was right.
 
-The last point is the one that matters most and is the hardest to accept. The reason to get the diagnosis right is not so you can start faster. It is so you can stay with one plan long enough for it to work.
+Point five matters most and is hardest to accept. Getting the diagnosis right is not about starting faster. It is about staying on one plan long enough for it to work.
 
-**Your body isn't a machine with a single broken part waiting for the right mechanic. It's a system that responds to load — and the practitioner you need is whoever can tell you which load, on which tissue, at which dose.** That person is findable. But they are not all standing in the same room.
+**Your body is not a machine with one broken part and a matching mechanic.** It is a system that responds to load. The person you need can tell you which load, on which tissue, at what dose. That person exists. But not all in the same room.
 
 ## Sources
 

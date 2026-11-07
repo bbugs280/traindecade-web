@@ -13,57 +13,43 @@
   var ROUTES = {
     urgent: {
       en: {
-        label: "See a clinician promptly — not a loading programme",
-        who: "A doctor, today or tomorrow.",
-        why: "Something on your list is a red flag rather than a loading problem: night pain that wakes you, fever, unexplained weight loss, or numbness/weakness/bladder or bowel change. Those override every rule below, and they are the one situation where imaging is genuinely appropriate.",
-        ask: "Ask for a diagnosis from examination, and ask whether imaging is indicated — not for a scan on request."
+        label: "See a clinician — this needs a proper look",
+        who: "A doctor, within days rather than weeks.",
+        why: "Something on your list needs checking rather than loading: night pain that wakes you, fever, unexplained weight loss, or numbness/weakness/bladder or bowel change. These override every rule below. They are also the one situation where imaging is genuinely useful.",
+        ask: "Ask for a diagnosis from examination, and ask whether imaging is indicated — rather than requesting a scan."
       },
       zh: {
-        label: "盡快就醫——不是開始負荷訓練",
-        who: "醫生，今天或明天。",
-        why: "你的清單上有紅旗，而不是單純的負荷問題：痛到醒、發燒、不明原因體重下降，或麻／無力／大小便改變。這些優先於以下所有規則，而這也是影像檢查真正合適的唯一情況。",
-        ask: "要求靠身體檢查做診斷，並問影像是否有適應症——而不是自己指定要拍片。"
+        label: "去看醫生——這個需要認真檢查",
+        who: "醫生，幾天內，而不是幾星期後。",
+        why: "你的清單上有需要檢查而不是負荷的項目：痛到醒、發燒、不明原因體重下降，或麻／無力／大小便改變。這些優先於以下所有規則。這也是影像檢查真正有用的唯一情況。",
+        ask: "要求靠身體檢查做診斷，並問影像是否有需要——而不是自己指定要拍片。"
       }
     },
     neuro: {
       en: {
         label: "A clinician for diagnosis first, then a physiotherapist",
         who: "Sports medicine physician or orthopaedic specialist → then an MSK physiotherapist.",
-        why: "Numbness or weakness means a nerve may be involved. That needs a diagnosis before you load anything, because the loading prescription differs for a nerve than for a tendon.",
-        ask: "Ask which nerve distribution the finding follows, and what would change the plan."
+        why: "Numbness or weakness means a nerve may be involved. That needs a diagnosis before you load anything, because the loading plan for a nerve is different from the one for a tendon.",
+        ask: "Ask which nerve the finding points to, and what would change the plan."
       },
       zh: {
         label: "先由臨床醫生診斷，再由物理治療師接手",
         who: "運動醫學醫生或骨科專科 → 然後是肌肉骨骼物理治療師。",
-        why: "麻或無力代表可能牽涉神經。那需要在開始任何負荷之前先有診斷，因為神經的負荷處方與肌腱不同。",
-        ask: "問這個發現依循哪一條神經分佈，以及什麼情況會改變方案。"
-      }
-    },
-    podiatry: {
-      en: {
-        label: "A podiatrist or foot & ankle physiotherapist",
-        who: "Podiatrist (足病診療師) or a physiotherapist who specialises in the foot.",
-        why: "Sharp, localized pain with a clear time-of-day pattern and no neurological signs is a tissue loading problem — and yours sits in the foot. This is the appointment almost nobody books, because the scan in your file points somewhere else.",
-        ask: "Ask them to assess you loaded, walking, and barefoot — not sitting on a table."
-      },
-      zh: {
-        label: "足病診療師或足踝物理治療師",
-        who: "足病診療師，或專攻足部的物理治療師。",
-        why: "尖銳、局部、有明確時間規律而沒有神經學徵象的痛，是組織的負荷問題——而你的問題在腳。這是最少人會預約的那一次，因為你檔案裡的那張影像指向別處。",
-        ask: "要求他們在負重下、走路時、赤腳時評估你——而不是坐在床上。"
+        why: "麻或無力代表可能牽涉神經。那需要在開始任何負荷之前先有診斷，因為神經的負荷計劃與肌腱不同。",
+        ask: "問這個發現指向哪一條神經，以及什麼情況會改變方案。"
       }
     },
     physio: {
       en: {
-        label: "A musculoskeletal physiotherapist",
-        who: "An MSK physiotherapist who prescribes progressive loading.",
-        why: "Sharp, localized, pattern-driven pain with no neurological signs is a loading problem. The fix is a deliberate loading prescription, not another passive course — and the practitioner you want is the one who gives you homework.",
+        label: "A physiotherapist — and ask for a loading plan",
+        who: "A physiotherapist who treats muscle and joint problems, and who gives you homework.",
+        why: "Sharp pain in one spot, with a clear pattern and no nerve signs, is a loading problem. The fix is a plan that gets harder over time — not another course of hands-on treatment. For a foot or heel problem, a podiatrist is the alternative first call if you also need arch support.",
         ask: "Ask what the active half of the plan is, and how it progresses over twelve weeks."
       },
       zh: {
-        label: "肌肉骨骼物理治療師",
-        who: "會開立漸進式負荷處方的肌肉骨骼物理治療師。",
-        why: "尖銳、局部、有規律驅動而沒有神經學徵象的痛，是負荷問題。解法是一份刻意的負荷處方，而不是又一個被動療程——你要找的是會給你回家功課的那一位。",
+        label: "物理治療師——而且要一份負荷計劃",
+        who: "處理肌肉關節問題、而且會給你回家功課的物理治療師。",
+        why: "一點的銳痛、有明確規律、沒有神經徵象，就是負荷問題。解法是一份會越來越吃力的計劃，不是又一個被動療程。如果是足部或腳跟問題，而你同時需要足弓支撐，足病診療師是另一個合適的第一站。",
         ask: "問方案裡主動的那一半是什麼，以及它如何在十二週內漸進。"
       }
     },
@@ -71,27 +57,30 @@
       en: {
         label: "Stay with the plan you have — change nothing for twelve weeks",
         who: "The practitioner you are already seeing.",
-        why: "You are already doing active loading and it is progressing. Rebuilding tissue takes roughly twelve weeks; switching practitioners before then guarantees you never find out whether this plan was right. The most common mistake at this stage is impatience, not the wrong therapist.",
+        why: "You are already doing active loading and it is progressing. Rebuilding tissue takes months. Switching practitioners before then guarantees you never find out whether this plan was right. The commonest mistake at this stage is impatience, not the wrong therapist.",
         ask: "Ask for one measurable marker you can re-check at twelve weeks, so progress is a number rather than a feeling.",
         isStay: true
       },
       zh: {
         label: "留在你現有的方案——十二週內什麼都不要改",
         who: "你現在正在看的那一位。",
-        why: "你已經在做主動負荷訓練，而且有進展。重建組織大約需要十二週；在那之前換專業人士，保證你永遠不會知道這個方案對不對。這個階段最常見的錯誤是沒耐性，不是找錯治療師。",
+        why: "你已經在做主動負荷訓練，而且有進展。重建組織需要幾個月。在那之前換專業人士，保證你永遠不會知道這個方案對不對。這個階段最常見的錯誤是沒耐性，不是找錯治療師。",
         ask: "要求一個可以在十二週後重新量測的指標，讓進展是一個數字，而不是一種感覺。",
         isStay: true
       }
     }
   };
 
-  /* Decision table — first match wins. Order matters: red flags first. */
+  /* Decision table — first match wins. Order matters: red flags first.
+   *
+   * ⚠️ Inputs are SYMPTOM facts only. What treatment you have already tried (q4)
+   * does not tell you which tissue is injured, so it only routes between
+   * "stay" and "not yet started" — it never selects a practitioner type.
+   */
   function route(a) {
     if (a.q1 === "redflag") return "urgent";
     if (a.q3 === "neuro") return "neuro";
     if (a.q4 === "active") return "stay";
-    if (a.q2 === "local" && a.q1 === "timing") return "podiatry";
-    if (a.q2 === "local") return "physio";
     if (a.q2 === "nerve") return "neuro";
     return "physio";
   }
