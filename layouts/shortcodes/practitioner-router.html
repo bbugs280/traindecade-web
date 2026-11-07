@@ -1,0 +1,85 @@
+{{- /* Practitioner router — self-contained, no CDN, no framework.
+      Bilingual (EN default, ZH under /zh/). Answers are UNGATED: no email field,
+      no form, no popup, no data sent anywhere. Everything runs client-side.
+
+      ⚠️ SCOPE GUARD — a single email input appearing here later is a scope
+      violation, not a tuning tweak. Vincent cut capture on the protein
+      calculator for the same reason: there is no warehouse behind the list yet.
+
+      Logic: four routing questions -> one of five verdicts. The decision table
+      below MUST stay consistent with the prose in
+      /posts/who-can-actually-help-you/ — the post states the same four
+      questions and the same routing result.
+*/ -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $isZH := eq $lang "zh" -}}
+{{- $sourcePost := .Page.File.BaseFileName -}}
+
+<div class="prac-router"
+     data-lang="{{ $lang }}"
+     data-source-post="{{ $sourcePost }}"
+     role="group"
+     aria-labelledby="pr-heading">
+
+  <h3 id="pr-heading" class="pr-title">
+    {{- if $isZH -}}你該看哪一種專業人士？{{- else -}}Which practitioner do you actually need?{{- end -}}
+  </h3>
+  <p class="pr-sub">
+    {{- if $isZH -}}
+      四個問題，六十秒，得到一個路徑建議。答案即時顯示，不會傳送任何資料，也不需要留下電郵。
+    {{- else -}}
+      Four questions, sixty seconds, one routing answer. Results show instantly — nothing is sent anywhere and we don't ask for your email.
+    {{- end -}}
+  </p>
+
+  <fieldset class="pr-q">
+    <legend class="pr-legend">
+      1. {{ if $isZH }}痛是在什麼時候最嚴重？{{ else }}When is the pain worst?{{ end }}
+    </legend>
+    <label class="pr-opt"><input type="radio" name="pr-q1" value="redflag" data-q="1"><span>{{ if $isZH }}夜裡會痛到醒，或有發燒、不明原因體重下降{{ else }}It wakes me at night, or I have fever or unexplained weight loss{{ end }}</span></label>
+    <label class="pr-opt"><input type="radio" name="pr-q1" value="timing" data-q="1"><span>{{ if $isZH }}剛醒來或休息後最痛，活動之後減輕，之後又回來{{ else }}Worst on waking or after rest, eases with movement, then returns{{ end }}</span></label>
+    <label class="pr-opt"><input type="radio" name="pr-q1" value="constant" data-q="1"><span>{{ if $isZH }}沒有明顯的時間規律，差不多一直如此{{ else }}No clear pattern — roughly constant{{ end }}</span></label>
+  </fieldset>
+
+  <fieldset class="pr-q">
+    <legend class="pr-legend">
+      2. {{ if $isZH }}痛的性質是哪一種？{{ else }}What does it feel like?{{ end }}
+    </legend>
+    <label class="pr-opt"><input type="radio" name="pr-q2" value="local" data-q="2"><span>{{ if $isZH }}尖銳、局部，可以指得出一個點{{ else }}Sharp and localized — I can point to one spot{{ end }}</span></label>
+    <label class="pr-opt"><input type="radio" name="pr-q2" value="nerve" data-q="2"><span>{{ if $isZH }}灼熱、電擊感、沿一條帶狀分佈或向外擴散{{ else }}Burning, electric, band-shaped, or spreading{{ end }}</span></label>
+  </fieldset>
+
+  <fieldset class="pr-q">
+    <legend class="pr-legend">
+      3. {{ if $isZH }}有沒有麻、無力，或大小便改變？{{ else }}Any numbness, weakness, or bladder or bowel changes?{{ end }}
+    </legend>
+    <label class="pr-opt"><input type="radio" name="pr-q3" value="neuro" data-q="3"><span>{{ if $isZH }}有{{ else }}Yes{{ end }}</span></label>
+    <label class="pr-opt"><input type="radio" name="pr-q3" value="none" data-q="3"><span>{{ if $isZH }}沒有{{ else }}No{{ end }}</span></label>
+  </fieldset>
+
+  <fieldset class="pr-q">
+    <legend class="pr-legend">
+      4. {{ if $isZH }}已經做過多久恰當的治療，有改變嗎？{{ else }}How long has appropriate treatment been going, and has anything changed?{{ end }}
+    </legend>
+    <label class="pr-opt"><input type="radio" name="pr-q4" value="passive" data-q="4"><span>{{ if $isZH }}幾個月都是被動治療，沒有改變{{ else }}Months of passive treatment, no change{{ end }}</span></label>
+    <label class="pr-opt"><input type="radio" name="pr-q4" value="active" data-q="4"><span>{{ if $isZH }}正在做主動負荷訓練，有進展{{ else }}Currently doing active loading, and it's progressing{{ end }}</span></label>
+    <label class="pr-opt"><input type="radio" name="pr-q4" value="na" data-q="4"><span>{{ if $isZH }}還沒有開始任何治療{{ else }}Haven't started any treatment yet{{ end }}</span></label>
+  </fieldset>
+
+  <button class="pr-btn" type="button" id="pr-run">
+    {{- if $isZH -}}顯示我的路徑{{- else -}}Show my route{{- end -}}
+  </button>
+
+  <div class="pr-out" id="pr-out" aria-live="polite" hidden></div>
+
+  <p class="pr-foot">
+    {{- if $isZH -}}
+      這是一個求診方向的工具，不是診斷。它不會、也不能告訴你你有什麼病。
+    {{- else -}}
+      This routes you toward a kind of practitioner. It is not a diagnosis, and it cannot tell you what you have.
+    {{- end -}}
+  </p>
+</div>
+
+{{- $js := resources.Get "js/practitioner-router.js" | minify | fingerprint -}}
+<script src="{{ $js.RelPermalink }}" defer integrity="{{ $js.Data.Integrity }}"></script>

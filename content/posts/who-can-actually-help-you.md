@@ -1,9 +1,9 @@
 ---
-title: "Who Can Actually Help You: The Practitioner Map for a Nagging Injury"
+title: "Six Professionals, Two Years, Still Sore: Why Nobody Fixed Your Injury"
 date: 2026-11-07T10:15:00+08:00
 draft: false
 tags: ["injury recovery", "physiotherapy", "sports medicine", "referral", "plantar fasciitis", "rehab", "getting help"]
-description: "Six practitioners, six different jobs, and nobody who owns your case. Here is what each one actually fixes — and the tell that you are seeing the wrong one."
+description: "Six practitioners, six different jobs, nobody owning your case. What each one actually fixes, the tell that you are in the wrong room, and a tool that routes you in 60 seconds."
 cover:
   image: "cover-who-can-actually-help-you.png"
   alt: "Who can actually help you — consulting room light on the wall of an empty clinic corridor"
@@ -15,7 +15,7 @@ The instinct is to conclude that the problem is unfixable, or that the professio
 
 That is not negligence. It is how the system is organised. A surgeon is trained and paid to answer a surgical question. A physiotherapist treats what is referred with a prescription. A sports massage therapist works on tissue tension. Each is competent inside their lane and blind outside it — and nobody's job is to stand back and ask which lane you belong in.
 
-This article is that missing job, written down.
+This article is that missing job, written down. If you already know your own answers to the four routing questions, you can [skip straight to the tool](#four-questions) and get a practitioner type in under a minute.
 
 ## The map
 
@@ -67,7 +67,7 @@ And the mechanism of the original error is worth naming, because it is the most 
 
 The harm is not the radiation. The harm is exactly what happened above: the finding on the image becomes the thing being treated, even when a two-minute examination and a question about *when* the pain is worst would have pointed somewhere else entirely.
 
-## The four questions that route you correctly
+## The four questions that route you correctly {#four-questions}
 
 Before booking anyone, answer these. They will tell you which row of the table you need.
 
@@ -84,6 +84,12 @@ If yes, you need a diagnosis by a clinician, and you need it before you start lo
 If a plausible treatment has been done properly for three months with no change, the diagnosis is more likely wrong than the treatment. Change the diagnostician, not the dose.
 
 If your answers say *localized, time-of-day-driven, no numbness, no change in months of passive care* — you need a **loading prescription**, and the right first appointment is a musculoskeletal physiotherapist or, for a foot problem, a podiatrist. Not a surgeon, and not another scan.
+
+### Run your own answers through it
+
+Four questions, one routing answer. It runs entirely in your browser — nothing is sent anywhere, and we don't ask for your email.
+
+{{< practitioner-router >}}
 
 ## Injury is part of training — but only if someone is managing the load
 

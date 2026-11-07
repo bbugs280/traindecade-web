@@ -319,3 +319,175 @@ a:hover {
         font-size: 2rem;
     }
 }
+
+/* ---------- Practitioner Router (post: who-can-actually-help-you) ---------- */
+.prac-router {
+    margin: 2.2rem 0;
+    padding: 1.6rem 1.4rem 1.3rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+}
+
+.prac-router .pr-title {
+    margin: 0 0 0.4rem;
+    font-size: 1.32rem;
+    line-height: 1.3;
+}
+
+.prac-router .pr-sub {
+    margin: 0 0 1.3rem;
+    font-size: 0.94rem;
+    line-height: 1.6;
+    color: var(--muted);
+}
+
+.prac-router .pr-q {
+    margin: 0 0 1.15rem;
+    padding: 0;
+    border: 0;
+}
+
+.prac-router .pr-legend {
+    padding: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.98rem;
+    line-height: 1.45;
+    color: var(--ink);
+}
+
+.prac-router .pr-opt {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 0.55rem 0.7rem;
+    margin-bottom: 0.35rem;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 0.94rem;
+    line-height: 1.5;
+    color: var(--ink);
+    transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.prac-router .pr-opt:hover {
+    border-color: var(--jade);
+}
+
+.prac-router .pr-opt input {
+    margin: 0.28rem 0 0;
+    flex: 0 0 auto;
+    accent-color: var(--jade);
+}
+
+.prac-router .pr-btn {
+    display: block;
+    width: 100%;
+    margin-top: 1.3rem;
+    padding: 0.78rem 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: var(--jade);
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.prac-router .pr-btn:hover {
+    background: var(--jade-dark);
+}
+
+.prac-router .pr-out {
+    margin-top: 1.4rem;
+}
+
+.prac-router .pr-card {
+    padding: 1.15rem 1.1rem 1rem;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--jade);
+    border-radius: 7px;
+}
+
+.prac-router .pr-card--stay {
+    border-left-color: var(--muted);
+}
+
+.prac-router .pr-kicker {
+    margin: 0 0 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.prac-router .pr-verdict {
+    margin: 0 0 1rem;
+    font-size: 1.14rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--ink);
+}
+
+.prac-router .pr-dl {
+    margin: 0;
+    font-size: 0.94rem;
+    line-height: 1.62;
+}
+
+.prac-router .pr-dl dt {
+    margin-top: 0.75rem;
+    font-weight: 700;
+    font-size: 0.84rem;
+    color: var(--jade);
+}
+
+.prac-router .pr-dl dt:first-child {
+    margin-top: 0;
+}
+
+.prac-router .pr-dl dd {
+    margin: 0.18rem 0 0;
+    color: var(--ink);
+}
+
+.prac-router .pr-rule {
+    margin: 1.1rem 0 0;
+    padding: 0.85rem 1rem;
+    font-size: 0.9rem;
+    line-height: 1.62;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px dashed var(--line);
+    border-radius: 7px;
+}
+
+.prac-router .pr-warn {
+    margin: 0;
+    font-size: 0.92rem;
+    color: var(--muted);
+}
+
+.prac-router .pr-foot {
+    margin: 1.1rem 0 0;
+    font-size: 0.8rem;
+    line-height: 1.55;
+    color: var(--muted);
+}
+
+@media (max-width: 480px) {
+    .prac-router {
+        padding: 1.2rem 1rem 1.1rem;
+    }
+    .prac-router .pr-title {
+        font-size: 1.18rem;
+    }
+    .prac-router .pr-opt {
+        font-size: 0.92rem;
+    }
+}
