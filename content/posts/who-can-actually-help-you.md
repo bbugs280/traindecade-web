@@ -1,9 +1,9 @@
 ---
-title: "Six Professionals, Two Years, Still Sore: Why Nobody Fixed Your Injury"
+title: "Why Does My Heel Hurt in the Morning? (And Why Nobody Fixed It)"
 date: 2026-11-07T10:15:00+08:00
 draft: false
-tags: ["injury recovery", "physiotherapy", "sports medicine", "referral", "plantar fasciitis", "rehab", "getting help"]
-description: "Six practitioners, six different jobs, nobody owning your case. What each one actually fixes, the tell that you are in the wrong room, and a tool that routes you in 60 seconds."
+tags: ["heel pain", "plantar fasciitis", "morning heel pain", "injury recovery", "physiotherapy", "sports medicine", "referral", "rehab"]
+description: "Most heel pain is worst on the first step out of bed — and most people spend years being treated for the wrong thing. What the pattern means, and how to pick the right practitioner."
 cover:
   image: "cover-who-can-actually-help-you.png"
   alt: "Who can actually help you — consulting room light on the wall of an empty clinic corridor"
@@ -21,7 +21,27 @@ That is not negligence. It is how the system is organised. A surgeon is trained 
 
 Each is good inside their lane. Each is blind outside it. And nobody's job is to step back and ask which lane you belong in.
 
-This article does that missing job. If you already know your answers to the four routing questions, [skip to the tool](#four-questions). It takes under a minute.
+This article does that missing job. First, why mornings are the worst. Then, who to see.
+
+## Why mornings are worse
+
+The plantar fascia is a thick band under your foot. It runs from your heel bone to the base of your toes. Its job is to hold up your arch.
+
+When your toes bend upward, the band winds around the ball of the foot. It tightens. The arch lifts. That is what turns your foot into a spring. It is called the **windlass mechanism**.
+
+Now think about how you sleep. Your ankles relax. Your toes point slightly down. The band is slack, and it sits that way for hours. Over those hours it **shortens**.
+
+Then you stand up.
+
+A short band gets stretched suddenly, by your full body weight, in one instant. If the tissue is healthy, it stretches and you feel nothing.
+
+If it has months of wear, you are stretching partly damaged fibres. You feel a stab at the heel. It fades over five to ten minutes as the tissue warms and lengthens.
+
+That easing is the most misleading part of the whole thing. It makes people think the problem is gone. It is not. Tonight you will shorten it again.
+
+This is why the timing matters so much. A nerve does not get sore because you lay still for eight hours. A band under your foot does. **The clock is the diagnosis.**
+
+If you already know your answers to the four routing questions, [skip to the tool](#four-questions). It takes under a minute.
 
 ## The map
 
@@ -143,7 +163,8 @@ Point five matters most and is hardest to accept. Getting the diagnosis right is
 - **RACGP, *First Do No Harm: Choosing Wisely in General Practice* — Imaging in adults with acute low back pain.** Non-specific low back pain is a clinical diagnosis needing no tests; unnecessary imaging causes more harm than benefit through cost, delay, radiation, and absence from work; radicular syndrome does not routinely require imaging in the first six weeks unless severe, non-improving, and surgery is being considered.
 - **VA/DoD Clinical Practice Guideline for the Diagnosis and Treatment of Low Back Pain (2022).** Strong recommendation against routinely obtaining imaging or invasive diagnostic tests for acute low back pain without focal neurologic deficits or red flags; insufficient evidence to recommend specific physical examination maneuvers for diagnosing facet or sacroiliac joint pain.
 - **Trojian T, Tucker AK (2019).** "Plantar Fasciitis." *American Family Physician* 99(12):744–750. Plantar fasciitis is predominantly a clinical diagnosis by history and examination; classic presentation is pain with the first step of the morning; paresthesia is uncommon; ~80% improve within 12 months with treatment.
-- **Latt LD, Jaffe DE, Tang Y, Taljanovic MS (2020).** "Evaluation and Treatment of Chronic Plantar Fasciitis." *Foot & Ankle Orthopaedics* 5(1). Pain worst with the first step in the morning or after rest, improving with activity; characteristic findings are limited to point tenderness at the proximal plantar fascial insertion, which is why the diagnosis is made at examination rather than on imaging.
+- **Latt LD, Jaffe DE, Tang Y, Taljanovic MS (2020).** "Evaluation and Treatment of Chronic Plantar Fasciitis." *Foot & Ankle Orthopaedics* 5(1). Pain worst with the first step in the morning or after rest, improving with activity; the plantar fascia raises and stabilizes the arch during gait via the **windlass mechanism**; characteristic findings are limited to point tenderness at the proximal plantar fascial insertion, which is why the diagnosis is made at examination rather than on imaging.
+- **ACFAS Clinical Consensus Statement (2018).** "Diagnosis and Treatment of Adult Acquired Infracalcaneal Heel Pain." Plantar fascia is most susceptible to high tensile load during stance as it resists arch elongation; during heel rise and early push-off, tension rises through Hicks' **windlass mechanism** — dorsiflexion of the toes winds the fascia around the metatarsal heads, shortening its effective length and increasing tension. Also: first-steps-in-the-morning and after-inactivity pain is a typical complaint, subsiding with ambulation then worsening by end of day.
 - **NICE Clinical Knowledge Summaries — Plantar fasciitis: Assessment.** Diagnostic features include first-step pain after inactivity, point tenderness at the medial calcaneal tuberosity, limited ankle dorsiflexion with the knee extended, and a positive Windlass test. The APTA guideline states additional imaging is usually not needed when the diagnosis is suspected clinically.
 - **Malliaras P, Cook J, Purdam C, Rio E (2015).** "Patellar Tendinopathy: Clinical Diagnosis, Load Management, and Advice for Challenging Case Presentations." *Journal of Orthopaedic & Sports Physical Therapy* 45(11):887–898. Recommends against using passive interventions alone; passive strategies have not been shown to normalize tendon matrix or muscle tissue; exercise is the most evidence-based intervention, with passive modalities indicated only as an adjunct.
 - **Maetz R, Dubé M-O, Tougas A, Prudhomme F, Dubois B, Roy J-S (2023).** "Systematic Review and Meta-analyses of RCTs Comparing Exercise Loading Protocols With Passive Treatment Modalities for Midportion Achilles Tendinopathy." *Orthopaedic Journal of Sports Medicine* 11(7). Compares eccentric loading against ultrasound, PRP, shockwave, acupuncture, and prolotherapy among others.

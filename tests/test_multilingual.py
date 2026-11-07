@@ -33,8 +33,8 @@ ZH_CONTENT_DIR = "content-zh"
 
 # A known EN post title fragment and its ZH counterpart, used to assert the
 # home LIST renders in the right language (not just the site <title>/chrome).
-EN_POST_TITLE_FRAGMENT = "Six Professionals, Two Years, Still Sore"
-ZH_POST_TITLE_FRAGMENT = "看過六個專業，兩年還在痛"
+EN_POST_TITLE_FRAGMENT = "Why Does My Heel Hurt in the Morning"
+ZH_POST_TITLE_FRAGMENT = "為什麼早上落地時腳跟會痛"
 
 
 def _read(path: Path) -> str:
