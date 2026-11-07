@@ -57,7 +57,7 @@ Pick the one movement that feels stiffest and give it ten minutes, three times a
 
 The measure of progress isn't a stretch test. It's whether the movement that was stiff six weeks ago stops being something you think about.
 
-That same principle — own the position before you add load — is the whole argument in [How to Choose a Snowboard After 40](/posts/how-to-choose-a-snowboard/). A board you can control beats a board that flatters a spec sheet, and the reasoning is identical to the one above.
+That same principle — own the position before you add load — is the whole argument in [How to Choose a Snowboard After 40](/posts/how-to-choose-a-snowboard/). A board you can control beats a board that flatters a spec sheet, and the reasoning is identical to the one above. If the stiffness has tipped over into an actual injury, the harder question is which practitioner can help at all — that is the map in [who can actually help you](/posts/who-can-actually-help-you/).
 
 ## The reframe worth keeping
 
