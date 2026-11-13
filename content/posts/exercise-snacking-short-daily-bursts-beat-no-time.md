@@ -65,6 +65,8 @@ Exercise snacking will improve your cardiorespiratory fitness and your muscular 
 
 Think of it as the floor, not the ceiling. If your decade-scale plan has room for real training sessions, stack them on top — but never let a "got no time for the full session" day become a "so I did nothing" day again.
 
+And if you take one thing from the limits above, let it be the strength gap. Snacking keeps you from sliding; it does not build the tissue that predicts how long you stay independent. That's a separate job, and it's why [muscle is a metabolic organ rather than a vanity project](/posts/muscle-is-metabolic-armor-not-vanity/). Short bursts buy you the habit. They don't buy you the armor.
+
 ## Sources
 
 - **Exercise snacks improve cardiorespiratory fitness and muscular endurance.** *BMJ Open Sport & Exercise Medicine*, 2026 (systematic review & meta-analysis, 11 RCTs; n=414). PubMed PMID 41057224. — VO2max improved in inactive adults (g=1.37, moderate certainty); muscular endurance improved in older adults (g=0.40, low certainty); no significant effect on maximal strength or cardiometabolic markers; ~82–91% adherence.

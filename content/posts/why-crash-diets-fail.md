@@ -62,6 +62,8 @@ The honest fix is almost boring, because it's the opposite of the pitch:
 
 The people who keep weight off aren't more disciplined than you. They just never asked their body to survive a famine in the first place.
 
+⚠️ One honest caveat on "protect the muscle": in the first weeks of eating less and lifting, you will feel flat and small on some days and pumped on others, and neither is the truth. A pump fades within hours — [pump or real muscle?](/posts/pump-or-real-muscle/) is the distinction that stops a bad-feeling day from talking you out of a diet that's actually working.
+
 A decade is coming either way. The question is whether you spend it oscillating on a crash-diet loop — or building a body that doesn't need rescuing.
 
 ---

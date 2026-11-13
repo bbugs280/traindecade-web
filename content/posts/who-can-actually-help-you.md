@@ -157,6 +157,8 @@ Point five matters most and is hardest to accept. Getting the diagnosis right is
 
 **Your body is not a machine with one broken part and a matching mechanic.** It is a system that responds to load. The person you need can tell you which load, on which tissue, at what dose. That person exists. But not all in the same room.
 
+That last line is the thread running through most of what's on this site. If the constraint is load, then the question for anyone over 40 is not "how do I avoid getting hurt" but [how much muscle you can still build after 50](/posts/can-you-build-muscle-after-50/) — and why [muscle is a metabolic organ, not a vanity project](/posts/muscle-is-metabolic-armor-not-vanity/) in the first place. Getting a diagnosis right matters because the alternative is spending a decade managing symptoms you could have trained away.
+
 ## Sources
 
 - **Hall AM, Aubrey-Bassler K, Thorne B, Maher CG (2021).** "Do not routinely offer imaging for uncomplicated low back pain." *BMJ* 372:n291. Fewer than 5–10% of low back pain has a specific underlying spinal pathology; imaging may do more harm than good when serious conditions are not suspected; MRI within 30 days of onset without clear indication is associated with higher rates of prolonged disability.

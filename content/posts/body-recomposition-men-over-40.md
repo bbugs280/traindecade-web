@@ -43,6 +43,8 @@ Four things separate the men who succeed after 40 from the men who don't:
 3. **Progressive resistance, 3–4 days a week.** This is the signal that tells your body "keep the muscle, burn the fat." It's non-negotiable. Cardio alone won't do it.
 4. **Patience measured in months, not the mirror.** The scale will barely move for weeks because muscle is replacing pound-for-pound the fat you're losing. The tape, your lifts, and the mirror are the honest judges.
 
+⚠️ On that fourth point, one trap worth naming: early in a recomp you will feel *pumped* after sessions and read it as progress. A pump fades within hours and is not evidence of anything. [Pump or real muscle?](/posts/pump-or-real-muscle/) covers how to separate the two — it saves you from chasing a feeling and missing the slower signal that actually means the recomp is working.
+
 ## What to ignore (and it's almost everything marketed to you)
 
 The forty-plus market is built on fear. Notice how much of it evaporates under evidence:

@@ -62,6 +62,8 @@ The prescription isn't complicated, and it isn't endless. It's:
 
 None of this requires a gym membership or hours a day. A pair of dumbbells at home, two or three focused sessions a week, and a decade of patience.
 
+⚠️ And one more thing that trips up men starting later: the first few weeks of training feel *pumped*, not *built*. A pump is real, but it fades in hours and tells you nothing about whether the work is landing. [Pump or real muscle?](/posts/pump-or-real-muscle/) is how to tell the two apart before you misread a good feeling as progress — or miss the quiet evidence that you've actually changed.
+
 ## The decade-scale point
 
 The mirror story and the medicine story reach the same endpoint — they just differ on *why* it matters.
