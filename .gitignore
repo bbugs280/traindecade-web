@@ -28,3 +28,6 @@ __pycache__/
 *.pyc
 
 .hugo_build.lock
+
+# Cloudflare wrangler local state (never commit)
+.wrangler/
