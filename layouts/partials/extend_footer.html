@@ -1,0 +1,68 @@
+{{- /*
+  GA4 outbound-click tracking — event only, NO UTM parameters.
+
+  PURPOSE: measure whether readers actually leave the blog for a product.
+  Without this, every GainCut link on the site is unmeasured and we cannot
+  tell a post that converts from one that does not.
+
+  WHY EVENT-ONLY (decided 2026-11-14, do not "improve" this by adding UTMs):
+    - UTMs on apps.apple.com are frequently stripped or break the redirect.
+    - Apple's App Analytics referral reporting is sampled and unreliable, so a
+      UTM would promise attribution the platform cannot deliver.
+    - The GA4 event answers the real question ("which post sends people to the
+      App Store?") without touching the destination URL at all.
+  If someone later wants Apple-side attribution, that is a SEPARATE experiment
+  and must not be bolted onto this partial.
+
+  WHAT THIS DOES NOT TELL YOU:
+  A click is not an install and not a purchase. It proves a reader left for the
+  App Store. Conversion evidence lives in App Store Connect, not here.
+*/ -}}
+{{- if site.Params.analytics.ga4ID -}}
+<script>
+  (function () {
+    // Only outbound links are tracked. The App Store is the primary product
+    // destination; the extra hosts cover the product page and future products.
+    var TRACKED_HOSTS = [
+      "apps.apple.com",
+      "ideafactory.one"
+    ];
+
+    function isTracked(url) {
+      try {
+        var u = new URL(url, window.location.href);
+        if (u.hostname === window.location.hostname) return false; // internal nav
+        return TRACKED_HOSTS.some(function (h) {
+          return u.hostname === h || u.hostname.endsWith("." + h);
+        });
+      } catch (e) {
+        return false;
+      }
+    }
+
+    document.addEventListener(
+      "click",
+      function (ev) {
+        var el = ev.target;
+        // Walk up to the nearest anchor — clicks often land on a child element.
+        while (el && el.tagName !== "A") el = el.parentElement;
+        if (!el || !el.href) return;
+        if (!isTracked(el.href)) return;
+        if (typeof gtag !== "function") return;
+
+        gtag("event", "outbound_click", {
+          // link_url tells you the destination; page_path tells you the post.
+          link_url: el.href,
+          link_domain: new URL(el.href).hostname,
+          link_text: (el.textContent || "").trim().slice(0, 100),
+          page_path: window.location.pathname,
+          page_language: document.documentElement.lang || "unknown",
+          transport_type: "beacon"
+        });
+      },
+      // Capture phase: fires even if a handler calls stopPropagation.
+      true
+    );
+  })();
+</script>
+{{- end -}}

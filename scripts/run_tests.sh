@@ -44,6 +44,21 @@ echo "→ bilingual invariants"
 echo "→ stray emphasis markers"
 "$PY" tests/check_no_stray_emphasis.py --public ./public || fail=1
 
+# Silent-JS regression: a broken outbound tracker produces no error and no
+# data, which looks identical to "nobody clicked". Must run against a BUILD.
+echo "→ GA4 outbound-click routing"
+if command -v node >/dev/null 2>&1; then
+  node scripts/test_outbound_tracking.js || fail=1
+else
+  echo "⚠️  node not found — SKIPPING outbound-click test (not a pass)"
+fi
+
+# Practitioner router maths harness (symptom->practitioner mapping).
+if [ -f scripts/test_practitioner_router.js ]; then
+  echo "→ practitioner router"
+  node scripts/test_practitioner_router.js || fail=1
+fi
+
 # Non-blocking advisory check from the skill.
 # Takes .md source files or --all (scans content/ + content-zh/). It does NOT
 # accept a built-output directory — passing --public dir errors out.
