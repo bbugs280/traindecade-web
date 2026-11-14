@@ -108,6 +108,31 @@ export async function onRequest(context) {
   // next().
   const response = await next();
 
+  // ⚠️ KEEP THE PREVIEW HOST OUT OF SEARCH / AI INDEXES (added 2026-11-14)
+  // Crawlers discovered `traindecade.pages.dev` before the custom-domain
+  // cutover and never learned the real domain is canonical. Production D1
+  // showed OAI-SearchBot spending most of its fetches on the .pages.dev host —
+  // crawl budget split across two hostnames for identical content.
+  // `X-Robots-Tag: noindex` consolidates everything onto traindecade.com.
+  // Applied ONLY to non-custom-domain hosts: the apex and www must stay
+  // indexable. `noindex` not `noindex, nofollow` — crawlers should still walk
+  // links on the preview, just not index those URLs.
+  //
+  // ⚠️ This must NOT return early. Logging below has to run for preview-host
+  // fetches too — otherwise you lose the only signal that the preview is still
+  // being crawled. Rewrap the response, then fall through.
+  const isPreviewHost = url.hostname.endsWith(".pages.dev");
+  let outResponse = response;
+  if (isPreviewHost) {
+    const headers = new Headers(response.headers);
+    headers.set("X-Robots-Tag", "noindex");
+    outResponse = new Response(response.body, {
+      status: response.status,
+      statusText: response.statusText,
+      headers,
+    });
+  }
+
   if (bot && env.DB) {
     waitUntil(
       (async () => {
@@ -141,5 +166,5 @@ export async function onRequest(context) {
     );
   }
 
-  return response;
+  return outResponse;
 }
