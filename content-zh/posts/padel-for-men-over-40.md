@@ -89,4 +89,4 @@ cover:
 
 ---
 
-*延伸閱讀：[為什麼是十年，而不是六週挑戰](/posts/why-a-decade-not-a-6-week-challenge/)、[四十歲後如何開始訓練](/posts/how-to-start-training-over-40/)、[Zone 2：靠不衝刺練出來的引擎](/posts/zone2-vo2max-longevity-engine/)。*
+*延伸閱讀：[為什麼是十年，而不是六週挑戰](/zh/posts/why-a-decade-not-a-6-week-challenge/)、[四十歲後如何開始訓練](/zh/posts/how-to-start-training-over-40/)、[Zone 2：靠不衝刺練出來的引擎](/zh/posts/zone2-vo2max-longevity-engine/)。*
