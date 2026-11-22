@@ -24,6 +24,21 @@
         {{- print " · "}}
     </span>
 
+    {{- /* Studio network — sibling sites + social. Without this the site is a dead
+           end: 2026-11-22 audit found zero outbound links to any sibling property.
+           Every link carries utm params so referral credit is attributable in GA4. */}}
+    <span class="footer-network">
+        {{- i18n "also_from" | default "Also from IdeaFactory" }}:
+        <a href="https://ideafactory.one/?utm_source=traindecade&utm_medium=referral&utm_campaign=footer"
+           rel="noopener">IdeaFactory</a>
+        {{- print " · "}}
+        <a href="https://builderdecade.com/?utm_source=traindecade&utm_medium=referral&utm_campaign=footer"
+           rel="noopener">Builder Decade</a>
+        {{- print " · "}}
+        <a href="https://www.instagram.com/vincenty3d/?utm_source=traindecade&utm_medium=referral&utm_campaign=footer"
+           rel="noopener nofollow" target="_blank">Instagram</a>
+    </span>
+
     <span>
         Powered by
         <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &

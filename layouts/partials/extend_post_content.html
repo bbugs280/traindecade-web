@@ -2,6 +2,13 @@
       Adds the E-E-A-T "who wrote this & why trust them" signal Google's quality
       reviewers look for. Links to /about for full credentials. Language-aware
       via i18n. */ -}}
+{{- /* GainCut callout — renders on ZH pages only (site.Language.Lang == "zh").
+      Placed in extend_post_content so it lands on every ZH post automatically —
+      no per-file front-matter to forget, no risk of a post shipping without it. */ -}}
+{{- if and .IsPage (eq site.Language.Lang "zh") (not (.Param "hideGainCut")) }}
+{{- partial "gaincut_cta.html" . }}
+{{- end }}
+
 {{- if .IsPage }}
 {{- if not (.Param "hideAuthor") }}
 <div class="author-bio" style="margin-top: 2rem; padding: 1rem 1.25rem; border: 1px solid var(--border); border-radius: 8px; font-size: 0.95rem;">
