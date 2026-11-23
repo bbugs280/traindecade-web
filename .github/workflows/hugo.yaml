@@ -1,4 +1,27 @@
-name: Deploy Hugo site to Pages
+name: Deploy to Cloudflare Pages
+
+# WHY THIS FILE REPLACED THE GITHUB PAGES WORKFLOW (2026-11-23)
+# ------------------------------------------------------------
+# traindecade.com is served by CLOUDFLARE PAGES, not GitHub Pages.
+# The old workflow built with Hugo and deployed to GitHub Pages — a host
+# nobody visits for this domain. Every push from 2026-11-11 to 2026-11-23
+# went green in Actions and never reached production.
+#
+# The old workflow also had a SECOND silent failure: `hugo --quiet` and
+# `Uploading artifact` both exit 0 regardless of whether the deployed
+# bundle contained what the source did. The GainCut connector reported
+# "45/45 shipped" — true of the repo, false of the site.
+#
+# This file keeps the build AND the test gates in GitHub (where the suites
+# live), and only the final upload goes to Cloudflare. Cloudflare never
+# builds — so a test gate can never be bypassed by a host-side rebuild.
+#
+# ⚠️ REQUIRED SECRET: CLOUDFLARE_API_TOKEN
+#    Create at dash.cloudflare.com → My Profile → API Tokens →
+#    "Edit Cloudflare Workers" template, or custom with:
+#      Account → Cloudflare Pages → Edit
+#    Scope it to this account only: 4029844a962a2c6369eea612eba8b02c
+#    An OAuth token from `wrangler login` CANNOT be used here.
 
 on:
   push:
@@ -7,26 +30,29 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: "pages"
+  group: "cloudflare-pages"
   cancel-in-progress: false
 
 defaults:
   run:
     shell: bash
 
+env:
+  HUGO_VERSION: 0.165.0
+  CLOUDFLARE_ACCOUNT_ID: 4029844a962a2c6369eea612eba8b02c
+  CF_PROJECT: traindecade
+  BUILD_DIR: ./public
+
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.165.0
     steps:
       - name: Install Hugo CLI
         run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          wget -O ${{ runner.temp }}/hugo.deb \
+            https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Checkout
@@ -34,53 +60,55 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
-
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --gc --minify --baseURL "https://traindecade.com/"
 
-      - name: Verify bilingual invariants
-        run: |
-          python3 tests/test_multilingual.py --public ./public
+      # ⛔ GATES RUN BEFORE ANY UPLOAD. A red gate means nothing is published.
+      # These are standalone scripts, NOT pytest — `pytest tests/` exits 0 with
+      # "no tests ran" on this repo, a false green. Invoke each one directly.
+      - name: Gate — bilingual invariants
+        run: python3 tests/test_multilingual.py --public ${BUILD_DIR}
 
-      - name: Verify no stray emphasis markers
-        run: |
-          python3 tests/check_no_stray_emphasis.py --public ./public
+      - name: Gate — no stray emphasis markers
+        run: python3 tests/check_no_stray_emphasis.py --public ${BUILD_DIR}
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Gate — GainCut connector present on ZH, absent on EN
+        run: python3 tests/test_gaincut_connector.py --public ${BUILD_DIR}
+
+      - name: Gate — data-ga event binding is real
+        # Asserts the LISTENER reads the attribute, not just that the attribute
+        # renders. An attribute in the HTML proves nothing about behaviour —
+        # that conflation shipped a dead gaincut_click event on 2026-11-22.
+        run: python3 tests/test_ga_event_binding.py --public ${BUILD_DIR}
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: ./public
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ${{ env.BUILD_DIR }} --project-name=${{ env.CF_PROJECT }} --branch=main
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Notify IndexNow (Bing / Yandex / Seznam / Naver)
-        # Crawl hint only — Google does not participate in IndexNow.
-        # Non-blocking: a ping failure must not fail the deploy.
-        continue-on-error: true
+      # ⛔ Exit 0 from wrangler is not evidence the URL serves the new build.
+      # Assert on the live response: status AND a marker only this build has.
+      - name: Verify live site actually serves this build
         run: |
-          python3 scripts/indexnow_ping.py \
-            https://traindecade.com/ \
-            https://traindecade.com/zh/ \
-            https://traindecade.com/sitemap.xml
+          set -euo pipefail
+          sleep 15
+          URL="https://traindecade.com/zh/posts/whey-vs-beef-protein/"
+          BODY=$(curl -fsSL --retry 5 --retry-delay 5 "$URL")
+
+          echo "$BODY" | grep -q "gaincut-cta" \
+            || { echo "::error::GainCut callout missing from live ZH page — deploy did not take"; exit 1; }
+
+          echo "$BODY" | grep -q 'getAttribute("data-ga")' \
+            || { echo "::error::Event listener missing from live page — deploy did not take"; exit 1; }
+
+          curl -fsSL "https://traindecade.com/posts/whey-vs-beef-protein/" \
+            | grep -q "gaincut-cta" \
+            && { echo "::error::GainCut callout leaked into EN lane"; exit 1; } || true
+
+          echo "✅ Live site serves this build (ZH callout + listener present, EN clean)"
