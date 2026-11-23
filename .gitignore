@@ -31,3 +31,4 @@ __pycache__/
 
 # Cloudflare wrangler local state (never commit)
 .wrangler/
+public-deploy/

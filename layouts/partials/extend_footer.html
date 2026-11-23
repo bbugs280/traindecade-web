@@ -59,6 +59,24 @@
           page_language: document.documentElement.lang || "unknown",
           transport_type: "beacon"
         });
+
+        // ⚠️ Custom event from data-ga. Added 2026-11-23 — the GainCut callout
+        // carried data-ga="gaincut_click" and a code comment claimed this
+        // listener bound it. It did not. The attribute was dead for a day;
+        // only outbound_click ever fired. Do NOT remove: per-product events
+        // are what separate "left the blog" from "asked for GainCut".
+        var gaName = el.getAttribute("data-ga");
+        if (gaName) {
+          gtag("event", gaName, {
+            link_url: el.href,
+            link_domain: new URL(el.href).hostname,
+            link_text: (el.textContent || "").trim().slice(0, 100),
+            location: el.getAttribute("data-ga-location") || "unlabelled",
+            page_path: window.location.pathname,
+            page_language: document.documentElement.lang || "unknown",
+            transport_type: "beacon"
+          });
+        }
       },
       // Capture phase: fires even if a handler calls stopPropagation.
       true
