@@ -1,0 +1,28 @@
+{{- /*
+  TRADITIONAL Chinese post navigation labels — HARDCODED, not i18n.
+
+  WHY THIS OVERRIDE EXISTS (2026-11-23):
+  PaperMod's i18n/zh.yaml ships SIMPLIFIED Chinese ("下一页"). When a key exists
+  in BOTH the theme's i18n and the project's i18n/zh.yaml, Hugo resolves the
+  THEME's value — the project file does not win on collision. Verified by
+  injecting a marker into i18n/zh.yaml: it never rendered, while theme-only
+  keys (about, privacy) rendered fine from the same file.
+
+  So the project i18n file CANNOT fix a theme-owned label. The only reliable
+  route is to supply the layout and write the label directly.
+
+  ⚠️ Tradeoff accepted deliberately: these two words are now hardcoded, so a
+  future third language won't get translated automatically here. That is the
+  correct trade — a Hong Kong reader seeing 简体 in a 繁體 site is a visible
+  defect; a missing third language is a feature nobody has asked for.
+*/ -}}
+{{- if .PrevInSection }}
+<a class="prev" href="{{ .PrevInSection.Permalink }}">
+  <span class="title">上一頁 »</span>
+</a>
+{{- end }}
+{{- if .NextInSection }}
+<a class="next" href="{{ .NextInSection.Permalink }}">
+  <span class="title">下一頁 »</span>
+</a>
+{{- end }}

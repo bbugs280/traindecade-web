@@ -1,0 +1,40 @@
+{{- /*
+  TRADITIONAL Chinese overrides — HARDCODED, not i18n.
+
+  WHY (2026-11-23): PaperMod's i18n/zh.yaml ships SIMPLIFIED Chinese. When a key
+  exists in BOTH the theme i18n and the project i18n/zh.yaml, Hugo resolves the
+  THEME's value — the project file does NOT win on collision. Proven by
+  injecting a marker string into i18n/zh.yaml: it never rendered, while
+  theme-only keys (about, privacy) rendered fine from the same file.
+
+  So a theme-owned label CANNOT be fixed from the project i18n file. The only
+  reliable route is to own the layout and write the label directly.
+
+  ⚠️ Accepted tradeoff: these words are now hardcoded, so a future third
+  language gains no automatic translation here. Correct trade — 简体 in a 繁體
+  site is a visible defect to a Hong Kong reader; a missing third language is
+  a feature nobody has asked for.
+*/ -}}
+{{- if .IsTranslated -}}
+    {{- if (ne .Layout "search") }}
+        {{- if or (.Param "author") (.Param "ShowReadingTime") (not .Date.IsZero) }}
+            {{- printf "&nbsp;|&nbsp;" | safeHTML -}}
+        {{- end -}}
+    {{- end -}}
+    <span>語言:</span>
+    <ul class="i18n_list">
+        {{- range .Translations }}
+        <li>
+            <a href="{{ .Permalink }}">
+                {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
+                {{- .Language.LanguageName | emojify -}}
+                {{- else }}
+                {{- .Lang | title -}}
+                {{- end -}}
+            </a>
+        </li>
+        {{- end }}
+    </ul>
+{{- end -}}
+{{- /* preserve any trailing theme content */ -}}
+{{- if .IsTranslated -}}{{- end -}}

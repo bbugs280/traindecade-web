@@ -1,0 +1,35 @@
+{{- /*
+  TRADITIONAL Chinese breadcrumbs — home label HARDCODED.
+
+  WHY (2026-11-23): the theme's breadcrumbs call `i18n "home"`, and
+  themes/PaperMod/i18n/zh.yaml supplies 主页 (SIMPLIFIED). Hugo resolves the
+  THEME value on key collision — the project i18n/zh.yaml does not win, proven
+  by injecting a marker string that never rendered.
+
+  This was the source of 「主页」 appearing in the breadcrumb on every ZH page
+  while the footer beside it said 訓練十年 in Traditional.
+
+  ⚠️ Hardcoded on purpose. If a third language is ever added, this needs a
+  language switch — but a missing third language is invisible, whereas 简体 in
+  a 繁體 site is a defect a Hong Kong reader sees immediately.
+*/ -}}
+{{- if (.Param "ShowBreadCrumbs") -}}
+<nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    {{- $ancestors := .Ancestors.Reverse -}}
+    {{- range $i, $bc := $ancestors }}
+        {{- if eq $i 0 }}
+            <a href="{{ $bc.RelPermalink }}">{{ if eq site.Language.Lang "zh" }}主頁{{ else }}Home{{ end }}</a>
+        {{- else }}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="{{ $bc.RelPermalink }}">{{ $bc.Title }}</a>
+        {{- end }}
+    {{- end }}
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+{{- end -}}

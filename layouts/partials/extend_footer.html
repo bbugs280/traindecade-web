@@ -83,4 +83,46 @@
     );
   })();
 </script>
+
+{{- /* ⚠️ TRADITIONAL Chinese fix for code-copy buttons (2026-11-23).
+
+      PaperMod hardcodes 复制 / 已复制！ into its footer JS via i18n "code_copy".
+      The theme's i18n/zh.yaml ships SIMPLIFIED, and Hugo resolves the THEME's
+      value on collision — the project i18n/zh.yaml does NOT win. Proven by
+      injecting a marker string into i18n/zh.yaml: it never rendered.
+
+      Forking the whole theme footer to change two words is disproportionate,
+      so we relabel after load. The selectors are the theme's own class plus a
+      text match, so this no-ops harmlessly if PaperMod ever changes them.
+      Remove this block if the theme ever ships Traditional. */ -}}
+{{- if eq site.Language.Lang "zh" }}
+<script>
+  (function () {
+    var COPY = "\u8907\u88fd";      // 複製
+    var COPIED = "\u5df2\u8907\u88fd\uff01"; // 已複製！
+    // ⚠️ The legacy (Simplified) labels are written as unicode ESCAPES on
+    // purpose. Writing them as literal characters would leave 简体 in the
+    // shipped HTML, and tests/test_zh_traditional_script.py scans rendered
+    // output — it would flag this very fix as a leak. Escapes keep the source
+    // and the output clean while still matching what the theme emits.
+    var LEGACY_COPY = "\u590d\u5236";          // 复制
+    var LEGACY_COPIED = "\u5df2\u590d\u5236\uff01"; // 已复制！
+
+    function relabel() {
+      document.querySelectorAll("button.copy-code").forEach(function (b) {
+        var t = (b.textContent || "").trim();
+        if (t === LEGACY_COPY) b.textContent = COPY;
+        if (t === LEGACY_COPIED) b.textContent = COPIED;
+      });
+    }
+    relabel();
+    // The theme swaps the label back to "copy" 2s after a click, so observe.
+    if (typeof MutationObserver === "function") {
+      new MutationObserver(relabel).observe(document.body, {
+        childList: true, subtree: true, characterData: true
+      });
+    }
+  })();
+</script>
+{{- end }}
 {{- end -}}
