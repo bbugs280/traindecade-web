@@ -9,6 +9,11 @@
 {{- partial "gaincut_cta.html" . }}
 {{- end }}
 
+{{- /* Email capture sits BELOW the GainCut callout on purpose: give the reader
+      the free thing (the product) before asking for their address. Reversing
+      this order asks for payment before showing the goods. */ -}}
+{{- partial "email_capture.html" . }}
+
 {{- if .IsPage }}
 {{- if not (.Param "hideAuthor") }}
 <div class="author-bio" style="margin-top: 2rem; padding: 1rem 1.25rem; border: 1px solid var(--border); border-radius: 8px; font-size: 0.95rem;">

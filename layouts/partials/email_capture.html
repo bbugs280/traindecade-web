@@ -1,0 +1,107 @@
+{{- /* Email capture — ZH posts only (added 2026-11-23).
+      WHY ZH ONLY: traindecade's EN lane sits at position 52–97 with 0 clicks
+      over 90 days. An email capture block on a page nobody reads is furniture.
+      The ZH lane carries the site's only measured demand (20 clicks/90d).
+      When the EN lane earns its own traffic, remove the language guard.
+
+      WHY NOT AN EMBED: a MailerLite embedded form cannot report WHICH post the
+      subscriber came from. `data-ga-location` + the hidden `slug` field send
+      the post identity to /api/subscribe, which stamps it on the subscriber.
+      That attribution is the entire point of this card.
+
+      ⚠️ The form works WITHOUT JavaScript too: action + method are real, so a
+      no-JS reader still gets captured via urlencoded POST. JS only upgrades
+      the experience (inline success, no page reload, GA4 event).
+*/ -}}
+{{- if and .IsPage (eq site.Language.Lang "zh") (not (.Param "hideEmailCapture")) }}
+{{- $slug := .File.BaseFileName }}
+<div class="email-capture" id="email-capture" style="margin: 2.5rem 0 1.5rem; padding: 1.4rem 1.5rem; border: 1px solid var(--border); border-left: 3px solid #C8613A; border-radius: 8px; background: var(--entry);">
+  <p style="margin: 0 0 0.35rem; font-weight: 600; font-size: 1.02rem;">
+    下一篇，直接寄給你
+  </p>
+  <p style="margin: 0 0 0.9rem; opacity: 0.85; font-size: 0.93rem;">
+    每週一封信：一個經得起檢驗的訓練或營養結論，附上研究出處。沒有廣告，隨時可退訂。
+  </p>
+
+  <form id="capture-form" action="/api/subscribe" method="post" novalidate
+        style="display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center;">
+    <input type="hidden" name="slug" value="{{ $slug }}">
+    <label for="capture-email" style="position:absolute; left:-9999px;">電子郵件</label>
+    <input id="capture-email" name="email" type="email" required
+           autocomplete="email" inputmode="email" placeholder="你的電子郵件"
+           style="flex: 1 1 220px; min-width: 0; padding: 0.6rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; background: var(--theme); color: var(--primary); font-size: 1rem;">
+    <button type="submit"
+            data-ga="email_capture_submit"
+            data-ga-location="zh-post-{{ $slug }}"
+            style="padding: 0.6rem 1.1rem; border: 0; border-radius: 6px; background: #C8613A; color: #fff; font-size: 0.95rem; font-weight: 600; cursor: pointer; white-space: nowrap;">
+      訂閱
+    </button>
+  </form>
+
+  <p id="capture-msg" role="status" aria-live="polite"
+     style="margin: 0.7rem 0 0; font-size: 0.88rem; min-height: 1.2em; opacity: 0.9;"></p>
+</div>
+
+<script>
+(function () {
+  var form = document.getElementById("capture-form");
+  if (!form) return;
+  var msg = document.getElementById("capture-msg");
+  var btn = form.querySelector("button[type=submit]");
+  if (!form || !msg || !btn) return;
+
+  // ⚠️ Only take over submission when fetch exists. Without this guard a
+  // browser that lacks fetch would have its native POST prevented and the
+  // subscriber silently lost.
+  if (typeof fetch !== "function") return;
+
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var email = form.email.value.trim();
+    if (!email) return;
+
+    btn.disabled = true;
+    var original = btn.textContent;
+    btn.textContent = "傳送中…";
+    msg.textContent = "";
+
+    fetch("/api/subscribe", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ email: email, slug: form.slug.value })
+    })
+      .then(function (r) { return r.json().catch(function () { return {}; }); })
+      .then(function (data) {
+        if (data && data.ok) {
+          msg.textContent = "✅ 已訂閱。下一封信會寄到 " + email + "。";
+          form.reset();
+          btn.textContent = "已訂閱";
+          // GA4: only fires on a CONFIRMED server success, never on click.
+          // A click that fails upstream is not a conversion and must not be
+          // counted as one — that is how a funnel reports health it lacks.
+          if (typeof gtag === "function") {
+            gtag("event", "email_capture_success", {
+              page_path: window.location.pathname,
+              page_language: document.documentElement.lang || "unknown",
+              transport_type: "beacon"
+            });
+          }
+        } else if (data && data.error === "invalid_email") {
+          msg.textContent = "⚠️ 請檢查電郵地址是否正確。";
+          btn.disabled = false;
+          btn.textContent = original;
+        } else {
+          msg.textContent = "⚠️ 訂閱暫時無法完成，請稍後再試。";
+          btn.disabled = false;
+          btn.textContent = original;
+        }
+      })
+      .catch(function () {
+        msg.textContent = "⚠️ 網路問題，請稍後再試。";
+        btn.disabled = false;
+        btn.textContent = original;
+      });
+  });
+})();
+</script>
+{{- end }}

@@ -85,6 +85,13 @@ jobs:
         # that conflation shipped a dead gaincut_click event on 2026-11-22.
         run: python3 tests/test_ga_event_binding.py --public ${BUILD_DIR}
 
+      - name: Gate — email capture wired, no credential leak
+        # Vincent chose the Pages Function over an embed so the MailerLite
+        # token stays server-side. That property is invisible in rendered HTML,
+        # so it is asserted here: endpoint reads env, form wired on 45/45 ZH
+        # posts with per-post slug, zero tokens in 1000+ output files.
+        run: python3 tests/test_email_capture.py --public ${BUILD_DIR}
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
@@ -112,3 +119,27 @@ jobs:
             && { echo "::error::GainCut callout leaked into EN lane"; exit 1; } || true
 
           echo "✅ Live site serves this build (ZH callout + listener present, EN clean)"
+
+      - name: Verify email capture endpoint is live and NOT misconfigured
+        # ⚠️ A form that renders but whose endpoint returns 500 is worse than no
+        # form: it looks like it works and collects nobody. Assert the endpoint
+        # exists AND reports configured (a POST with a junk address must return
+        # invalid_email, not not_configured).
+        run: |
+          set -euo pipefail
+          CODE=$(curl -s -o /tmp/sub.json -w "%{http_code}" \
+            -X POST "https://traindecade.com/api/subscribe" \
+            -H "content-type: application/json" \
+            -d '{"email":"not-an-email","slug":"ci-probe"}')
+          BODY=$(cat /tmp/sub.json)
+          echo "HTTP $CODE — $BODY"
+
+          if echo "$BODY" | grep -q "not_configured"; then
+            echo "::error::subscribe endpoint is missing MAILERLITE_API_TOKEN or MAILERLITE_GROUP_ID"
+            exit 1
+          fi
+          if [ "$CODE" != "400" ] || ! echo "$BODY" | grep -q "invalid_email"; then
+            echo "::error::subscribe endpoint did not validate input as expected"
+            exit 1
+          fi
+          echo "✅ Email capture endpoint live and configured"
