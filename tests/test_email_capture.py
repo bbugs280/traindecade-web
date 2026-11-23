@@ -75,12 +75,18 @@ def main():
             "subscribe.js assigns a LITERAL token instead of reading env",
         )
 
-    # ---- 2 and 3. Rendered ZH pages wired ------------------------------
+    # ---- 2 and 3. Rendered pages wired, BOTH languages ----------------
+    # ⚠️ Changed 2026-11-23: the capture form is bilingual now. A free signup
+    # costs the reader nothing, so unlike the GainCut CTA (which asks for a
+    # sale) it is not gated to the ZH lane. Both languages must be wired.
     zh_pages = glob.glob(os.path.join(args.public, "zh", "posts", "*", "index.html"))
+    en_pages = glob.glob(os.path.join(args.public, "posts", "*", "index.html"))
+    all_pages = zh_pages + en_pages
     check(len(zh_pages) > 0, "no ZH post pages under " + args.public + "/zh/posts/")
+    check(len(en_pages) > 0, "no EN post pages under " + args.public + "/posts/")
 
     wired, with_slug = 0, 0
-    for p in zh_pages:
+    for p in all_pages:
         html = open(p, encoding="utf-8").read()
         if "capture-form" in html:
             wired += 1
@@ -94,8 +100,8 @@ def main():
                 failures.append("slug missing on rendered page: " + slug)
 
     check(
-        wired == len(zh_pages),
-        "only %d/%d ZH posts carry the capture form" % (wired, len(zh_pages)),
+        wired == len(all_pages),
+        "only %d/%d posts carry the capture form" % (wired, len(all_pages)),
     )
     check(
         with_slug == wired,
@@ -122,12 +128,19 @@ def main():
 
     check(scanned > 0, "no output files scanned — the leak check proved nothing")
 
-    # ---- 5. EN stays clean ---------------------------------------------
-    en_hits = 0
-    for p in glob.glob(os.path.join(args.public, "posts", "*", "index.html")):
-        if "capture-form" in open(p, encoding="utf-8").read():
-            en_hits += 1
-    check(en_hits == 0, "%d EN posts carry the ZH-only capture form" % en_hits)
+    # ---- 5. IG link gone from footer (Vincent's call 2026-11-23) ------
+    # traindecade → IG is the wrong direction for a backlink and exposes his
+    # real name beside a fitness blog at measured zero return. If a future
+    # edit re-adds it, that is a decision, not a drift — fail loudly.
+    ig_hits = 0
+    for p in all_pages[:20]:
+        if "instagram.com/vincenty3d" in open(p, encoding="utf-8").read():
+            ig_hits += 1
+    check(
+        ig_hits == 0,
+        "%d posts still link to instagram.com/vincenty3d — removed 2026-11-23, "
+        "re-adding it is a decision not a drift" % ig_hits,
+    )
 
     # ---- report --------------------------------------------------------
     if failures:
@@ -138,8 +151,9 @@ def main():
 
     print(
         "PASS  email capture  (%d checks: endpoint reads env · "
-        "%d/%d ZH wired · %d/%d slugs · 0 leaks in %d files · 0 EN)"
-        % (checks, wired, len(zh_pages), with_slug, wired, scanned)
+        "%d/%d posts wired (EN+ZH) · %d/%d slugs · 0 leaks in %d files · "
+        "0 IG links)"
+        % (checks, wired, len(all_pages), with_slug, wired, scanned)
     )
     return 0
 

@@ -130,11 +130,25 @@ def main():
     sample_zh = os.path.join(zh_posts_dir, zh_posts[0], "index.html")
     sample_html = open(sample_zh, encoding="utf-8").read()
 
-    for target in ("ideafactory.one", "builderdecade.com", "instagram.com/vincenty3d"):
+    # ⚠️ Instagram REMOVED from this list 2026-11-23 (Vincent's call).
+    # The old assertion required instagram.com/vincenty3d in the footer and
+    # described its absence as "site is a dead end again". That was true only
+    # while IG was assumed to be a channel. It measured 0 attributed sessions
+    # in 90 days, and traindecade→IG is the wrong direction for a backlink:
+    # it moves our readers to Instagram rather than authority to us. It also
+    # put his real name beside a fitness blog at zero return.
+    # If IG is ever re-added, that is a DECISION — change this test knowingly.
+    for target in ("ideafactory.one", "builderdecade.com"):
         check(
             f"{target}/" in sample_html or f"{target}?" in sample_html,
             f"footer missing link to {target} — site is a dead end again",
         )
+
+    check(
+        "instagram.com/vincenty3d" not in sample_html,
+        "footer re-links to instagram.com/vincenty3d — removed 2026-11-23 "
+        "(0 attributed sessions, wrong backlink direction, identity exposure)",
+    )
 
     # Every footer outbound link must be fully UTM-tagged. An untagged link is
     # unmeasurable, which is exactly how 4 IG accounts produced 0 attributed

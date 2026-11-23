@@ -24,9 +24,21 @@
         {{- print " · "}}
     </span>
 
-    {{- /* Studio network — sibling sites + social. Without this the site is a dead
-           end: 2026-11-22 audit found zero outbound links to any sibling property.
-           Every link carries utm params so referral credit is attributable in GA4. */}}
+    {{- /* Studio network — sibling sites. Without this the site is a dead end:
+           2026-11-22 audit found zero outbound links to any sibling property.
+           Every link carries utm params so referral credit is attributable.
+
+           ⚠️ INSTAGRAM LINK REMOVED 2026-11-23 (Vincent's call). Two reasons,
+           and the second is the one that matters:
+             1. Direction. A backlink earns value when someone with authority
+                links TO you. Linking traindecade → IG sends our ~20 quarterly
+                readers into a feed that has measured 0 sessions in 90 days.
+                It helps Instagram, not us.
+             2. Identity. @vincenty3d carries his real name. It sat beside a
+                fitness blog he may not want attached to his banking identity,
+                earning measured zero. Expose identity only when it pays.
+           @ideafactoryone and @gaincut.app are still name reservations — see
+           the distribution-channels skill before re-adding any social link. */}}
     <span class="footer-network">
         {{- i18n "also_from" | default "Also from IdeaFactory" }}:
         <a href="https://ideafactory.one/?utm_source=traindecade&utm_medium=referral&utm_campaign=footer"
@@ -34,9 +46,6 @@
         {{- print " · "}}
         <a href="https://builderdecade.com/?utm_source=traindecade&utm_medium=referral&utm_campaign=footer"
            rel="noopener">Builder Decade</a>
-        {{- print " · "}}
-        <a href="https://www.instagram.com/vincenty3d/?utm_source=traindecade&utm_medium=referral&utm_campaign=footer"
-           rel="noopener nofollow" target="_blank">Instagram</a>
     </span>
 
     <span>
