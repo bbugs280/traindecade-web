@@ -1,7 +1,7 @@
 ---
-title: "Pump or Real Muscle? How to Tell the Difference"
+title: "Pump or Real Muscle? The Shirt That Tore at the Elbow Knew"
 date: 2026-10-05T07:00:00+08:00
-lastmod: 2026-10-07T09:00:00+08:00
+lastmod: 2026-11-26T18:00:00+08:00
 draft: false
 tags: ["muscle", "training", "progressive overload", "pump", "body recomposition"]
 description: "A muscle pump fades within hours; real growth doesn't. One dress shirt — ripped at the elbow in a changing room — is how I learned to tell the difference."
