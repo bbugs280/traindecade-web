@@ -88,6 +88,13 @@ jobs:
         # it from GSC a month later.
         run: python3 tests/test_title_payoff_gate.py
 
+      - name: Gate — related-posts graph is topical and resolves
+        # AI crawlers read robots.txt (68 fetches) and sitemap.xml (39) then stop:
+        # only 31 of 45 EN posts were ever fetched. Posts were linked only
+        # chronologically (prev/next in date order). This asserts a topical graph
+        # from the BUILT output, so a template that renders nothing cannot pass.
+        run: python3 tests/test_related_posts.py
+
       - name: Gate — GainCut connector present on ZH, absent on EN
         run: python3 tests/test_gaincut_connector.py --public ${BUILD_DIR}
 

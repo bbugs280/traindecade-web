@@ -14,6 +14,11 @@
       this order asks for payment before showing the goods. */ -}}
 {{- partial "email_capture.html" . }}
 
+{{- /* Topical related posts — before the author bio so the reader meets more
+      answers while still in the article, and so a crawler hits the topical
+      graph before the boilerplate footer. See partial for full rationale. */ -}}
+{{- if .IsPage }}{{ partial "related_posts.html" . }}{{ end }}
+
 {{- if .IsPage }}
 {{- if not (.Param "hideAuthor") }}
 <div class="author-bio" style="margin-top: 2rem; padding: 1rem 1.25rem; border: 1px solid var(--border); border-radius: 8px; font-size: 0.95rem;">

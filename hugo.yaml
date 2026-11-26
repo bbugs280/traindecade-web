@@ -74,6 +74,69 @@ params:
 
   env: production
 
+  # ⚠️ Generic tags are poison for relatedness (2026-11-26).
+  # A tag carried by most posts ("over 40", "aging") matches everything, so it
+  # contributes relatedness without contributing meaning. It was enough to link
+  # "Creatine After 40" to "10,000 Steps Is a Marketing Number".
+  # Hugo's `related:` has no per-index tag blacklist, so these are stripped in
+  # layouts/partials/related_posts.html before scoring.
+  # MUST be under `params:` — as a top-level key site.Params cannot see it and the
+  # filter silently does nothing (that was the first attempt's bug).
+  # Filter on the tag VALUE ("over 40"), not its URL slug ("over-40").
+  # Keep this list SHORT — every entry is a tag that cannot be used for matching.
+  related_generic_tags:
+    - over 40
+    - aging
+    - fitness
+    - health
+    - about
+
+# Topical related-posts graph.
+#
+# WHY (2026-11-26): real AI retrieval crawlers read robots.txt (68 fetches) and
+# sitemap.xml (39) and then stop — only 31 of 45 EN posts were ever fetched.
+# The site was connected, but only CHRONOLOGICALLY: prev/next in date order plus
+# tag index pages. A crawler following those lands on whatever shipped the week
+# before, not on a related answer. This config makes Hugo compute relatedness
+# from the tags/keywords the posts actually carry.
+#
+# ⚠️ `type: basic` uses keyword intersection (Jaccard-ish, plain words). It is
+# deliberately NOT type:"fragments" (needs content fragments) or indices
+# (needs a prebuilt index) — basic is the cheapest thing that can work.
+# Weights favour tags over date because date is exactly what we are replacing.
+related:
+  includeNewer: true      # don't restrict to older posts
+  # ⚠️ threshold is measured, not guessed (2026-11-26):
+  #   20 / 15 / 10 -> 2-3 posts get NO related block (their tags are genuinely
+  #                   unique: "desk workers", "plantar fasciitis", "posture")
+  #    5         -> every post gets a block, but two GENERIC tags ("over 40",
+  #                   "aging") are enough to match, so creatine linked to a
+  #                   walking-steps post. Present but not topical.
+  # The real fix is not the threshold — it is excluding generic tags below.
+  threshold: 5
+  toLower: true           # tags are inconsistent case in the back catalogue
+  indices:
+    - name: keywords
+      weight: 100
+    - name: tags
+      weight: 80
+    - name: date
+      weight: 5           # tiny: recency as a tiebreaker only, never the signal
+
+# ⚠️ GENERIC TAGS ARE POISON FOR RELATEDNESS (2026-11-26).
+# A tag carried by most posts ("over 40", "aging") matches everything, so it
+# contributes relatedness without contributing meaning. At threshold 5 that was
+# enough to link "Creatine After 40" to "10,000 Steps Is a Marketing Number".
+# Hugo has no per-index tag blacklist, so these are stripped in the partial
+# (layouts/partials/related_posts.html) before scoring.
+# Keep this list SHORT — every entry is a tag that cannot be used for matching.
+#
+# ⚠️ This MUST live under `params:` — the partial reads site.Params.related_generic_tags.
+# As a top-level key it is invisible to site.Params and the filter silently does
+# nothing, which is exactly what happened on the first attempt.
+# NOTE: tag VALUES are space-separated ("over 40"); only their URL slugs use
+# hyphens ("over-40"). Filter on the value.
+
 menus:
   main:
     - identifier: posts

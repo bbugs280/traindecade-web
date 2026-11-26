@@ -55,6 +55,12 @@ echo "→ llms.txt freshness (AI crawler surface)"
 echo "→ title payoff gate"
 "$PY" tests/test_title_payoff_gate.py || fail=1
 
+# Topical related-posts graph. AI crawlers read robots.txt + sitemap.xml and stop;
+# only 31 of 45 EN posts were ever fetched. This asserts every post links to
+# related posts and that those links resolve. Asserts the BUILT output, not templates.
+echo "→ related posts graph"
+"$PY" tests/test_related_posts.py || fail=1
+
 # Silent-JS regression: a broken outbound tracker produces no error and no
 # data, which looks identical to "nobody clicked". Must run against a BUILD.
 echo "→ GA4 outbound-click routing"

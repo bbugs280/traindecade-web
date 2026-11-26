@@ -1,0 +1,73 @@
+{{- /*
+  Topical related-posts block — replaces the role of date-order prev/next.
+
+  WHY (2026-11-26): AI retrieval crawlers read robots.txt and sitemap.xml and then
+  stop. Only 31 of 45 EN posts were ever fetched by a real AI bot. The site WAS
+  connected — 3 sibling links per post already — but only chronologically:
+  prev/next in date order plus tag index pages. A crawler following those lands on
+  whatever shipped the week before, not on a related answer.
+
+  ⚠️ WHY THIS DOES **NOT** USE HUGO'S BUILT-IN `.Related` (2026-11-26)
+  It was built that way first, with `related:` configured in hugo.yaml. It produced
+  bad links, measured:
+
+      creatine-after-40  ->  "10,000 Steps Is a Marketing Number"
+                             "Best Protein Powder: Why the Ranking Keeps Changing"
+
+  Cause: two GENERIC tags ("over 40", "aging") were shared with the steps post, and
+  that was enough relatedness to rank. Hugo's `related` has no per-index tag
+  blacklist, so generic tags cannot be excluded there. Scoring is therefore computed
+  here on tags-minus-generics.
+
+  ⚠️ BILINGUAL RULE: a ZH post must only link to ZH posts. `.Site.RegularPages`
+  is language-scoped, so inside a /zh/ render it returns only ZH pages. Do NOT
+  swap for `.Site.AllPages` — that would cross the lanes.
+
+  ⚠️ The <aside class="related-posts"> wrapper is load-bearing:
+  tests/test_related_posts.py isolates it so tag links and prev/next cannot be
+  miscounted. Renaming the class breaks the gate.
+
+  ⚠️ HONEST SCOPE: this makes topical links EXIST and RESOLVE, and keeps them
+  topical by scoring. Whether crawlers FOLLOW them, and whether AI visibility
+  improves, is a separate measurement from D1 fetch counts over time. A green
+  build is not that evidence.
+*/ -}}
+
+{{- $generic := site.Params.related_generic_tags | default slice -}}
+{{- $own := slice -}}
+{{- range .Params.tags -}}
+  {{- $t := lower . -}}
+  {{- if not (in $generic $t) -}}{{- $own = $own | append $t -}}{{- end -}}
+{{- end -}}
+
+{{- /* Score every other post in this language by shared non-generic tags. */ -}}
+{{- $scored := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- if ne .RelPermalink $.RelPermalink -}}
+    {{- $shared := 0 -}}
+    {{- range .Params.tags -}}
+      {{- $t := lower . -}}
+      {{- if and (not (in $generic $t)) (in $own $t) -}}{{- $shared = add $shared 1 -}}{{- end -}}
+    {{- end -}}
+    {{- if gt $shared 0 -}}
+      {{- $scored = $scored | append (dict "page" . "score" $shared) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $ranked := sort $scored "score" "desc" -}}
+
+{{- with $ranked -}}
+<aside class="related-posts" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+  <h2 style="font-size: 1.05rem; margin-bottom: 0.75rem;">
+    {{- if eq site.Language.Lang "zh" -}}相關文章{{- else -}}Related reading{{- end -}}
+  </h2>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    {{- range first 3 . }}
+    <li style="margin-bottom: 0.6rem;">
+      <a href="{{ .page.Permalink }}">{{ .page.Title }}</a>
+    </li>
+    {{- end }}
+  </ul>
+</aside>
+{{- end -}}
