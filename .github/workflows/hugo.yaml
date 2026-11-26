@@ -76,6 +76,18 @@ jobs:
       - name: Gate — no stray emphasis markers
         run: python3 tests/check_no_stray_emphasis.py --public ${BUILD_DIR}
 
+      - name: Gate — llms.txt lists every post (AI crawler surface)
+        # The file AI retrieval crawlers read first drifted to 34/45 posts per
+        # language and nothing caught it. The generator was correct; it was never
+        # re-run and never tested. This asserts the shipped file matches content/.
+        run: python3 tests/test_llms_txt_fresh.py
+
+      - name: Gate — post titles state a payoff, not just a topic
+        # pump-or-real-muscle measured 36 impr / pos 6 / ZERO clicks. Seen, not
+        # clicked. This catches the shape before it ships instead of diagnosing
+        # it from GSC a month later.
+        run: python3 tests/test_title_payoff_gate.py
+
       - name: Gate — GainCut connector present on ZH, absent on EN
         run: python3 tests/test_gaincut_connector.py --public ${BUILD_DIR}
 

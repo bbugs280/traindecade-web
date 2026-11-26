@@ -42,6 +42,14 @@ PAYOFF_MARKERS = [
     # class the gate false-positives on real hooks ("The Shirt That Tore at the Elbow").
     r"\b(shirt|elbow|knee|shoulder|back|bar|plate|belt|shoe|scale|mirror|photo|timer)\b",
     r"\b(knew|learned|found|found out|realised|realized|turns out)\b",
+    # ⚠️ 2026-11-26: the two titles above were written with real payoffs and the
+    # gate rejected BOTH, because every word was outside this vocabulary. That is
+    # the known weakness of an allowlist — it is blind to payoff it has not seen.
+    # These additions cover the shapes actually in use, not arbitrary synonyms.
+    r"\b(symptom|symptoms|sign|signs)\b",        # names what to look for
+    r"\b(blame|blamed|blaming|nobody|no one)\b", # names the wrong explanation
+    r"\b(deadline|reason|reasons|worked|works)\b",
+    r"\b(how long|how much|how many|when to)\b", # a bounded question
 ]
 
 # Shapes that are a topic, not a payoff — a bare question or a guide label.
@@ -115,12 +123,18 @@ def find_offenders() -> list[str]:
 # line on NEW posts without the suite going red on pre-existing debt. Removing an
 # entry (by fixing the title) must keep this list shrinking, never growing.
 # Each entry needs a measured reason to be here.
-KNOWN_TOPIC_ONLY = {
-    "will-hyrox-help-you-reach-your-goal.md":
-        "event-review post; ranks on the event name itself, not a problem query",
-    "your-nervous-system-is-fried.md":
-        "ranked pos ~61 — below the crest, so a title tune creates no reader yet",
-}
+#
+# 2026-11-26: both original entries were fixed and removed — see
+# `docs/changes/2026-11-26.md`. The list is now empty, which is the correct state:
+# any new entry here is new debt and needs its own measured justification.
+KNOWN_TOPIC_ONLY: dict[str, str] = {}
+
+
+def test_backlog_is_empty_or_justified():
+    """An entry here is debt. It must never be added without a measured reason."""
+    for name, reason in KNOWN_TOPIC_ONLY.items():
+        assert reason and len(reason) > 20, (
+            f"{name} is parked in the backlog with no real justification: {reason!r}")
 
 
 def test_no_NEW_topic_only_titles():

@@ -1,5 +1,5 @@
 ---
-title: "Will Hyrox Help You Reach Your Goal?"
+title: "Hyrox Worked — For a Reason Nobody Mentions: The Deadline"
 date: 2026-08-23T00:00:00+08:00
 lastmod: 2026-09-02T08:00:00+08:00
 draft: false
@@ -7,7 +7,7 @@ tags: ["hyrox", "training", "motivation", "goals", "over 40"]
 description: "Hyrox isn't a training program — it's a deadline and a measurable milestone. Here's how to use it for your real goal, and the trap to avoid."
 cover:
   image: "cover-hyrox.png"
-  alt: "Will Hyrox Help You Reach Your Goal?"
+  alt: "Hyrox race finish — a deadline you can train toward"
 ---
 
 The question most men ask when Hyrox crosses their radar is the wrong one. They ask *"should I sign up?"* — as if the race itself is the decision. The real question is quieter and more useful: *will this event get me closer to where I actually want to be?*

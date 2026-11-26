@@ -27,18 +27,51 @@
  */
 const fs = require("fs");
 
-const BUILT = "/tmp/tdreview/public/posts/whey-vs-beef-protein/index.html";
+const path = require("path");
+
+// ⚠️ 2026-11-26: this used to hardcode /tmp/tdreview/public/... — a scratch dir
+// from one old review session. It existed for whoever wrote this and for nobody
+// else, so the test failed locally forever while CI never ran it (the workflow
+// does not invoke this script). Resolve against the real repo instead.
+const BUILT =
+  process.env.TRAINDECADE_BUILT ||
+  path.resolve(__dirname, "..", "public", "posts", "whey-vs-beef-protein", "index.html");
 if (!fs.existsSync(BUILT)) {
   console.error(`❌ ${BUILT} not found — run 'hugo' in the repo first.`);
   process.exit(1);
 }
 
 const html = fs.readFileSync(BUILT, "utf8");
-const m = html.match(/\(function \(\) \{[\s\S]*?\}\)\(\);/);
-if (!m) {
-  console.error("❌ could not extract the inline outbound-tracking script from built HTML");
+// ⚠️ 2026-11-26 — this extraction was fragile three ways over:
+//   1. literal space after `function` — `hugo --minify` emits `(function(){`
+//   2. required trailing `;`           — minified output ends `})()` with no semicolon
+//   3. matched the WRONG IIFE          — the page has several `(function(){` blocks;
+//      a lazy match from the top grabbed the email-capture script, which calls
+//      document.getElementById and blew up.
+// Fix: isolate the SCRIPT TAG that contains outbound_click, then take its body.
+// Anchoring on the marker first is what makes this correct rather than lucky.
+const marker = html.indexOf("outbound_click");
+if (marker === -1) {
+  console.error("❌ `outbound_click` not found in built HTML — the GA4 partial did not render");
   process.exit(1);
 }
+const scriptStart = html.lastIndexOf("<script", marker);
+const scriptEnd = html.indexOf("</script>", marker);
+if (scriptStart === -1 || scriptEnd === -1) {
+  console.error("❌ could not locate the script tag containing outbound_click");
+  process.exit(1);
+}
+const scriptBody = html.slice(html.indexOf(">", scriptStart) + 1, scriptEnd).trim();
+
+if (!/^\(function\s*\(\s*\)\s*\{/.test(scriptBody)) {
+  console.error("❌ outbound tracker is not wrapped in an IIFE as expected");
+  process.exit(1);
+}
+if (!/\(\)\s*;?$/.test(scriptBody)) {
+  console.error("❌ outbound tracker IIFE appears truncated");
+  process.exit(1);
+}
+const m = [scriptBody];
 
 let fired = [];
 global.window = {
@@ -64,10 +97,24 @@ if (typeof global.__handler !== "function") {
 }
 
 let fail = 0;
-function t(label, href, expectFire, expectDomain) {
+function t(label, href, expectFire, expectDomain, dataGa) {
   fired = [];
   global.__handler({
-    target: { tagName: "A", href, textContent: "GainCut", parentElement: null },
+    target: {
+      tagName: "A",
+      href,
+      textContent: "GainCut",
+      parentElement: null,
+      // ⚠️ 2026-11-26: the tracker now reads a `data-ga` attribute to fire a
+      // per-link named event. Without this stub it threw "getAttribute is not a
+      // function" on every case — the harness tested a version of the script that
+      // no longer exists. A stub must model the DOM the real script actually uses.
+      getAttribute: (name) => {
+        if (name === "data-ga") return dataGa || null;
+        if (name === "data-ga-location") return dataGa ? "test" : null;
+        return null;
+      },
+    },
   });
   const didFire = fired.length > 0;
   let ok = didFire === expectFire;
@@ -75,6 +122,10 @@ function t(label, href, expectFire, expectDomain) {
   if (didFire) {
     domain = fired[0][2].link_domain;
     if (expectDomain && domain !== expectDomain) ok = false;
+    // If data-ga was supplied, the SECOND event must carry that name.
+    if (dataGa) {
+      if (fired.length !== 2 || fired[1][1] !== dataGa) ok = false;
+    }
   }
   if (!ok) fail++;
   console.log(
@@ -89,6 +140,9 @@ t("Product page", "https://ideafactory.one/gaincut/", true, "ideafactory.one");
 t("Internal navigation (must not fire)", "https://traindecade.com/posts/other/", false);
 t("Untracked external", "https://twitter.com/someone", false);
 t("Relative link", "/posts/foo/", false);
+// The data-ga path: an external link with a named event must fire outbound_click
+// AND the named event, and the name must come from the attribute (not hardcoded).
+t("Product page with data-ga", "https://ideafactory.one/gaincut/", true, "ideafactory.one", "gaincut_click");
 
 console.log(fail === 0 ? "\nALL PASS" : `\n${fail} FAILED`);
 process.exit(fail === 0 ? 0 : 1);

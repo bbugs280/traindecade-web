@@ -1,5 +1,5 @@
 ---
-title: "CNS Fatigue: What It Is, the Symptoms, and How Long Recovery Takes"
+title: "CNS Fatigue: The Symptoms Most Lifters Blame on Their Muscles"
 date: 2026-09-05T07:00:00+08:00
 lastmod: 2026-10-30T17:05:00+08:00
 draft: false

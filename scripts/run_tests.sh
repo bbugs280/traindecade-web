@@ -44,6 +44,17 @@ echo "→ bilingual invariants"
 echo "→ stray emphasis markers"
 "$PY" tests/check_no_stray_emphasis.py --public ./public || fail=1
 
+# llms.txt is the file AI retrieval crawlers read FIRST. It was hand-maintained,
+# drifted to 34/45 posts per language, and nothing caught it for months. The
+# generator existed the whole time; a generator with no test is a manual process.
+echo "→ llms.txt freshness (AI crawler surface)"
+"$PY" tests/test_llms_txt_fresh.py || fail=1
+
+# Title gate: a title that states a topic but no payoff gets seen and not clicked.
+# pump-or-real-muscle measured 36 impr / pos 6 / 0 clicks on exactly this defect.
+echo "→ title payoff gate"
+"$PY" tests/test_title_payoff_gate.py || fail=1
+
 # Silent-JS regression: a broken outbound tracker produces no error and no
 # data, which looks identical to "nobody clicked". Must run against a BUILD.
 echo "→ GA4 outbound-click routing"
