@@ -61,6 +61,15 @@ echo "→ title payoff gate"
 echo "→ related posts graph"
 "$PY" tests/test_related_posts.py || fail=1
 
+# Tag taxonomy pages must be noindex. Measured 2026-11-27: 286 tag pages were
+# emitting robots=index,follow and one of them (/tags/cns-fatigue-symptoms/)
+# held 10 impressions at pos 83.3 for a query the real CNS post owns. The
+# sitemap excluded tags, so this looked handled — it was not, because sitemap
+# exclusion is not de-indexing. Also asserts POST pages are NOT noindex, so an
+# over-broad fix cannot pass.
+echo "→ tag pages noindex"
+"$PY" tests/test_tag_pages_noindex.py --public ./public || fail=1
+
 # Silent-JS regression: a broken outbound tracker produces no error and no
 # data, which looks identical to "nobody clicked". Must run against a BUILD.
 echo "→ GA4 outbound-click routing"

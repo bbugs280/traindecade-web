@@ -95,6 +95,17 @@ jobs:
         # from the BUILT output, so a template that renders nothing cannot pass.
         run: python3 tests/test_related_posts.py
 
+      - name: Gate — tag taxonomy pages are noindex
+        # Measured 2026-11-27: 286 tag pages emitted robots=index,follow.
+        # /tags/cns-fatigue-symptoms/ held 10 impressions at pos 83.3 for a query
+        # the real CNS post owns — a thin taxonomy URL splitting its own cluster.
+        # layouts/sitemap.xml already excluded tags, which is why this looked
+        # handled; sitemap exclusion is not de-indexing. Fixed by a hugo.yaml
+        # `cascade` setting robotsNoIndex on kind: term/taxonomy.
+        # Also asserts POST pages are NOT noindex — an over-broad fix would
+        # satisfy the tag half and destroy the site.
+        run: python3 tests/test_tag_pages_noindex.py --public ${BUILD_DIR}
+
       - name: Gate — GainCut connector present on ZH, absent on EN
         run: python3 tests/test_gaincut_connector.py --public ${BUILD_DIR}
 

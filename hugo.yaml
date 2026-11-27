@@ -3,6 +3,36 @@ theme: PaperMod
 
 enableRobotsTXT: true
 
+# ⚠️ TAXONOMY PAGES ARE NOINDEX — measured 2026-11-27 (22nd discovery pull).
+# `/tags/cns-fatigue-symptoms/` held 10 impressions at pos 83.3 for the query
+# `cns fatigue symptoms` — the same query the real CNS post owns. A thin
+# taxonomy URL was competing with the post for its own cluster.
+#
+# The sitemap already excluded tags (layouts/sitemap.xml), so this LOOKED
+# handled. It was not: sitemap exclusion is not de-indexing. A tag page that is
+# still reachable by internal links keeps getting crawled and ranked. All 286
+# tag pages were emitting `<meta name=robots content="index, follow">`.
+#
+# `robotsNoIndex` is the key PaperMod's head.html actually reads:
+#   {{ if ... | and (ne .Params.robotsNoIndex true) }} → index, follow
+#   {{ else }}                                        → noindex, nofollow
+# So setting it via cascade is the whole fix — no layout override needed, and it
+# cannot emit two conflicting robots tags (which an extend_head.html override
+# does; that was tried and rejected).
+#
+# Guarded by tests/test_tag_pages_noindex.py, which asserts tags ARE noindex AND
+# that post pages are NOT — an over-broad fix would pass the first check and
+# destroy the site.
+cascade:
+  - target:
+      kind: term
+    params:
+      robotsNoIndex: true
+  - target:
+      kind: taxonomy
+    params:
+      robotsNoIndex: true
+
 # Multilingual: EN is the default (lands at /), ZH at /zh/
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
@@ -39,8 +69,7 @@ languages:
           講解清晰，並經得起證據檢驗。
 
 params:
-  description: "Fitness, health, and body recomposition for men in their 30s, 40s, and 50s — evidence-based training and nutrition, the long game, one decade at a time. No crash cuts, no quick-fix noise. Bilingual English/中文."
-
+  description: "Fitness, health, and body recomposition for men in their 30s, 40s, and 50s — evidence-based training and nutrition, the long game, one decade at a time. Bilingual English/中文."
   defaultTheme: light
   ShowReadingTime: true
   ShowPostNavLinks: true

@@ -1,7 +1,7 @@
 ---
 title: "Creatine After 40: Do You Actually Need It? The Evidence, Not the Hype"
 date: 2026-08-27T07:00:00+08:00
-lastmod: 2026-10-22T19:00:00+08:00
+lastmod: 2026-11-27T09:00:00+08:00
 draft: false
 tags: ["creatine", "supplements", "over 40", "muscle building", "aging"]
 description: "Creatine is the most studied supplement on earth — and the most misunderstood. What the evidence says for men over 40: benefits, dosing, and two fears."
@@ -44,7 +44,7 @@ The honest version: if you were already going to go bald, you were already going
 
 The supplement industry would love for this to be complicated. It isn't.
 
-- **Three to five grams of creatine monohydrate a day.** Monohydrate is the form with the overwhelming bulk of the research behind it — which is also, conveniently, the cheapest. Skip the "buffered," "HCl," and "micronized" upsells; they charge more for the same molecule.
+- **Three to five grams of creatine monohydrate a day.** The dose scales with body weight: **0.03 g per kg per day**, which lands most men in the 3–5 g band. A 75 kg man needs about 2.3 g; a 100 kg man about 3 g; heavier lifters are the group the ISSN says may need 5–10 g to hold saturation. If you're much above or below average weight, the per-kilo formula is the honest number and the flat "3–5 g" is the shorthand. Monohydrate is the form with the overwhelming bulk of the research behind it — which is also, conveniently, the cheapest. Skip the "buffered," "HCl," and "micronized" upsells; they charge more for the same molecule.
 - **No loading phase needed.** The old 20-grams-a-day-for-a-week protocol works but is unnecessary, and it's the leading cause of the stomach cramps people blame on creatine. Steady daily dosing saturates your muscles in a few weeks and avoids the digestive drama.
 - **Timing is irrelevant.** Consistency wins. Mix it into water, your shake, or your morning coffee — the muscle doesn't care what time the truck arrives, only that it keeps arriving.
 - **Expect a little water weight.** Creatine pulls water into the muscle cell, so the scale may tick up one to three kilograms in the first weeks. That's intramuscular water — you'll look fuller, not softer — and it's a feature, not a bug. Don't mistake it for fat gain. (If you're tracking calories closely, see [How Much Protein Do You Really Need?](/posts/how-much-protein-do-you-really-need/) for the other half of the muscle equation.)
@@ -67,7 +67,9 @@ One more thing worth knowing, because it changes who this advice is for: a 2026 
 
 - **Devries MC, Phillips SM (2014)** — "Creatine supplementation during resistance training in older adults — a meta-analysis." Creatine plus resistance training improved total body mass, fat-free mass, and upper/lower-body strength versus training alone in older adults.
 - **Sharifian G, Aseminia P, Heidary D, Esformes JI (2025)** — "Impact of creatine supplementation and exercise training in older adults: a systematic review and meta-analysis." *Eur Rev Aging Phys Act* 22:17. Twenty RCTs, 1,093 adults aged 55+, creatine monohydrate plus exercise. Significant gains in 1-RM strength versus placebo (mean difference 2.12 kg, P=0.001). Bone mineral density was *not* significantly improved (P=0.557), and the body-fat effect did not survive sensitivity analysis — so the muscle/strength benefit is the one that holds.
-- **Kreider RB et al. (2017)** — International Society of Sports Nutrition (ISSN) position stand on creatine safety and efficacy. Confirms 3–5 g/day monohydrate as safe and effective for healthy adults; no adverse kidney/liver events in healthy populations.
+- **Kreider RB et al. (2017)** — International Society of Sports Nutrition (ISSN) position stand on creatine safety and efficacy. Confirms 3–5 g/day monohydrate as the maintenance dose and states the body-weight basis explicitly: **0.03 g/kg/day** maintenance, with larger athletes sometimes needing 5–10 g/day. No adverse kidney/liver events in healthy populations.
+- **Australian Institute of Sport (AIS) Sports Supplement Framework — Creatine Monohydrate (Group A)** — states the maintenance dose as **0.03 g/kg body mass once daily**, and confirms that bypassing the loading phase and taking 3–5 g/day reaches saturation in about 4 weeks. Also confirms >99% of the safety and efficacy data is on monohydrate.
+- **NIH Office of Dietary Supplements — Dietary Supplements for Exercise and Athletic Performance** — gives the no-loading protocol as **3–6 g/day (0.03–0.1 g/kg body weight)** for 3–4 weeks to produce ergogenic effects, independent of sex or body size.
 - **Kidney function meta-analysis** — Creatine raises serum creatinine but has no adverse effect on glomerular filtration rate in people with healthy kidneys; the caution applies specifically to pre-existing kidney disease.
 - **van der Merwe J, Brooks NE, Myburgh KH (2009)** — *Clin J Sport Med*. The single source of the hair-loss concern: a 20-participant study showing a DHT/testosterone ratio shift during loading, with DHT staying within normal range and no hair loss measured. Never replicated.
 - **Antonio J et al. (2021)** — Meta-analysis of 22 studies (>700 participants) finding no significant effect of creatine on total or free testosterone or DHT.
